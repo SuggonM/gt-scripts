@@ -1,0 +1,100 @@
+{"frames": {
+
+"nightmare_teatans_1.png":
+{
+	"frame": {"x":170,"y":325,"w":140,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":100},
+	"sourceSize": {"w":140,"h":100}
+},
+"nightmare_teatans_2.png":
+{
+	"frame": {"x":312,"y":141,"w":164,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":102},
+	"sourceSize": {"w":164,"h":102}
+},
+"nightmare_teatans_3.png":
+{
+	"frame": {"x":176,"y":150,"w":134,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":134,"h":166},
+	"sourceSize": {"w":134,"h":166}
+},
+"nightmare_teatans_4.png":
+{
+	"frame": {"x":312,"y":323,"w":153,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":91},
+	"sourceSize": {"w":153,"h":91}
+},
+"nightmare_teatans_5.png":
+{
+	"frame": {"x":312,"y":245,"w":154,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":154,"h":76},
+	"sourceSize": {"w":154,"h":76}
+},
+"nightmare_teatans_6.png":
+{
+	"frame": {"x":1,"y":1,"w":244,"h":147},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":147},
+	"sourceSize": {"w":244,"h":147}
+},
+"teatans_1_1.png":
+{
+	"frame": {"x":398,"y":1,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":77}
+},
+"teatans_1_2.png":
+{
+	"frame": {"x":312,"y":416,"w":150,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":150,"h":91},
+	"sourceSize": {"w":150,"h":93}
+},
+"teatans_1_3.png":
+{
+	"frame": {"x":1,"y":150,"w":173,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":173,"h":173},
+	"sourceSize": {"w":173,"h":176}
+},
+"teatans_1_4.png":
+{
+	"frame": {"x":247,"y":1,"w":149,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":149,"h":138},
+	"sourceSize": {"w":149,"h":140}
+},
+"teatans_1_5.png":
+{
+	"frame": {"x":1,"y":325,"w":167,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":167,"h":158},
+	"sourceSize": {"w":168,"h":160}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_2.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a061a9a2523533c965c25a2129485db2:4908ca02f297dfb38c02ebf419221621:db9770559ea8d15dffea77eab183efd9$"
+}
+}

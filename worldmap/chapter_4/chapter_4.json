@@ -1,0 +1,116 @@
+{"frames": {
+
+"magicschool_1_1.png":
+{
+	"frame": {"x":221,"y":374,"w":165,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":165,"h":78},
+	"sourceSize": {"w":166,"h":80}
+},
+"magicschool_1_2.png":
+{
+	"frame": {"x":1,"y":388,"w":142,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":82},
+	"sourceSize": {"w":142,"h":82}
+},
+"magicschool_1_2_founder.png":
+{
+	"frame": {"x":238,"y":255,"w":126,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":126,"h":117},
+	"sourceSize": {"w":127,"h":119}
+},
+"magicschool_1_2_founder_b.png":
+{
+	"frame": {"x":1,"y":264,"w":111,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":111,"h":117},
+	"sourceSize": {"w":112,"h":119}
+},
+"magicschool_1_3.png":
+{
+	"frame": {"x":370,"y":1,"w":139,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":139,"h":107},
+	"sourceSize": {"w":140,"h":109}
+},
+"magicschool_1_4.png":
+{
+	"frame": {"x":388,"y":330,"w":121,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":121,"h":83},
+	"sourceSize": {"w":122,"h":85}
+},
+"magicschool_1_5.png":
+{
+	"frame": {"x":366,"y":229,"w":119,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":119,"h":99},
+	"sourceSize": {"w":120,"h":101}
+},
+"nightmare_magicschool_1.png":
+{
+	"frame": {"x":342,"y":122,"w":154,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":154,"h":105},
+	"sourceSize": {"w":154,"h":105}
+},
+"nightmare_magicschool_2.png":
+{
+	"frame": {"x":238,"y":122,"w":102,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":131},
+	"sourceSize": {"w":102,"h":131}
+},
+"nightmare_magicschool_3.png":
+{
+	"frame": {"x":172,"y":1,"w":196,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":196,"h":119},
+	"sourceSize": {"w":196,"h":119}
+},
+"nightmare_magicschool_4.png":
+{
+	"frame": {"x":1,"y":138,"w":235,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":124},
+	"sourceSize": {"w":235,"h":124}
+},
+"nightmare_magicschool_5.png":
+{
+	"frame": {"x":1,"y":1,"w":169,"h":135},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":135},
+	"sourceSize": {"w":169,"h":135}
+},
+"nightmare_magicschool_6.png":
+{
+	"frame": {"x":114,"y":264,"w":105,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":105,"h":122},
+	"sourceSize": {"w":105,"h":122}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_4.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:37b8ce0a2c0b154ec4313ab126485c92:7bc3571626fe188a05a700e6b6118747:ab3e85f7851c3768d07101d12a953bbe$"
+}
+}

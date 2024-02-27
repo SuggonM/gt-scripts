@@ -1,0 +1,20 @@
+{"frames": {
+
+"worldmap_china.png":
+{
+	"frame": {"x":1,"y":1,"w":897,"h":897},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":897,"h":897},
+	"sourceSize": {"w":900,"h":900}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_6_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:91a825c2b6253b73bad9214f3de3aad1:590ce2426e45a01073ffddf7cdb0166d:a5731dd235342e4e29f103cffd495752$"
+}
+}

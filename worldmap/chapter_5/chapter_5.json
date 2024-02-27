@@ -1,0 +1,100 @@
+{"frames": {
+
+"desert_1_1.png":
+{
+	"frame": {"x":290,"y":438,"w":124,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":124,"h":69},
+	"sourceSize": {"w":125,"h":71}
+},
+"desert_1_2.png":
+{
+	"frame": {"x":1,"y":232,"w":147,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":147,"h":154},
+	"sourceSize": {"w":148,"h":156}
+},
+"desert_1_3.png":
+{
+	"frame": {"x":290,"y":350,"w":164,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":164,"h":86},
+	"sourceSize": {"w":165,"h":88}
+},
+"desert_1_4.png":
+{
+	"frame": {"x":290,"y":167,"w":165,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":165,"h":84},
+	"sourceSize": {"w":166,"h":86}
+},
+"desert_1_5.png":
+{
+	"frame": {"x":150,"y":232,"w":129,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":129,"h":132},
+	"sourceSize": {"w":130,"h":134}
+},
+"nightmare_desert_1.png":
+{
+	"frame": {"x":138,"y":388,"w":150,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":101},
+	"sourceSize": {"w":150,"h":101}
+},
+"nightmare_desert_2.png":
+{
+	"frame": {"x":1,"y":388,"w":135,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":120},
+	"sourceSize": {"w":135,"h":120}
+},
+"nightmare_desert_3.png":
+{
+	"frame": {"x":1,"y":1,"w":213,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":143},
+	"sourceSize": {"w":213,"h":143}
+},
+"nightmare_desert_4.png":
+{
+	"frame": {"x":1,"y":146,"w":186,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":84},
+	"sourceSize": {"w":186,"h":84}
+},
+"nightmare_desert_5.png":
+{
+	"frame": {"x":281,"y":253,"w":130,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":95},
+	"sourceSize": {"w":130,"h":95}
+},
+"nightmare_desert_6.png":
+{
+	"frame": {"x":216,"y":1,"w":203,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":203,"h":164},
+	"sourceSize": {"w":203,"h":164}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_5.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5b9d0f0100b71bbac0d8a54bcdecbf46:5a0cef3fc7ef4a59a13e6ed18717250f:1d638468a9ad39d603638e0b4f1b0c83$"
+}
+}

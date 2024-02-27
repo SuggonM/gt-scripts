@@ -1,0 +1,20 @@
+{"frames": {
+
+"worldmap_teatan.png":
+{
+	"frame": {"x":1,"y":1,"w":928,"h":893},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":928,"h":893},
+	"sourceSize": {"w":938,"h":900}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_2_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:777ef5c764babb43ef71796be19e3d66:0ca0a24097f61f943b55e4da1ae908fc:5c3861511f56a7995c4f9a80519a2f27$"
+}
+}

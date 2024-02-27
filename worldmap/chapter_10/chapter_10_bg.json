@@ -1,0 +1,28 @@
+{"frames": {
+
+"worldmap_futurecastle.png":
+{
+	"frame": {"x":1,"y":1019,"w":4,"h":4},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":4,"w":4,"h":4},
+	"sourceSize": {"w":12,"h":12}
+},
+"worldmap_futurecastle_nm.png":
+{
+	"frame": {"x":1,"y":1,"w":1000,"h":1016},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":4,"w":1000,"h":1016},
+	"sourceSize": {"w":1024,"h":1024}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_10_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6597acbe5e63ebd0be309b6399fcd4fa:c5713802efb361a4388fd1baf8855d68:dd0aff218acc4ff5559bbe43c792267f$"
+}
+}

@@ -1,0 +1,108 @@
+{"frames": {
+
+"futurecastle_part2_1_1.png":
+{
+	"frame": {"x":0,"y":164,"w":203,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":203,"h":116},
+	"sourceSize": {"w":203,"h":116}
+},
+"futurecastle_part2_1_2.png":
+{
+	"frame": {"x":388,"y":189,"w":120,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":101},
+	"sourceSize": {"w":120,"h":101}
+},
+"futurecastle_part2_1_3.png":
+{
+	"frame": {"x":0,"y":280,"w":185,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":185,"h":72},
+	"sourceSize": {"w":185,"h":72}
+},
+"futurecastle_part2_1_4.png":
+{
+	"frame": {"x":0,"y":0,"w":230,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":230,"h":95},
+	"sourceSize": {"w":230,"h":95}
+},
+"futurecastle_part2_1_5.png":
+{
+	"frame": {"x":0,"y":504,"w":163,"h":129},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":129},
+	"sourceSize": {"w":163,"h":129}
+},
+"futurecastle_part2_1_6.png":
+{
+	"frame": {"x":182,"y":390,"w":169,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":179},
+	"sourceSize": {"w":169,"h":179}
+},
+"nightmare_futurecastle_part2_1.png":
+{
+	"frame": {"x":203,"y":189,"w":185,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":185,"h":201},
+	"sourceSize": {"w":185,"h":201}
+},
+"nightmare_futurecastle_part2_2.png":
+{
+	"frame": {"x":0,"y":95,"w":219,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":69},
+	"sourceSize": {"w":219,"h":69}
+},
+"nightmare_futurecastle_part2_3.png":
+{
+	"frame": {"x":219,"y":119,"w":216,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":70},
+	"sourceSize": {"w":216,"h":70}
+},
+"nightmare_futurecastle_part2_4.png":
+{
+	"frame": {"x":230,"y":0,"w":228,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":228,"h":119},
+	"sourceSize": {"w":228,"h":119}
+},
+"nightmare_futurecastle_part2_5.png":
+{
+	"frame": {"x":351,"y":390,"w":134,"h":145},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":134,"h":145},
+	"sourceSize": {"w":134,"h":145}
+},
+"nightmare_futurecastle_part2_6.png":
+{
+	"frame": {"x":0,"y":352,"w":182,"h":152},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":182,"h":152},
+	"sourceSize": {"w":182,"h":152}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_11.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2edc12383490daf1e3e8c99fabcb7ad2:57883c8a61a168fcbd7d01d9e6e9ba50:5aa08f3b5c29073e1271aee02afee336$"
+}
+}

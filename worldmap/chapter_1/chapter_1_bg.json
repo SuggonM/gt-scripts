@@ -1,0 +1,28 @@
+{"frames": {
+
+"obj_inn.png":
+{
+	"frame": {"x":1,"y":855,"w":72,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":61},
+	"sourceSize": {"w":72,"h":61}
+},
+"worldmap_forest.png":
+{
+	"frame": {"x":1,"y":1,"w":992,"h":852},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":992,"h":852},
+	"sourceSize": {"w":992,"h":852}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_1_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:03119e31b9de5aa9badf6171ea98036d:30fb7cf65c6e17d70cda757e382f63ea:fe29b38fdadb60db3d51571634817246$"
+}
+}

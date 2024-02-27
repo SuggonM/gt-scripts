@@ -1,0 +1,20 @@
+{"frames": {
+
+"worldmap_steampunk.png":
+{
+	"frame": {"x":1,"y":1,"w":1014,"h":845},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":167,"y":2,"w":1014,"h":845},
+	"sourceSize": {"w":1250,"h":850}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_9_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8fa67b5a2fab5ca173faca18ab2fb797:13b29335c0afdd23aa60825b75c631b2:172e04091bde648f4008719c16bfecc1$"
+}
+}

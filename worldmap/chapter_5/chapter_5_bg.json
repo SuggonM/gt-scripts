@@ -1,0 +1,20 @@
+{"frames": {
+
+"worldmap_desert.png":
+{
+	"frame": {"x":1,"y":1,"w":899,"h":893},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":899,"h":893},
+	"sourceSize": {"w":900,"h":900}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_5_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d2b811d7a3351e8d38f460dacd55d3c4:fff8a30e8b10df36c953b96379e22271:7f6e1f80c5b9d564577e0e5a06b4eaa6$"
+}
+}

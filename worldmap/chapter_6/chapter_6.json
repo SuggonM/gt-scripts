@@ -1,0 +1,132 @@
+{"frames": {
+
+"china_1_1.png":
+{
+	"frame": {"x":389,"y":1,"w":113,"h":108},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":113,"h":108},
+	"sourceSize": {"w":114,"h":110}
+},
+"china_1_2.png":
+{
+	"frame": {"x":201,"y":1,"w":186,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":186,"h":91},
+	"sourceSize": {"w":187,"h":93}
+},
+"china_1_3.png":
+{
+	"frame": {"x":1,"y":185,"w":164,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":164,"h":120},
+	"sourceSize": {"w":166,"h":122}
+},
+"china_1_4.png":
+{
+	"frame": {"x":368,"y":111,"w":140,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":116},
+	"sourceSize": {"w":140,"h":116}
+},
+"china_1_5.png":
+{
+	"frame": {"x":326,"y":229,"w":153,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":153,"h":133},
+	"sourceSize": {"w":154,"h":135}
+},
+"china_training1.png":
+{
+	"frame": {"x":1,"y":447,"w":126,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":126,"h":69},
+	"sourceSize": {"w":127,"h":71}
+},
+"china_training2.png":
+{
+	"frame": {"x":159,"y":404,"w":127,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":127,"h":91},
+	"sourceSize": {"w":129,"h":93}
+},
+"china_training3.png":
+{
+	"frame": {"x":400,"y":442,"w":106,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":106,"h":83},
+	"sourceSize": {"w":107,"h":85}
+},
+"nightmare_china_1.png":
+{
+	"frame": {"x":167,"y":203,"w":157,"h":108},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":108},
+	"sourceSize": {"w":157,"h":108}
+},
+"nightmare_china_2.png":
+{
+	"frame": {"x":159,"y":313,"w":152,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":89},
+	"sourceSize": {"w":152,"h":89}
+},
+"nightmare_china_3.png":
+{
+	"frame": {"x":313,"y":364,"w":152,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":76},
+	"sourceSize": {"w":152,"h":76}
+},
+"nightmare_china_4.png":
+{
+	"frame": {"x":1,"y":307,"w":156,"h":138},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":138},
+	"sourceSize": {"w":156,"h":138}
+},
+"nightmare_china_5.png":
+{
+	"frame": {"x":201,"y":94,"w":165,"h":107},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":107},
+	"sourceSize": {"w":165,"h":107}
+},
+"nightmare_china_6.png":
+{
+	"frame": {"x":1,"y":1,"w":198,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":182},
+	"sourceSize": {"w":198,"h":182}
+},
+"passage_6_3.png":
+{
+	"frame": {"x":288,"y":442,"w":110,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":110,"h":116},
+	"sourceSize": {"w":111,"h":118}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_6.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7f00a1f1ea5c5179146ca285c9549870:a104090ebe5324dc99f4455ac1abd025:c73afffd386f28e86b0c1526beba7382$"
+}
+}

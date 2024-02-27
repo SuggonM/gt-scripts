@@ -1,0 +1,28 @@
+{"frames": {
+
+"worldmap_titantavern_L.png":
+{
+	"frame": {"x":1,"y":1,"w":893,"h":498},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":893,"h":498},
+	"sourceSize": {"w":1669,"h":507}
+},
+"worldmap_titantavern_R.png":
+{
+	"frame": {"x":1,"y":501,"w":815,"h":504},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":854,"y":2,"w":815,"h":504},
+	"sourceSize": {"w":1669,"h":507}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_7_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c7b14caabe1d0f055b02d5dc8a45eb89:fcf99ae13ba1d49fb447bc117c6dd27c:99fe23fbd3a04d34c869296a8b9ad00e$"
+}
+}

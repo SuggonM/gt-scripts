@@ -1,0 +1,124 @@
+{"frames": {
+
+"easy_forest_1_1.png":
+{
+	"frame": {"x":154,"y":195,"w":134,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":134,"h":85},
+	"sourceSize": {"w":135,"h":87}
+},
+"easy_forest_1_2.png":
+{
+	"frame": {"x":134,"y":282,"w":123,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":123,"h":100},
+	"sourceSize": {"w":124,"h":102}
+},
+"easy_forest_1_3.png":
+{
+	"frame": {"x":124,"y":384,"w":108,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":108,"h":90},
+	"sourceSize": {"w":109,"h":92}
+},
+"easy_forest_1_4.png":
+{
+	"frame": {"x":154,"y":116,"w":150,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":150,"h":77},
+	"sourceSize": {"w":151,"h":79}
+},
+"easy_forest_2_5.png":
+{
+	"frame": {"x":234,"y":384,"w":122,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":122,"h":85},
+	"sourceSize": {"w":123,"h":87}
+},
+"easy_forest_2_7.png":
+{
+	"frame": {"x":306,"y":136,"w":142,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":142,"h":84},
+	"sourceSize": {"w":144,"h":87}
+},
+"easy_forest_2_8.png":
+{
+	"frame": {"x":391,"y":1,"w":111,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":111,"h":133},
+	"sourceSize": {"w":113,"h":136}
+},
+"nightmare_forest_1.png":
+{
+	"frame": {"x":358,"y":323,"w":102,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":85},
+	"sourceSize": {"w":102,"h":85}
+},
+"nightmare_forest_2.png":
+{
+	"frame": {"x":290,"y":222,"w":127,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":99},
+	"sourceSize": {"w":127,"h":99}
+},
+"nightmare_forest_3.png":
+{
+	"frame": {"x":213,"y":1,"w":176,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":176,"h":113},
+	"sourceSize": {"w":176,"h":113}
+},
+"nightmare_forest_4.png":
+{
+	"frame": {"x":1,"y":224,"w":131,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":87},
+	"sourceSize": {"w":131,"h":87}
+},
+"nightmare_forest_5.png":
+{
+	"frame": {"x":1,"y":1,"w":210,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":210,"h":78},
+	"sourceSize": {"w":210,"h":78}
+},
+"nightmare_forest_6.png":
+{
+	"frame": {"x":1,"y":81,"w":151,"h":141},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":151,"h":141},
+	"sourceSize": {"w":151,"h":141}
+},
+"substage_1_14.png":
+{
+	"frame": {"x":1,"y":313,"w":121,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":121,"h":140},
+	"sourceSize": {"w":121,"h":142}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_1.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a619a13672e20e4a8c5eb5eecd483f42:9d3303a3ca55a11e17a57de88de21cf5:3529d69436430757eea8d27525256141$"
+}
+}

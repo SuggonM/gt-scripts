@@ -1,0 +1,60 @@
+{"frames": {
+
+"nightmare_titantavern_1.png":
+{
+	"frame": {"x":1,"y":106,"w":146,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":88},
+	"sourceSize": {"w":146,"h":88}
+},
+"nightmare_titantavern_2.png":
+{
+	"frame": {"x":1,"y":315,"w":130,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":74},
+	"sourceSize": {"w":130,"h":74}
+},
+"nightmare_titantavern_3.png":
+{
+	"frame": {"x":148,"y":219,"w":107,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":107,"h":123},
+	"sourceSize": {"w":107,"h":123}
+},
+"titantavern_1_1.png":
+{
+	"frame": {"x":1,"y":1,"w":149,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":103},
+	"sourceSize": {"w":150,"h":103}
+},
+"titantavern_1_2.png":
+{
+	"frame": {"x":1,"y":196,"w":145,"h":117},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":117},
+	"sourceSize": {"w":145,"h":117}
+},
+"titantavern_1_3.png":
+{
+	"frame": {"x":149,"y":106,"w":106,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":106,"h":111},
+	"sourceSize": {"w":106,"h":111}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_7.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "0.8",
+	"smartupdate": "$TexturePacker:SmartUpdate:d1c75632ef8dbbd30473d176998bd9ce:2d13fca98736a4a01f61acbf49efd0ea:1bf7ee9de3ebec2ea0df37a58d6441e6$"
+}
+}

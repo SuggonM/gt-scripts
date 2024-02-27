@@ -1,0 +1,100 @@
+{"frames": {
+
+"nightmare_steampunk_1.png":
+{
+	"frame": {"x":161,"y":150,"w":156,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":83},
+	"sourceSize": {"w":156,"h":83}
+},
+"nightmare_steampunk_2.png":
+{
+	"frame": {"x":319,"y":217,"w":146,"h":106},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":106},
+	"sourceSize": {"w":146,"h":106}
+},
+"nightmare_steampunk_3.png":
+{
+	"frame": {"x":195,"y":1,"w":177,"h":147},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":147},
+	"sourceSize": {"w":177,"h":147}
+},
+"nightmare_steampunk_4.png":
+{
+	"frame": {"x":155,"y":235,"w":125,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":124},
+	"sourceSize": {"w":125,"h":124}
+},
+"nightmare_steampunk_5.png":
+{
+	"frame": {"x":374,"y":78,"w":128,"h":137},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":137},
+	"sourceSize": {"w":128,"h":137}
+},
+"nightmare_steampunk_6.png":
+{
+	"frame": {"x":1,"y":192,"w":152,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":152,"h":85},
+	"sourceSize": {"w":152,"h":85}
+},
+"steampunk_1_1.png":
+{
+	"frame": {"x":1,"y":79,"w":158,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":111},
+	"sourceSize": {"w":158,"h":111}
+},
+"steampunk_1_2.png":
+{
+	"frame": {"x":374,"y":1,"w":136,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":75},
+	"sourceSize": {"w":136,"h":75}
+},
+"steampunk_1_3.png":
+{
+	"frame": {"x":1,"y":1,"w":192,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":76},
+	"sourceSize": {"w":192,"h":76}
+},
+"steampunk_1_4.png":
+{
+	"frame": {"x":1,"y":279,"w":124,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":95},
+	"sourceSize": {"w":124,"h":95}
+},
+"steampunk_1_5.png":
+{
+	"frame": {"x":1,"y":376,"w":121,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":109},
+	"sourceSize": {"w":121,"h":109}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_9.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:79f9820af43b8ae90345b818e6c50a9d:ab197c8c1b5a1e416a2528291be7ed1a:b59779733abf3281841b685136f7f428$"
+}
+}

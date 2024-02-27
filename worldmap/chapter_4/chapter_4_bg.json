@@ -1,0 +1,20 @@
+{"frames": {
+
+"worldmap_magicschool.png":
+{
+	"frame": {"x":1,"y":1,"w":900,"h":884},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":900,"h":884},
+	"sourceSize": {"w":900,"h":886}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "chapter_4_bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a584e39bc21d21d812129203a4b2de7b:955c87535db0951a723ada6322378537:95ee1222d71df6e7b2da7abab64fc879$"
+}
+}
