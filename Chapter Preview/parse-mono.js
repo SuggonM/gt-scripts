@@ -4,7 +4,6 @@ const mono = require('./Chapter Preview-MonoBehaviour.json');
 const atlas = new Object();
 atlas.frames = [];
 atlas.meta = {};
-atlas.meta.image = "Chapter Preview.png";
 atlas.meta.size = {};
 atlas.meta.size.w = 1024;
 atlas.meta.size.h = 2048;
