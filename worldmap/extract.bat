@@ -16,7 +16,7 @@ set _AR_SRC=%_AR_DIR%\Ripped\ExportedProject
 "%_AR_APP%" "%_input%" -q > nul
 
 xcopy "%_AR_SRC%\Assets\" "_temp\" /E /C /I /Y /Q > nul
-pause
+
 mkdir "%_input%_temp"
 copy "_temp\Texture2D\%_input%.png" "%_input%_temp\"     > nul
 copy "_temp\Texture2D\%_input%_bg.png" "%_input%_temp\"  > nul
