@@ -1,0 +1,3 @@
+[submodule "spine2json"]
+	path = spine2json
+	url = https://github.com/seiya-dev/spine2json
