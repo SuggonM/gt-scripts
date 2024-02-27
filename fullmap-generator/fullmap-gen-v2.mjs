@@ -1,5 +1,5 @@
 /*
- * unlike v1, this version utilizes the "wrap around" behavior of Uint16Arrays
+ * this version utilizes the "wrap around" behavior of Uint16Arrays
  * compatible with 512+ tiles wide maps
  * computation time halved
  * complies with the semantics of binary data
