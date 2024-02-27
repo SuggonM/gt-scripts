@@ -1,3 +1,8 @@
+:: dependencies
+
+:: ImageMagick
+:: https://imagemagick.org/
+
 @echo off
 
 set _input=%~n1

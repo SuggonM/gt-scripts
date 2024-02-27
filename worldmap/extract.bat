@@ -1,3 +1,10 @@
+:: dependencies
+
+:: AssetRipper
+:: https://github.com/AssetRipper/AssetRipper
+:: texture-unpacker
+:: https://github.com/pavle-goloskokovic/texture-unpacker
+
 @echo off
 
 set _input=%~n1
@@ -19,5 +26,9 @@ move "%_input%" "%_input%_temp\"                         > nul
 ren "%_input%_temp" "%_input%"                           > nul
 rmdir /S /Q "_temp\"
 
-cd "C:\Users\mahar\Documents\GitHub\texture-unpacker"
+:: requires a modification in https://github.com/pavle-goloskokovic/texture-unpacker/blob/master/unpacker.ts#L337
+::- let outPath = join(filePath, spriteName);
+::+ let outPath = join(filePath + "_unpacked", spriteName);
+
+cd "C:\UNPACKER_PATH\texture-unpacker"
 call npm run unpack "%~dp0%_input%" json
