@@ -1,0 +1,730 @@
+{
+	"frames": [
+		{
+			"filename": "expd_ic_box_bronze.png",
+			"frame": {
+				"x": 394,
+				"y": 300,
+				"w": 36,
+				"h": 40
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_bronze_open.png",
+			"frame": {
+				"x": 437,
+				"y": 179,
+				"w": 41,
+				"h": 45
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_diamond.png",
+			"frame": {
+				"x": 393,
+				"y": 26,
+				"w": 48,
+				"h": 44
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_diamond_open.png",
+			"frame": {
+				"x": 445,
+				"y": 1,
+				"w": 48,
+				"h": 52
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_gold.png",
+			"frame": {
+				"x": 441,
+				"y": 93,
+				"w": 44,
+				"h": 45
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_gold_open.png",
+			"frame": {
+				"x": 393,
+				"y": 72,
+				"w": 46,
+				"h": 50
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_silver.png",
+			"frame": {
+				"x": 355,
+				"y": 324,
+				"w": 36,
+				"h": 40
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_silver_open.png",
+			"frame": {
+				"x": 437,
+				"y": 226,
+				"w": 41,
+				"h": 45
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_wood.png",
+			"frame": {
+				"x": 480,
+				"y": 208,
+				"w": 31,
+				"h": 35
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expd_ic_box_wood_open.png",
+			"frame": {
+				"x": 393,
+				"y": 342,
+				"w": 36,
+				"h": 38
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_abyss_piece_sticker.png",
+			"frame": {
+				"x": 337,
+				"y": 441,
+				"w": 30,
+				"h": 34
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_ancient_slate_sticker.png",
+			"frame": {
+				"x": 397,
+				"y": 265,
+				"w": 38,
+				"h": 33
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_arachne_tiara_sticker.png",
+			"frame": {
+				"x": 387,
+				"y": 382,
+				"w": 34,
+				"h": 34
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_bookmark_sticker.png",
+			"frame": {
+				"x": 487,
+				"y": 130,
+				"w": 23,
+				"h": 35
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_censer_sticker.png",
+			"frame": {
+				"x": 479,
+				"y": 311,
+				"w": 32,
+				"h": 41
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_crusader_scroll_sticker.png",
+			"frame": {
+				"x": 267,
+				"y": 473,
+				"w": 34,
+				"h": 37
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_crushing_hammer_sticker.png",
+			"frame": {
+				"x": 277,
+				"y": 287,
+				"w": 37,
+				"h": 38
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_crystal_scepter_sticker.png",
+			"frame": {
+				"x": 397,
+				"y": 142,
+				"w": 38,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_dagger_sticker.png",
+			"frame": {
+				"x": 397,
+				"y": 183,
+				"w": 38,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_devil_stomach_sticker.png",
+			"frame": {
+				"x": 423,
+				"y": 412,
+				"w": 34,
+				"h": 34
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_diary_sticker.png",
+			"frame": {
+				"x": 437,
+				"y": 295,
+				"w": 40,
+				"h": 34
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_dragon_orb_sticker.png",
+			"frame": {
+				"x": 431,
+				"y": 372,
+				"w": 35,
+				"h": 38
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_dragon_scale_sticker.png",
+			"frame": {
+				"x": 470,
+				"y": 354,
+				"w": 36,
+				"h": 35
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_family_picture_sticker.png",
+			"frame": {
+				"x": 1,
+				"y": 297,
+				"w": 38,
+				"h": 32
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_frost_tears_sticker.png",
+			"frame": {
+				"x": 41,
+				"y": 297,
+				"w": 25,
+				"h": 31
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_frozen_fire_sticker.png",
+			"frame": {
+				"x": 369,
+				"y": 453,
+				"w": 29,
+				"h": 36
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_gargoyle_head_sticker.png",
+			"frame": {
+				"x": 314,
+				"y": 327,
+				"w": 35,
+				"h": 35
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_gem_bug_sticker.png",
+			"frame": {
+				"x": 68,
+				"y": 300,
+				"w": 25,
+				"h": 28
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_goddess_statue_sticker.png",
+			"frame": {
+				"x": 301,
+				"y": 430,
+				"w": 34,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_hell_crown_sticker.png",
+			"frame": {
+				"x": 397,
+				"y": 224,
+				"w": 38,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_hero_note_sticker.png",
+			"frame": {
+				"x": 316,
+				"y": 287,
+				"w": 37,
+				"h": 38
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_hero_statue_sticker.png",
+			"frame": {
+				"x": 267,
+				"y": 366,
+				"w": 21,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_ice_amber_sticker.png",
+			"frame": {
+				"x": 303,
+				"y": 471,
+				"w": 32,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_ice_ring_sticker.png",
+			"frame": {
+				"x": 277,
+				"y": 327,
+				"w": 35,
+				"h": 36
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_incomplete_crystal_sticker.png",
+			"frame": {
+				"x": 95,
+				"y": 297,
+				"w": 29,
+				"h": 30
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_needle_sticker.png",
+			"frame": {
+				"x": 493,
+				"y": 69,
+				"w": 18,
+				"h": 36
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_paper_00.png",
+			"frame": {
+				"x": 267,
+				"y": 142,
+				"w": 128,
+				"h": 143
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_party_slot_bg_00.png",
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 390,
+				"h": 126
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_party_slot_bg_01.png",
+			"frame": {
+				"x": 355,
+				"y": 287,
+				"w": 37,
+				"h": 35
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_party_slot_bg_02.png",
+			"frame": {
+				"x": 437,
+				"y": 273,
+				"w": 41,
+				"h": 20
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_party_slot_lock_00.png",
+			"frame": {
+				"x": 337,
+				"y": 477,
+				"w": 28,
+				"h": 33
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_prayer_scroll_sticker.png",
+			"frame": {
+				"x": 432,
+				"y": 331,
+				"w": 36,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_promote_deco_00.png",
+			"frame": {
+				"x": 393,
+				"y": 1,
+				"w": 50,
+				"h": 23
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_relief_sticker.png",
+			"frame": {
+				"x": 351,
+				"y": 366,
+				"w": 34,
+				"h": 35
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_rosarius_sticker.png",
+			"frame": {
+				"x": 314,
+				"y": 364,
+				"w": 35,
+				"h": 35
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_spider_jaw_sticker.png",
+			"frame": {
+				"x": 371,
+				"y": 418,
+				"w": 32,
+				"h": 33
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_spider_upper_sticker.png",
+			"frame": {
+				"x": 468,
+				"y": 391,
+				"w": 35,
+				"h": 37
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_veil_sticker.png",
+			"frame": {
+				"x": 267,
+				"y": 430,
+				"w": 32,
+				"h": 41
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "expedition_web_dress_sticker.png",
+			"frame": {
+				"x": 482,
+				"y": 167,
+				"w": 29,
+				"h": 39
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_arrow_00.png",
+			"frame": {
+				"x": 252,
+				"y": 300,
+				"w": 9,
+				"h": 17
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_btn_green_00.png",
+			"frame": {
+				"x": 495,
+				"y": 52,
+				"w": 12,
+				"h": 15
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_btn_tap_00.png",
+			"frame": {
+				"x": 393,
+				"y": 124,
+				"w": 43,
+				"h": 16
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_btn_x_00.png",
+			"frame": {
+				"x": 495,
+				"y": 33,
+				"w": 13,
+				"h": 17
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_btn_yellow_00.png",
+			"frame": {
+				"x": 263,
+				"y": 300,
+				"w": 12,
+				"h": 15
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_film_camera_cover.png",
+			"frame": {
+				"x": 337,
+				"y": 403,
+				"w": 32,
+				"h": 36
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_film_camera_off.png",
+			"frame": {
+				"x": 126,
+				"y": 297,
+				"w": 28,
+				"h": 30
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_film_camera_on.png",
+			"frame": {
+				"x": 156,
+				"y": 297,
+				"w": 28,
+				"h": 30
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_frame_00.png",
+			"frame": {
+				"x": 1,
+				"y": 129,
+				"w": 264,
+				"h": 166
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_frame_01.png",
+			"frame": {
+				"x": 1,
+				"y": 331,
+				"w": 264,
+				"h": 166
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_frame_postit_00.png",
+			"frame": {
+				"x": 480,
+				"y": 245,
+				"w": 31,
+				"h": 31
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_frame_postit_01.png",
+			"frame": {
+				"x": 480,
+				"y": 278,
+				"w": 31,
+				"h": 31
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_frame_slot_00.png",
+			"frame": {
+				"x": 487,
+				"y": 107,
+				"w": 24,
+				"h": 21
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_ic_book_mark_off.png",
+			"frame": {
+				"x": 214,
+				"y": 300,
+				"w": 17,
+				"h": 20
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_ic_book_mark_on.png",
+			"frame": {
+				"x": 233,
+				"y": 300,
+				"w": 17,
+				"h": 20
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_ic_deco_00.png",
+			"frame": {
+				"x": 495,
+				"y": 1,
+				"w": 15,
+				"h": 17
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_ic_deco_01.png",
+			"frame": {
+				"x": 495,
+				"y": 20,
+				"w": 14,
+				"h": 11
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_stamp_00.png",
+			"frame": {
+				"x": 443,
+				"y": 55,
+				"w": 48,
+				"h": 36
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_sticker_gift_00.png",
+			"frame": {
+				"x": 186,
+				"y": 300,
+				"w": 26,
+				"h": 27
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "note_sticker_point_00.png",
+			"frame": {
+				"x": 438,
+				"y": 140,
+				"w": 42,
+				"h": 37
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "num_party_slot_00.png",
+			"frame": {
+				"x": 267,
+				"y": 317,
+				"w": 8,
+				"h": 15
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "num_party_slot_01.png",
+			"frame": {
+				"x": 267,
+				"y": 412,
+				"w": 9,
+				"h": 15
+			},
+			"spriteSourceSize": {}
+		},
+		{
+			"filename": "num_party_slot_02.png",
+			"frame": {
+				"x": 278,
+				"y": 412,
+				"w": 9,
+				"h": 15
+			},
+			"spriteSourceSize": {}
+		}
+	],
+	"meta": {
+		"size": {
+			"w": 512,
+			"h": 512
+		}
+	}
+}
