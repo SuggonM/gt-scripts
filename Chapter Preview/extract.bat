@@ -5,5 +5,6 @@
 
 @echo off
 
-cd "C:\UNPACKER_PATH\texture-unpacker"
+pushd "C:\UNPACKER_PATH\texture-unpacker"
 call npm run unpack "%~dp0%Chapter Preview" json
+popd

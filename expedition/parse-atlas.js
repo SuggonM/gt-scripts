@@ -18,7 +18,6 @@ mono.mSprites.forEach((monoSprite) => {
     atlas.frames[i].frame.w = monoSprite.width;
     atlas.frames[i].frame.h = monoSprite.height;
     atlas.frames[i].spriteSourceSize = {};
-
     i++;
 });
 

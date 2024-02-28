@@ -30,5 +30,6 @@ rmdir /S /Q "_temp\"
 ::- let outPath = join(filePath, spriteName);
 ::+ let outPath = join(filePath + "_unpacked", spriteName);
 
-cd "C:\UNPACKER_PATH\texture-unpacker"
+pushd "C:\UNPACKER_PATH\texture-unpacker"
 call npm run unpack "%~dp0%_input%" json
+popd
