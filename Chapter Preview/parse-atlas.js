@@ -1,7 +1,7 @@
 const fs = require('fs');
 const mb = require('./Chapter Preview-MonoBehaviour.json');
-
 const atlas = new Object();
+
 atlas.frames = [];
 atlas.meta = {};
 atlas.meta.size = {};
