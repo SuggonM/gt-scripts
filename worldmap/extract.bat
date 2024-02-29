@@ -13,7 +13,7 @@ set _AR_DIR=C:\Program Files\AssetRipper
 set _AR_APP=%_AR_DIR%\AssetRipper.exe
 set _AR_SRC=%_AR_DIR%\Ripped\ExportedProject
 
-AssetRipper --version > nul
+"%_AR_APP%" --version > nul
 if errorlevel 1 start notepad %0 & pause & exit /b 1
 
 "%_AR_APP%" "%_input%" -q > nul
