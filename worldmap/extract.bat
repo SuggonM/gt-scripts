@@ -13,6 +13,9 @@ set _AR_DIR=C:\Program Files\AssetRipper
 set _AR_APP=%_AR_DIR%\AssetRipper.exe
 set _AR_SRC=%_AR_DIR%\Ripped\ExportedProject
 
+AssetRipper --version > nul
+if errorlevel 1 start notepad %0 & pause & exit /b
+
 "%_AR_APP%" "%_input%" -q > nul
 
 xcopy "%_AR_SRC%\Assets\" "_temp\" /E /C /I /Y /Q > nul
@@ -33,3 +36,4 @@ rmdir /S /Q "_temp\"
 pushd "C:\UNPACKER_PATH\texture-unpacker"
 call npm run unpack "%~dp0%_input%" json
 popd
+pause
