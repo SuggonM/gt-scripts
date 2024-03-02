@@ -1,5 +1,6 @@
-const fs = require('fs');
-const mb = require('./Chapter Preview-MonoBehaviour.json');
+import fs from 'fs';
+
+const mbAtlas = JSON.parse(fs.readFileSync('./Chapter Preview-MonoBehaviour.json'));
 const atlas = new Object();
 
 atlas.frames = [];
@@ -9,7 +10,7 @@ atlas.meta.size.w = 1024;
 atlas.meta.size.h = 2048;
 
 let i = 0;
-mb.mSprites.forEach((mbSprite) => {
+mbAtlas.mSprites.forEach((mbSprite) => {
     atlas.frames[i] = {};
     atlas.frames[i].filename = mbSprite.name + ".png";
     atlas.frames[i].frame = {};
