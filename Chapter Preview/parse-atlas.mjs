@@ -2,24 +2,26 @@ import fs from 'fs';
 
 const mb = fs.readFileSync('./Chapter Preview-MonoBehaviour.json');
 const mbAtlas = JSON.parse(mb);
-const atlas = {};
 
-atlas.frames = [];
-atlas.meta = {};
-atlas.meta.size = {};
-atlas.meta.size.w = 1024;
-atlas.meta.size.h = 2048;
+const newAtlas = {
+    frames: [],
+    meta: { size: { w: 1024, h: 2048 } }
+};
 
-mbAtlas.mSprites.forEach((mbSprite, i) => {
-    atlas.frames[i] = {};
-    atlas.frames[i].filename = mbSprite.name + ".png";
-    atlas.frames[i].frame = {};
-    atlas.frames[i].frame.x = mbSprite.x;
-    atlas.frames[i].frame.y = mbSprite.y;
-    atlas.frames[i].frame.w = mbSprite.width;
-    atlas.frames[i].frame.h = mbSprite.height;
-    atlas.frames[i].spriteSourceSize = {};
+mbAtlas.mSprites.forEach((mbSprite) => {
+    const newSprite = {
+        filename: mbSprite.name + ".png",
+        frame: {
+            x: mbSprite.x,
+            y: mbSprite.y,
+            w: mbSprite.width,
+            h: mbSprite.height
+        },
+        spriteSourceSize: {}
+    }
+
+    newAtlas.frames.push(newSprite);
 });
 
-const newAtlas = JSON.stringify(atlas, null, '\t')
-fs.writeFileSync('Chapter Preview.json', newAtlas);
+const atlas = JSON.stringify(newAtlas, null, '\t')
+fs.writeFileSync('Chapter Preview.json', atlas);
