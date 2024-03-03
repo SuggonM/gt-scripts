@@ -9,12 +9,7 @@ const urls = getUrls(urlFile);
 
 const imgNames = fs.createWriteStream(outFile);
 
-urls.forEach((url) => {
-    downloadFile(url, (fileName) => {
-        const lineData = `${url} : ${fileName}\n`;
-        imgNames.write(lineData);
-    });
-});
+urls.forEach((url) => downloadFile(url));
 
 function getUrls(urlFile) {
     urlFile = encodeURI(urlFile);
@@ -23,7 +18,12 @@ function getUrls(urlFile) {
     return urls;
 }
 
-function downloadFile(url, fileName) {
+function logImgName(url, name) {
+    const lineData = `${url} : ${name}\n`;
+    imgNames.write(lineData);
+}
+
+function downloadFile(url) {
     const urlpath = url.split('/');
     const hostname = urlpath[2];
     const path = '/' + urlpath.slice(3).join('/') + '?original';
@@ -40,7 +40,7 @@ function downloadFile(url, fileName) {
         const rawname = decodeURI(CD);
         const name = rawname.replace(/.*UTF-8''/, '');
         const dlpath = fs.createWriteStream('./X-FILES/' + name);
-        fileName(name);
+        logImgName(url, name);
         response.pipe(dlpath);
     });
 
