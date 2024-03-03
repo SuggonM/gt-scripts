@@ -31,7 +31,7 @@ function downloadFile(url, fileName) {
     const options = {
         hostname: hostname,
         path: path,
-        method: 'GET',
+        method: 'GET'
     }
 
     const httpsreq = request(options, (response) => {
