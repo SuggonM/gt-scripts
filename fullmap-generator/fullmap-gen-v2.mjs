@@ -1,5 +1,5 @@
 /*
- * this version utilizes the "wrap around" behavior of Uint16Arrays
+ * this version utilizes the "wrap around" behavior of Int16Arrays
  * compatible with 512+ tiles wide maps
  * computation time halved
  * complies with the semantics of binary data
@@ -10,14 +10,14 @@ import fs from 'fs';
 
 const area = 512;
 
-if (area > 256*256) {
-    console.log("Byte overflow! (Max area: 65,536)");
-    process.exit();
+if (area*area*4 > Math.pow(2, 32-1)) {
+    console.log("Buffer limit reached! (Max area: 23,170)");
+    process.exit(1);
 }
 
 const tileSize = Math.ceil(area / 2);
 const ab = Buffer.alloc(tileSize * tileSize * 2 * 2 * 2);
-let buffer = new Uint16Array(ab);
+const buffer = new Int16Array(ab);
 let b = 0;
 
 for (let i = 0; i < tileSize; i++) {
@@ -32,5 +32,5 @@ for (let i = 0; i < tileSize; i++) {
 }
 
 const mapBin = buffer;
-fs.writeFileSync(`./output/fullmap-${area}.bytes`, mapBin, "binary");
+fs.writeFileSync(`./output/fullmap-${area}.bytes`, mapBin, 'binary');
 console.timeEnd();
