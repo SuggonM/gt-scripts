@@ -1,7 +1,8 @@
 import fs from 'fs';
 
-const mbAtlas = JSON.parse(fs.readFileSync('./Note-MonoBehaviour.json'));
-const atlas = new Object();
+const mb = fs.readFileSync('./Note-MonoBehaviour.json');
+const mbAtlas = JSON.parse(mb);
+const atlas = {};
 
 atlas.frames = [];
 atlas.meta = {};
@@ -22,4 +23,5 @@ mbAtlas.mSprites.forEach((mbSprite) => {
     i++;
 });
 
-fs.writeFileSync('Note.json', JSON.stringify(atlas, null, '	'));
+const newAtlas = JSON.stringify(atlas, null, '\t')
+fs.writeFileSync('Note.json', newAtlas);
