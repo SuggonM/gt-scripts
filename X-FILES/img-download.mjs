@@ -7,7 +7,6 @@ const outFile = './X-FILES_names.txt';
 const urlFile = fs.readFileSync(inFile);
 const urls = getUrls(urlFile);
 
-fs.openSync(outFile, 'w');
 const imgNames = fs.createWriteStream(outFile);
 
 urls.forEach((url) => {
@@ -20,7 +19,7 @@ urls.forEach((url) => {
 function getUrls(urlFile) {
     urlFile = encodeURI(urlFile);
     urlFile = decodeURI(urlFile);
-    const urls = urlFile.split('\r\n');
+    const urls = urlFile.match(/[^\r\n]+/g);
     return urls;
 }
 
