@@ -8,7 +8,7 @@ easy_forest_1_3.png
 200x200 : 150%
 
 easy_forest_1_4.png
-300x200 : 160%
+300x200 : 155%
 
 easy_forest_2_5.png
 250x200 : 150%
@@ -20,13 +20,13 @@ easy_forest_2_8.png
 200x300 : 150%
 
 nightmare_forest_1.png
-250x200 : 150%
+200x200 : 150%
 
 nightmare_forest_2.png
 250x200 : 150%
 
 nightmare_forest_3.png
-300x300 : 150%
+350x250 : 165%
 
 nightmare_forest_4.png
 250x200 : 150%
@@ -35,11 +35,8 @@ nightmare_forest_5.png
 350x200 : 150%
 
 nightmare_forest_6.png
-300x300 : 150%
+300x300 : 170%
 
 substage_1_14.png
-300x300 : 150%
-
-nightmare_forest_3.png
-300x250 : 150%
+250x300 : 150%
 
