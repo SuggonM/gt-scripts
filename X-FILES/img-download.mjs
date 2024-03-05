@@ -7,7 +7,7 @@ const outFile = './X-FILES_names.txt';
 const urlFile = fs.readFileSync(inFile);
 const urls = getUrls(urlFile);
 
-const imgNames = fs.createWriteStream(outFile);
+const logFile = fs.createWriteStream(outFile);
 
 urls.forEach((url) => downloadFile(url));
 
@@ -20,7 +20,7 @@ function getUrls(urlFile) {
 
 function logImgName(url, name) {
     const lineData = `${url} : ${name}\n`;
-    imgNames.write(lineData);
+    logFile.write(lineData);
 }
 
 function downloadFile(url) {

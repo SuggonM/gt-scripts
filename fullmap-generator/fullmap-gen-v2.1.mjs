@@ -7,6 +7,7 @@
 
 console.time();
 import fs from 'fs';
+import { Buffer } from 'node:buffer';
 
 const area = 23171;
 

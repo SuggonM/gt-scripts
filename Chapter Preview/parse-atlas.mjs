@@ -24,4 +24,4 @@ mbAtlas.mSprites.forEach((mbSprite) => {
 });
 
 const atlas = JSON.stringify(newAtlas, null, '\t')
-fs.writeFileSync('Chapter Preview.json', atlas);
+fs.writeFileSync('./Chapter Preview.json', atlas);

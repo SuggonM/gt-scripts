@@ -1,11 +1,12 @@
 console.time();
 import fs from 'fs';
+import { Buffer } from 'node:buffer';
 
 const area = 512;
 
 if (area > 512) {
     console.log("Byte overflow! (Max area: 512)");
-    process.exit();
+    process.exit(1);
 }
 
 const tileSize = Math.ceil(area / 2);
