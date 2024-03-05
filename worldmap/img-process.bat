@@ -48,7 +48,7 @@ if "%cont%" == "b" goto map-type
 if "%cont%" == "" goto art-size
 if "%cont%" NEQ "y" goto art-size
 
->> %_input%/%_input%_magickscale.txt (
+>> %_input%/%_input%_magickscale.log (
     echo %art%
     echo %mapsize% : %artsize%%%
     if "%rotated%" == "-rotate 270"  echo rotated : true
