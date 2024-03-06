@@ -21,7 +21,7 @@ for %%A in (%_search_dir%) do call :img-process %%A
 pause
 exit /b
 
-:::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :img-process
 echo.
@@ -45,7 +45,6 @@ magick %bgimage% %rotated% -scale %mapsize%! ^( "%_dir_pre%/%art%" -gravity cent
 set cont=
 set /p cont="Continue? "
 if "%cont%" == "b" goto map-type
-if "%cont%" == "" goto art-size
 if "%cont%" NEQ "y" goto art-size
 
 >> %_input%/%_input%_magickscale.log (
@@ -58,7 +57,7 @@ if "%cont%" NEQ "y" goto art-size
 
 exit /b
 
-:::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :setargs
 set mapsize=
