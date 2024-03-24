@@ -1,22 +1,15 @@
 import fs from 'fs';
 import { request } from 'https';
 
-const inFile = './X-FILES_links.txt';
+const inFile = './X-FILES_links.json';
 const outFile = './X-FILES_names.txt';
 
 const urlFile = fs.readFileSync(inFile);
-const urls = getUrls(urlFile);
+const urls = JSON.parse(urlFile);
 
 const logFile = fs.createWriteStream(outFile);
 
 urls.forEach((url) => downloadFile(url));
-
-function getUrls(urlFile) {
-    urlFile = encodeURI(urlFile);
-    urlFile = decodeURI(urlFile);
-    const urls = urlFile.match(/[^\r\n]+/g);
-    return urls;
-}
 
 function logImgName(url, name) {
     const lineData = `${url} : ${name}\n`;
