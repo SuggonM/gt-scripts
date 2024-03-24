@@ -1,6 +1,13 @@
 /*
   visit the url, then run the script in devtools console
   https://cafe.daum.net/_c21_/album_list?listnum=999&grpid=1YmAL&fldid=BWjU
+  
+  replace the 'fldid' url parameter to use on other gallery pages:
+  ARz7: Illustrations   (Vivid Gallery)
+  DS8O: Comics          (4-cut Cartoon)
+  AahU: X-FILES         (Hero X-FILES)
+  BWjU: Fan Arts        (Fan Art Gallery)
+  ARzF: Fan Blog Images (Article Gallery)
 */
 
 const iframe = document.querySelector('iframe#down');
