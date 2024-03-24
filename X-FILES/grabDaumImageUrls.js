@@ -9,7 +9,7 @@ const images = gallery.querySelectorAll('li .box_thumb img');
 const urls = [];
 
 images.forEach((img) => {
-    const url = img.src.replace(/.*(?<=fname\=)/, '');
+    const url = img.src.replace(/.*fname=/, '');
     urls.push(decodeURIComponent(url));
 });
 
