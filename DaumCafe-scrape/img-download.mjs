@@ -1,11 +1,15 @@
 import fs from 'fs';
 import { request } from 'https';
 
-const title = 'X-FILES';
+// select any one
 
-const inFile = title + '_links.json';
-const logFile = title + '_names.txt';
-const outFolder = title + '/';
+const title = 'X-FILES';
+// const title = 'Illustrations';
+// const title = 'Comics';
+
+const inFile = title + '/' + title + '_links.json';
+const logFile = title + '/' + title + '_names.txt';
+const outFolder = title + '/' + title + '_images/';
 
 const urlFile = fs.readFileSync(inFile);
 const urls = JSON.parse(urlFile);
@@ -14,10 +18,9 @@ const logFileStream = fs.createWriteStream(logFile);
 
 try {
     urls.forEach((url) => downloadFile(url));
+    console.log(`LOG: Downloading ${urls.length} images into folder "./${outFolder}" ...`);
 } catch(e) {
     console.error(e);
-} finally {
-    console.log(`LOG: ${urls.length} images downloaded inside folder ./${outFolder}`);
 }
 
 function logImgName(url, name) {
