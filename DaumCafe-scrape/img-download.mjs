@@ -3,12 +3,12 @@ import { request } from 'https';
 
 // select any one
 
-const title = 'X-FILES';
 // const title = 'Illustrations';
 // const title = 'Comics';
+const title = 'X-FILES';
 
-const inFile = title + '/' + title + '_links.json';
-const logFile = title + '/' + title + '_names.txt';
+const inFile    = title + '/' + title + '_links.json';
+const logFile   = title + '/' + title + '_names.txt';
 const outFolder = title + '/' + title + '_images/';
 
 const urlFile = fs.readFileSync(inFile);
@@ -31,10 +31,10 @@ function logImgName(url, name) {
 function downloadFile(url) {
     const urlpath = url.split('/');
     const hostname = urlpath[2];
-    const path = '/' + urlpath.slice(3).join('/') + '?original';
+    const path = '/' + urlpath.slice(3).join('/');
     const options = {
         hostname: hostname,
-        path: path,
+        path: path + '?original',
         method: 'GET'
     }
 

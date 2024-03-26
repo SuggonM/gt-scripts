@@ -1,6 +1,6 @@
 /*
   visit the url, then run the script in devtools console
-  https://cafe.daum.net/_c21_/album_list?grpid=1YmAL&listnum=999&fldid=BWjU
+  https://cafe.daum.net/_c21_/album_list?grpid=1YmAL&listnum=999&fldid=DS8O
   
   replace the 'fldid' url parameter to use on other gallery pages:
   ARz7: Illustrations   (Vivid Gallery)
