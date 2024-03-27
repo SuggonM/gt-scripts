@@ -18,10 +18,10 @@ mbAtlas.mSprites.forEach((mbSprite) => {
             h: mbSprite.height
         },
         spriteSourceSize: {}
-    }
+    };
 
     newAtlas.frames.push(newSprite);
 });
 
-const atlas = JSON.stringify(newAtlas, null, '\t')
+const atlas = JSON.stringify(newAtlas, null, '\t');
 fs.writeFileSync('./Chapter Preview.json', atlas);
