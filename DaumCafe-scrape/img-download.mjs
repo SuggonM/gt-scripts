@@ -41,6 +41,10 @@ function downloadFile(url) {
 
     const httpsreq = request(options, (response) => {
         const headers = response.headers;
+        /*
+          'content-type': 'image/png',
+          'content-disposition': `inline; filename="ì€í•˜.png"; filename*=UTF-8''%EC%9D%80%ED%95%98.png`,
+        */
 
         const CD = headers["content-disposition"];
         const nameFragment = CD.replace(/.*UTF-8''/, '');
