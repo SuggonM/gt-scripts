@@ -1,3 +1,6 @@
+:: This script is for one-time usage on each chapter when setting up the repository...
+:: ...thus only applicable when the chapter asset file is directly in /gt-scripts/worldmap/.
+
 :: dependencies
 
 :: AssetRipper
@@ -6,6 +9,10 @@
 :: https://github.com/pavle-goloskokovic/texture-unpacker
 
 @echo off
+
+
+set _UNPACKER_PATH="C:\UNPACKER_PATH\texture-unpacker"
+
 
 set _input=%~n1
 
@@ -29,11 +36,9 @@ move "%_input%" "%_input%_temp\"                         > nul
 ren "%_input%_temp" "%_input%"                           > nul
 rmdir /S /Q "_temp\"
 
-:: requires a modification in https://github.com/pavle-goloskokovic/texture-unpacker/blob/master/unpacker.ts#L337
-::- let outPath = join(filePath, spriteName);
-::+ let outPath = join(filePath + "_unpacked", spriteName);
-
-pushd "C:\UNPACKER_PATH\texture-unpacker"
-call npm run unpack "%~dp0%_input%" json
+pushd %_UNPACKER_PATH%
+if errorlevel 1 start notepad %0 & pause & exit /b 1
+call npm run unpack -- -i "%~dp0%_input%\%_input%" -f json -o "%~dp0%_input%\%_input%_unpacked"
+call npm run unpack -- -i "%~dp0%_input%\%_input%_bg" -f json -o "%~dp0%_input%\%_input%_bg_unpacked"
 popd
 pause
