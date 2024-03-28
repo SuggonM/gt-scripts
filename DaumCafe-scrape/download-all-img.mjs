@@ -28,7 +28,7 @@ try {
     console.error(error);
 }
 
-function downloadFile(url) {
+async function downloadFile(url) {
     url = new URL(url);
     url = validateHost(url);
 
@@ -38,27 +38,33 @@ function downloadFile(url) {
         method: 'GET'
     };
 
-    const httpsreq = request(options, (response) => {
-        const headers = response.headers;
-        /*
-          'content-type': 'image/png',
-          'content-disposition': `inline; filename="ì€í•˜.png"; filename*=UTF-8''%EC%9D%80%ED%95%98.png`,
-        */
+    const response = await makeRequest(options);
+    const headers = response.headers;
+    /*
+        'content-type': 'image/png',
+        'content-disposition': `inline; filename="ì€í•˜.png"; filename*=UTF-8''%EC%9D%80%ED%95%98.png`,
+    */
 
-        const CD = headers['content-disposition'];
-        const nameFragment = CD.replace(/.*UTF-8''/, '');
-        const name = decodeURI(nameFragment);
+    const CD = headers['content-disposition'];
+    const nameFragment = CD.replace(/.*UTF-8''/, '');
+    const name = decodeURI(nameFragment);
 
-        const CType = headers['content-type'];
-        const ext = CType.replace('image/', '');
+    const CType = headers['content-type'];
+    const ext = CType.replace('image/', '');
 
-        const uniqueName = getUniqueName(name, ext);
-        const dlpath = fs.createWriteStream(outFolder + uniqueName);
-        logImgName(url, name);
-        response.pipe(dlpath);
+    const uniqueName = getUniqueName(name, ext);
+    const dlpath = fs.createWriteStream(outFolder + uniqueName);
+    logImgName(url, name);
+    response.pipe(dlpath);
+}
+
+function makeRequest(options) {
+    return new Promise((resolve, reject) => {
+        const httpsreq = request(options);
+        httpsreq.on('response', (response) => resolve(response));
+        httpsreq.on('error', (error) => reject(error));
+        httpsreq.end();
     });
-
-    httpsreq.end();
 }
 
 function validateHost(url) {
