@@ -18,14 +18,14 @@ const logFileStream = fs.createWriteStream(logFile);
 
 // some images have duplicate naming and silently corrupt the downloading image
 // list names and check uniqueness as solution
-const imgList = [];
+const uniqueList = [];
 let dupeCount = 0;
 
 try {
     urls.forEach((url) => downloadFile(url));
     console.log(`LOG: Downloading ${urls.length} images into folder "./${outFolder}" ...`);
-} catch(e) {
-    console.error(e);
+} catch(error) {
+    console.error(error);
 }
 
 function downloadFile(url) {
@@ -45,13 +45,14 @@ function downloadFile(url) {
           'content-disposition': `inline; filename="ì€í•˜.png"; filename*=UTF-8''%EC%9D%80%ED%95%98.png`,
         */
 
-        const CD = headers["content-disposition"];
+        const CD = headers['content-disposition'];
         const nameFragment = CD.replace(/.*UTF-8''/, '');
         const name = decodeURI(nameFragment);
 
-        const CType = headers["content-type"];
+        const CType = headers['content-type'];
+        const ext = CType.replace('image/', '');
 
-        const uniqueName = getUniqueName(name, CType);
+        const uniqueName = getUniqueName(name, ext);
         const dlpath = fs.createWriteStream(outFolder + uniqueName);
         logImgName(url, name);
         response.pipe(dlpath);
@@ -77,16 +78,15 @@ function validateHost(url) {
     return url;
 }
 
-function getUniqueName(name, CType) {
+function getUniqueName(name, ext) {
     const noExtName = name.substring(0, name.lastIndexOf('.')) || name;
-    const ext = CType.replace('image/', '');
 
-    if (imgList.includes(noExtName)) {
+    if (uniqueList.includes(noExtName)) {
         const dupeName = `${noExtName} (${++dupeCount}).${ext}`;
         return dupeName;
     }
 
-    imgList.push(noExtName);
+    uniqueList.push(noExtName);
     const uniqueName = `${noExtName}.${ext}`;
     return uniqueName;
 }
