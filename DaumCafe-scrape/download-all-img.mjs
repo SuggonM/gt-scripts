@@ -29,13 +29,12 @@ try {
 }
 
 function downloadFile(url) {
+    url = new URL(url);
     url = validateHost(url);
-    const urlpath = url.split('/');
-    const hostname = urlpath[2];
-    const path = '/' + urlpath.slice(3).join('/');
+
     const options = {
-        hostname: hostname,
-        path: path + '?original',
+        hostname: url.hostname,
+        path: url.pathname + '?original',
         method: 'GET'
     };
 
@@ -62,19 +61,20 @@ function downloadFile(url) {
 }
 
 function validateHost(url) {
-    const secureHost = 't1.daumcdn.net/cfile/cafe/';
-    const insecureHost = /cfile\d+\.uf\.daum\.net\/image\//;
-    // "cfile[0-9]{3}.uf.daum.net/image/"
+    const secureHost = 't1.daumcdn.net';
+    const insecureHost = /cfile\d+\.uf\.daum\.net/;
+    // "cfile[0-9]{3}.uf.daum.net"
 
-    let secureUrl = url;
-    if (url.match(insecureHost)) {
-        const last4 = /.{4}$/;
-        secureUrl = url.replace(insecureHost, secureHost).replace(last4, '');
-        // "https://cfile293.uf.daum.net/image/99B5034C5F0287A63F30B6"
-        //  "https://t1.daumcdn.net/cfile/cafe/99B5034C5F0287A63F"
+    if (url.hostname.match(insecureHost)) {
+        url.hostname = secureHost;
+        url.pathname = url.pathname.replace('/image/', '/cfile/cafe/').replace(/.{4}$/, '');
+        /*
+          "https://cfile293.uf.daum.net/image/99B5034C5F0287A63F30B6"
+           "https://t1.daumcdn.net/cfile/cafe/99B5034C5F0287A63F"
+        */
     }
 
-    return secureUrl;
+    return url;
 }
 
 function getUniqueName(name, CType) {
