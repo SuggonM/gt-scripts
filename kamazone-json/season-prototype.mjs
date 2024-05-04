@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs';
 
-class Season {
+export default class Season {
 	SEASON_EVENT = -1;
 	SEASON_EVENT_CHAIN = -1;
 	SEASON_EVENT_TYPE = [];
