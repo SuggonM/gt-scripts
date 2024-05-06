@@ -18,17 +18,17 @@ export default class Season {
 		this.SEASON.season = season;
 	}
 
-	Event(...type) {
-		const Event = [];
+	Chain(...type) {
+		const Chain = [];
 
 		this.SEASON_EVENT++;
 		this.SEASON_EVENT_CHAIN = -1;
 		this.SEASON_EVENT_TYPE = type;
-		this.SEASON.events.push(Event);
+		this.SEASON.events.push(Chain);
 	}
 
-	Chain(title, description, ...type) {
-		const Chain = {
+	Event(title, description, ...type) {
+		const Event = {
 			title,
 			type: (type.length && type) || this.SEASON_EVENT_TYPE,  // optional override for type
 			description,
@@ -36,7 +36,7 @@ export default class Season {
 		};
 
 		this.SEASON_EVENT_CHAIN++;
-		this.SEASON.events[this.SEASON_EVENT].push(Chain);
+		this.SEASON.events[this.SEASON_EVENT].push(Event);
 	}
 
 	Option(option, response, results, notes, required) {
@@ -62,14 +62,14 @@ export default class Season {
 
 const SEASON = new Season();
 const season = SEASON.Season.bind(SEASON);
-const Event = SEASON.Event.bind(SEASON);
 const Chain = SEASON.Chain.bind(SEASON);
+const Event = SEASON.Event.bind(SEASON);
 const Option = SEASON.Option.bind(SEASON);
 
 export {
 	SEASON,
 	season as Season,
-	Event,
 	Chain,
+	Event,
 	Option
 }

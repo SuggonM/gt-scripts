@@ -1,9 +1,9 @@
-import { Season, Event, Chain, Option } from './season-prototype.mjs';
+import { Season, Chain, Event, Option } from './season-prototype.mjs';
 
 Season (`Dragon Hunter`)
 
-Event ()
-Chain (
+Chain ()
+Event (
     `Infiltration`,
     `You find a hunter's amulet laying on the road. Who could have left it behind?`,
 )
@@ -31,8 +31,8 @@ Option (
 )
 
 
-Event (`Chain`)
-Chain (
+Chain (`Chain`)
+Event (
     `Hatchling Outbreak`,
     `As you walk, you witness a horde of hatchlings coming towards you.`
 )
@@ -67,7 +67,7 @@ Option (
     ],
 	`{{Color|low|Dragon Language Translator}}`
 )
-Chain (
+Event (
     `Hatchling vs. Dragon Hunter`,
     `The hatchling horde strikes again and surrounds you. In the most perilous moment, a dragon hunter intervenes!`
 )
@@ -86,8 +86,8 @@ Option (
 )
 
 
-Event ()
-Chain (
+Chain ()
+Event (
 	`Joy of Reading`,
 	`The ancient library covered in dust entices your attention. You brush off the dust and pick up a book.`
 )
@@ -116,8 +116,8 @@ Option (
 )
 
 
-Event (`Artifact`, `Chain`)
-Chain (
+Chain (`Artifact`, `Chain`)
+Event (
 	`Seeking the Forgotten Arms`,
 	`You meet a blacksmith from the dragon hunter tribe. He came here to find a clue of how to restore the god's equipment from his tribe's legend.`
 )
@@ -140,7 +140,7 @@ Option (
 		]
 	]
 )
-Chain (
+Event (
 	`Banished Blacksmith`,
 	`You reunite with the blacksmith from the dragon hunter tribe. He claims an assailant wreaked havoc while he was fixing his weapons. So he escaped frantically.`
 )
@@ -158,7 +158,7 @@ Option (
 	`It's best to call the police when dealing with an unknown assailant. If you fight, it could lead to being charged with assault for both parties. It would be best to avoid that. You decide not to intervene any further.`,
 	`Nothing happened.`
 )
-Chain (
+Event (
 	`The Already Banished Blacksmith`,
 	`You meet a familiar other blacksmith from the dragon hunter's forge. The blacksmith is excitedly banging on the equipment while saying there's many new never seen before equipment.`
 )
@@ -180,7 +180,7 @@ Option (
 	`When you see the blacksmith being so happy, it's hard to kick him out. Maybe it's fine to let him be for a while. Of course, if it were your items, then you wouldn't just watch and let this happen.`,
 	`Nothing happened.`
 )
-Chain (
+Event (
 	`Gods' Forge`,
 	`You visit the dragon hunter's forge. The blacksmith completed fixing the equipment, and offers to make one for you as a reward for helping out. But, the blacksmith asks for some good firewood to fire up the forge.`
 )
@@ -224,8 +224,8 @@ Option (
 )
 
 
-Event ()
-Chain (
+Chain ()
+Event (
 	`Rite of Passage`,
 	`A troop of young dragon hunters is performing a ritual. You were observing them, but in a blink of a moment, you are right at the center of the crowd.`
 )
@@ -245,8 +245,8 @@ Option (
 )
 
 
-Event (`Benefit`, `Chain`)
-Chain (
+Chain (`Benefit`, `Chain`)
+Event (
 	`You shall not pass.`,
 	`A belligerent warrior blocks your path. Seems like she won't let you go so easily.`,
 )
@@ -287,7 +287,7 @@ Option (
 		]
 	]
 )
-Chain (
+Event (
 	`The Strongest Warrior`,
 	`You reunite with the warrior who blocked your path from before. The warrior recognizes you and requests for a duel for the title of strongest warrior in the tribe.`
 )
@@ -308,7 +308,7 @@ Option (
 	`Everyone has the title of tribe's strongest warrior these days. Adding another line to your resume with something like that won't help your career. You leave in search of activities that will be more helpful in the future.`,
 	`Nothing happened.`
 )
-Chain (
+Event (
 	`Dragon Hunter's Heat Therapy`,
 	`You meet with the tribe's warrior again. Now that you've clashed swords and shed blood together, you two are practically siblings. The warrior offers doing the tribe's traditional therapy excellent for recovering from exhaustion after battle.`,
 )
@@ -334,8 +334,8 @@ Option (
 )
 
 
-Event (`Benefit`, `Chain`)
-Chain (
+Chain (`Benefit`, `Chain`)
+Event (
 	`The Complaining Dragon Hunter`,
 	`A dragon hunter is complaining while holding a Golden War Horn the hunter got from Kama-ZONE. The hunter came to Kama-ZONE after hearing rumors about it being fun, but seems disappointed by having nothing to do.`
 )
@@ -364,7 +364,7 @@ Option (
 	`If there's one lesson to learn from school, it's not to befriend people wearing strange outfits. You carefully leave to avoid being mistaken as the dragon hunter's comrade.`,
 	`Nothing happened.`
 )
-Chain (
+Event (
 	`Graduating Kama-ZONE`,
 	`You meet with the complaining dragon hunter again. It seems the hunter acquired more things at Kama-ZONE, but the hunter still seems unsatisfied.`
 )
@@ -392,7 +392,7 @@ Option (
 		`Unlocks #[Mindset of a Master]`
 	]
 )
-Chain (
+Event (
 	`Mindset of a Master`,
 	`A rich goblin is shouting in the middle of a hallway. The goblin shouts how business of selling trashy low-grade artifacts can be done in Kama-ZONE, and causing a scene to the androids.`,
 )
@@ -422,8 +422,8 @@ Option (
 )
 
 
-Event (`Benefit`, `Chain`)
-Chain (
+Chain (`Benefit`, `Chain`)
+Event (
 	`Here Comes The Dragon Hunter`,
 	`You meet Neva. Neva tells you about her ruthless relatives coming to Kama-ZONE after rumors about a dragon here spread around.`
 )
@@ -436,7 +436,7 @@ Option (
 		`Unlocks #[It's a Dragon!]`
 	]
 )
-Chain (
+Event (
 	`It's a Dragon!`,
 	`You visit the source of the rumor and listen to a boy's account. He is claimed to be the first witness of the dragon.`
 )
@@ -454,7 +454,7 @@ Option (
 	`You're not sure if you can trust the boy's goofy demeanor. You walk the other way around.`,
 	`Nothing happened.`
 )
-Chain (
+Event (
 	`Compete or Cooperate`,
 	`As you travel to the place where the dragon is last seen, you encounter a Dragon Hunter crowd seeking the dragon as well.`
 )
@@ -476,7 +476,7 @@ Option (
 		`Unlocks #[Close Encounters of the Dragon]`
 	]
 )
-Chain (
+Event (
 	`Close Encounters of the Dragon`,
 	`After a long search, you finally discover an organism that seems to be a dragon.`
 )
@@ -489,7 +489,7 @@ Option (
 		`Unlocks #[It's a REAL Dragon!]`
 	]
 )
-Chain (
+Event (
 	`It's a REAL Dragon!`,
 	`The boy, who claimed to be the first witness of a dragon, stops you. The boy asks for help claiming that this time there really is a dragon out there.`
 )
@@ -511,7 +511,7 @@ Option (
 		`Unlocks #[Positive Prospect]`
 	]
 )
-Chain (
+Event (
 	`Positive Prospect`,
 	`You find Neva sniffing the ground with a huge footprint.`
 )
