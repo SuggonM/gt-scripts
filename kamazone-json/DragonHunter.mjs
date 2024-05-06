@@ -1,12 +1,12 @@
 import { Season, Event, Chain, Option } from './season-prototype.mjs';
 
-Season.name = `Dragon Hunter`;
+Season (`Dragon Hunter`)
 
-Event ();
+Event ()
 Chain (
     `Infiltration`,
     `You find a hunter's amulet laying on the road. Who could have left it behind?`,
-);
+)
 Option (
     `Pick it up.`,
     [
@@ -23,19 +23,19 @@ Option (
             `Triggered if the player already has {{Color|high|Hunter of Hunter Amulets}}.`
         ]
     ]
-);
+)
 Option (
     `Leave`,
     `Thinking this tiny artifact was waiting for your arrival would be your imagination running wild. If it wasn't waiting for you, then there's no reason to take it. So you just walk past it.`,
 	`Nothing happened.`
-);
+)
 
 
-Event (`Chain`);
+Event (`Chain`)
 Chain (
     `Hatchling Outbreak`,
     `As you walk, you witness a horde of hatchlings coming towards you.`
-);
+)
 Option (
     `Slay them all.`,
     `You engage the hatchlings confidently!`,
@@ -47,13 +47,13 @@ Option (
         `Starts Elite Battle '''(Hatchlings)'''`,
         `Unlocks #[Hatchling vs. Dragon Hunter]`
     ]
-);
+)
 Option (
     `Run away.`,
     `You escape from the hatchlings with your mad running skills you've trained for a long time.`,
 	`Chain event unlocked.`,
 	`Unlocks #[Hatchling vs. Dragon Hunter]`
-);
+)
 Option (
     `Howl.`,
     `As your outcry shakes the atmosphere the hatchlings turn back and run away.`,
@@ -66,11 +66,11 @@ Option (
         `Unlocks #[Hatchling vs. Dragon Hunter]`
     ],
 	`{{Color|low|Dragon Language Translator}}`
-);
+)
 Chain (
     `Hatchling vs. Dragon Hunter`,
     `The hatchling horde strikes again and surrounds you. In the most perilous moment, a dragon hunter intervenes!`
-);
+)
 Option (
     `Fight Together Back to Back`,
     `You and the dragon hunter successfully fend off the hatchlings. However, the dragon hunter gets gravely injured in the process. As the dragon hunter breathes his final breath, he gives his equipment to you.`,
@@ -78,12 +78,12 @@ Option (
         `Acquire all {{Color|high|Rapture Breaker}}, {{Color|high|Deep Void Shield}} artifacts`,
         `Chain event complete.`
     ]
-);
+)
 Option (
     `Trip the Dragon Hunter`,
     `As the hatchlings attack the fallen dragon hunter, you make your escape.`,
 	`Chain event complete.`
-);
+)
 
 
 Event ()
