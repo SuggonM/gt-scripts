@@ -129,7 +129,7 @@ Option (
 	],
 	[
 		`Nothing happened.`,
-		`Obtain Bottle Caps, Chain event unlocked.`
+		`Chain event unlocked.`
 	],
 	[
 		[],
@@ -147,7 +147,7 @@ Chain (
 Option (
 	`Tell him you'll go check.`,
 	`The blacksmith's troubled face lights up. He tells you the location of the forge.`,
-	`Obtain Bottle Caps, Chain event unlocked.`,
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[The Already Banished Blacksmith]`
@@ -166,7 +166,6 @@ Option (
 	`Divert his attention.`,
 	`This artifact should be enough to catch his attention. As expected, when you show the artifact, the blacksmith becomes excited. You toss the artifact far away, and the blacksmith chases after it.`,
 	[
-		`Obtain Bottle Caps`,
 		`Lose random artifact`,
 		`Chain event unlocked.`
 	],
@@ -317,9 +316,9 @@ Option (
 	`Do the therapy together.`,
 	`The hot and dense air feels as if you're in the belly of a dragon. Each second and minute is excruciating, but you put the pride of the Guardian on the line and endure it. A moment later, you walk out of the therapy room rejuvenated.`,
 	[
-		`Obtain Bottle Caps`,
 		`Recover all Heroes' HP`,
-		`Benefit unlocked.`
+		`Benefit unlocked.`,
+		`Chain event complete.`
 	],
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +100`,
@@ -343,10 +342,7 @@ Chain (
 Option (
 	`Suggest going to the Teatan Ranger's autographing event.`,
 	`You suggest going to the Teatan Ranger's autographing event, but the dragon hunter smirks and pulls out a backpack. The dragon hunter already has signed Red, Blue, Green and even Pink helmets! You feel embarrassed.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +30`,
 		`Unlocks #[Graduating Kama-ZONE]`
@@ -356,10 +352,7 @@ Option (
 Option (
 	`Suggest visiting Agatha's Shop.`,
 	`You hand over the VIP membership card and suggest going to Agatha's shop, the dragon hunter smirks and pulls out a wallet. The dragon hunter has 10 VIP membership cards! Is Agatha paying the dragon hunter to take artifacts from her?`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +30`,
 		`Unlocks #[Graduating Kama-ZONE]`
@@ -407,8 +400,8 @@ Option (
 	`Stop the goblin.`,
 	`As you're about to step in, the rich goblin falls without making a noise. It was the complaining dragon hunter! The dragon hunter warns the rich goblin to never disregard low-grade artifacts again. The dragon hunter may have lots of complaints, but the hunter's heart seems to be true towards Kama-ZONE. You're touched by the hunter's attitude.`,
 	[
-		`Obtain Bottle Caps`,
-		`Benefit unlocked.`
+		`Benefit unlocked.`,
+		`Chain event complete.`
 	],
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +100`,
@@ -419,12 +412,12 @@ Option (
 	`Ignore the goblin.`,
 	`As you're about to step in, the rich goblin falls without making a noise. It was the complaining dragon hunter! The dragon hunter warns the rich goblin to never disregard low-grade artifacts again. The dragon hunter may have lots of complaints, but the hunter's heart seems to be true towards Kama-ZONE. You're touched by the hunter's attitude.`,
 	[
-		`Obtain Bottle Caps`,
-		`Benefit unlocked.`
+		`Benefit unlocked.`,
+		`Chain event complete.`
 	],
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +100`,
-		`Unlocks Benefit [[Dragon Hunter Season#Benefits|Professional Mindset]]`
+		`Unlocks Benefit [[Dragon Hunter Season#Benefits|Professional Mindset]]`,
 	]
 )
 
@@ -437,10 +430,7 @@ Chain (
 Option (
 	`Talk.`,
 	`Neva tells you that she has to find the dragon before her relatives do some cruel things to the dragon. Moved by Neva's determination, you decide to search for the dragon, too.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[It's a Dragon!]`
@@ -453,10 +443,7 @@ Chain (
 Option (
 	`Trust him.`,
 	`Head to the place where the boy witnessed the dragon.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[Compete or Cooperate]`
@@ -474,10 +461,7 @@ Chain (
 Option (
 	`Eliminate competitors.`,
 	`No one can find the dragon faster than you. You take down every single competitor.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[Close Encounters of the Dragon]`
@@ -486,10 +470,7 @@ Option (
 Option (
 	`Exchange information.`,
 	`You exchange information with the dragon hunters and engage in conversations. They look tough but they ain't bad people.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[Close Encounters of the Dragon]`
@@ -502,10 +483,7 @@ Chain (
 Option (
 	`Have a closer look.`,
 	`How unfortunate. The dragon you found is actually Ranpang practicing new poses. Ranpang thinks highly of her underboss's seeking skills.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[It's a REAL Dragon!]`
@@ -518,10 +496,7 @@ Chain (
 Option (
 	`Ignore.`,
 	`You shove the begging boy away. Even though you hear what might sound like a dragon flapping its wings and a boy screaming, you are not going to be fooled twice.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[Positive Prospect]`
@@ -530,10 +505,7 @@ Option (
 Option (
 	`Give him another chance.`,
 	`You decide to fall for the lie again and rush to the place. You witness captivating traces of a dragon in the place.`,
-	[
-		`Obtain Bottle Caps`,
-		`Chain event unlocked.`
-	],
+	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[Positive Prospect]`
@@ -547,8 +519,8 @@ Option (
 	`Ask whether she found a dragon.`,
 	`Neva shakes her head. However, she is delighted that she will soon no doubt find a dragon since she discovered new traces of dragon.`,
 	[
-		`Obtain Bottle Caps`,
-		`Benefit unlocked.`
+		`Benefit unlocked.`,
+		`Chain event complete.`
 	],
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +100`,
