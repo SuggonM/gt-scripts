@@ -14,7 +14,7 @@ export default class Season {
 		this.exportJson();  // export on process exit
 	}
 
-	set name(season) {
+	Season(season) {
 		this.SEASON.season = season;
 	}
 
@@ -60,12 +60,14 @@ export default class Season {
 	}
 }
 
-const season = new Season();
-const Event = season.Event.bind(season);
-const Chain = season.Chain.bind(season);
-const Option = season.Option.bind(season);
+const SEASON = new Season();
+const season = SEASON.Season.bind(SEASON);
+const Event = SEASON.Event.bind(SEASON);
+const Chain = SEASON.Chain.bind(SEASON);
+const Option = SEASON.Option.bind(SEASON);
 
 export {
+	SEASON,
 	season as Season,
 	Event,
 	Chain,
