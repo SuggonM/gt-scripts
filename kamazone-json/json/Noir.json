@@ -1,0 +1,1212 @@
+{
+	"season": "Noir",
+	"events": [
+		[
+			{
+				"title": "The Cop and The Thief",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "A snowman runs at you asking you to provide cover. You can see a cop blowing whistle and dashing from far away.",
+				"options": [
+					{
+						"option": "Tell the cop.",
+						"response": "You don't know what's going on but this snowman clearly did something wrong. No matter how much she begs, you hand her over to the police.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks Route [[#Joint Investigation|# Joint Investigation]]",
+							"This option sets the player's Route to '''Road of the Protector'''."
+						]
+					},
+					{
+						"option": "Provide cover.",
+						"response": "You lie to the cop that the snowman went the other way. When she's sure that it's safe enough, the snowman runs away without any word.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks Route [[#Proposition|# Proposition]]",
+							"This option the player's Route to '''Road of Shadows'''."
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Joint Investigation",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "A cop approaches. She asks for your cooperation to take down a criminal gang that's been spreading its influence to Kama-ZONE. You must have impressed her when you got that snowman.",
+				"options": [
+					{
+						"option": "Accept.",
+						"response": "With great power comes great responsibility. You decide to use your power for justice.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Espionage]"
+						]
+					},
+					{
+						"option": "Decline.",
+						"response": "You are way too occupied with other important matters to help the investigation. Such as cleaning your fingernails or toenails.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Espionage",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "Tea shops have always been the perfect place to collect information. You visit a sparkling barley tea shop to gain some intel about the gang you are told about.",
+				"options": [
+					{
+						"option": "Eavesdrop on others.",
+						"response": "The true identity of Soylent Red or meaningless gossips about some noble lady's ideal type is all you can get.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Tip the waiter.",
+						"response": "You wink at the waiter and hand over silver coins. The waiter accepts the coins and gives you the secret code, \"swordfish.\" He goes back to wiping cups as if nothing happened.",
+						"results": [
+							"Lose silver coins",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"{{Icon/Currency|SilverCoin}} Silver coins -50",
+							"Unlocks '''Outcome 2''' in #[Black Market#Change the subject.]"
+						],
+						"required": "More than 50 silver coins"
+					},
+					{
+						"option": "Just drink for now.",
+						"response": "This is a rare visit to a sparkling barley tea shop. You enjoy your time, taking a shot after another. For each shot, your stress, as well as your plan, fades away.",
+						"results": [
+							"Lose silver coins",
+							"Recover all Heroes' HP"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -20",
+							"All Heroes recover 20% of their own max HP."
+						],
+						"required": "More than 20 silver coins"
+					}
+				]
+			},
+			{
+				"title": "War on Crime",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "With the help of the information you gained from the black market you finally confront the axis of evil.",
+				"options": [
+					{
+						"option": "Charge!",
+						"response": [
+							"You charge in high spirits but the gang fought back harder than you expected. You are wounded and decide to retreat.",
+							"You take down the gang members skillfully. But, it's not enough to chase after the remaining rabble, so you take the deal payment from the ones you took down."
+						],
+						"results": [
+							"All Heroes take damage",
+							"Acquire silver coins"
+						],
+						"notes": [
+							[
+								"All Heroes take damage by 20% of their own max HP."
+							],
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins +50"
+							]
+						]
+					},
+					{
+						"option": "Call for backup.",
+						"response": "There are too many enemies to face on your own. You swiftly ask for police backup, but there's no answer. The frequency must not be right. You helplessly watch the gang members make the deal and return.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": [],
+						"required": "{{Color|low|Walkie-talkie Set}}"
+					},
+					{
+						"option": "Infiltrate.",
+						"response": "You attempt to sneakily infiltrate the enemy, but you're caught. Right as you're about to accept your final moments, one of the lieutenants lets you go after saying he'll send someone.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Conciliation]"
+						],
+						"required": "{{Color|low|Stealth Suit MG-2}}"
+					},
+					{
+						"option": "Make a deal.",
+						"response": "You pose as a merchant and purchase a rare artifact. The criminals have fallen for your disguise and tell you not to forget the business meeting in the black market. Something smells fishy.",
+						"results": [
+							"Lose silver coins",
+							"Acquire {{Color|high|Hope}}",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -200",
+							"Skips to #[Tiger's Den]"
+						],
+						"required": "More than 200 silver coins"
+					}
+				]
+			},
+			{
+				"title": "Conciliation",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "The gang sent a negotiator to you. The negotiator says they'll reward you handsomely if you hand over intel about the police and join the gang.",
+				"options": [
+					{
+						"option": "Hand the information over.",
+						"response": "Duty and devotion won't feed you. You need to take the chances you can get during tough times like this. The negotiator praises your brave decision and sets up a meeting with the boss.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Calculation]",
+							"Unlocks '''Outcome 4''' in #[Calculation#Kiss the boss's hand.]",
+							"The player betrays the Route and switches to '''Road of Shadows'''."
+						]
+					},
+					{
+						"option": "Pretend to hand over the information.",
+						"response": "It's a chance to infiltrate the gang! You pretend to think it over a while, and hand off fake information to the negotiator. The dummy praises you for making an excellent choice, and sets up a meeting with the boss. I guess the gang will soon its end.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Calculation]",
+							"Unlocks '''Outcome 1''' in #[Calculation#Kiss the boss's hand.]",
+							"The player remains faithful to Route '''Road of the Protector'''."
+						]
+					}
+				]
+			},
+			{
+				"title": "Tiger's Den",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You join the business meeting in the black market. The great boss of the gang reveals himself. You didn't expect this to happen. No, you actually did expect this!",
+				"options": [
+					{
+						"option": "Arrest everyone.",
+						"response": "You leap your body and take down the boss. The rest of the members are confused by the sudden development of the situation and you don't miss the chance to arrest them all.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocked from #[War on Crime#Make a deal.]",
+							"Unlocks #[Perfect Operation!]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Perfect Operation!",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "There is a ceremony to praise your effort for playing a crucial role in arresting the gang members.",
+				"options": [
+					{
+						"option": "Accept the reward.",
+						"response": [
+							"You have executed an intricate plan with daring determination to deliver justice and now you are rewarded by grandiose fame and rewards. You humbly comment that it's not your victory but everyone's victory.",
+							"{{cite}}"
+						],
+						"results": [
+							"Acquire silver coins, Benefit unlocked, Chain event unlocked.",
+							"Acquire silver coins, Benefit unlocked, Chain event unlocked.{{cite|This outcome is hypothetical and derived from the fact that #[Calculation#Kiss the boss's hand.] has '''Outcome 3 & 4'''. Does the outcome even exist?}}"
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +500",
+							"{{Icon/Currency|SilverCoin}} Silver coins +100",
+							"Unlocks Benefit [[Noir Season#Benefits|Road of the Protector]]",
+							"Unlocks #[Scratch My Back and I'll Scratch Yours]",
+							"Unlocks #[In the Name of the Gang]",
+							[
+								"Unlocked from #[Tiger's Den] or '''Outcome 1''' of #[Calculation#Kiss the boss's hand.]",
+								"Triggered if the player remained faithful to Route '''Road of the Protector'''."
+							],
+							[
+								"Unlocked from '''Outcome 2''' in #[Calculation#Kiss the boss's hand.]",
+								"Triggered if the player betrayed Route '''Road of Shadows'''."
+							]
+						]
+					}
+				]
+			},
+			{
+				"title": "Scratch My Back and I'll Scratch Yours",
+				"type": [
+					"Special",
+					"Chain"
+				],
+				"description": "You visit the quartermaster to obtain equipment for your investigation. But, the quartermaster says all equipment is fully booked, and it will be difficult to hand out equipment. As you're turning around, the quartermaster offers to use his strengths.",
+				"options": [
+					{
+						"option": "Ask for the quartermaster's help",
+						"response": "The quartermaster seems flustered by your bubbly request and coughs dryly. He asks for a show of sincerity. You're not sure about what kind of sincerity the quartermaster is talking about.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Express your sincerity",
+						"response": "You put on a warm face, and place a bag of silver coins into the quartermaster's pockets. The quartermaster tells you to stop, but doesn't actually try. A moment later, the quartermaster brings the equipment you need!",
+						"results": [
+							"Lose silver coins",
+							"Acquire {{Color|special|Totem of Reinforcements}}",
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -400"
+						],
+						"required": "More than 400 silver coins"
+					}
+				]
+			},
+			{
+				"title": "In the Name of the Gang",
+				"type": [
+					"Chain"
+				],
+				"description": "A mob comes out of the blue and surrounds you in a blink of time. The mob claims they are here to avenge in the name Of their gang.",
+				"options": [
+					{
+						"option": "Take them out.",
+						"response": "There must be remaining forces you couldn't take care of. It's a good chance to mop up the rest of them.",
+						"results": [
+							"Start battle"
+						],
+						"notes": [
+							"Starts Elite Battle '''(Snowman Gang Trooper)'''"
+						]
+					},
+					{
+						"option": "Run.",
+						"response": "You attempt to flee, but it's no use. You end up paying the price for interfering with the gang.",
+						"results": [
+							"1 random Hero take damage",
+							"1 random Hero take damage",
+							"1 random Hero take damage"
+						],
+						"notes": [
+							"3 random Heroes faint."
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Proposition",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "A dangerous-looking man approaches you and thanks you for helping the snowman the other day. He offers you to join the gang's business in return for immense rewards.",
+				"options": [
+					{
+						"option": "Accept.",
+						"response": "The man leaves you with an instruction from the gang. It contains the mission for you to do.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Storage Job]"
+						]
+					},
+					{
+						"option": "Decline.",
+						"response": "You firmly deny the man's offer. He leaves with an unsatisfied look.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Storage Job",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You follow the instruction from the snowman criminal gang and sneak into the Kama-ZONE's artifact storage. Now you have to decide in what way you will steal the artifact.",
+				"options": [
+					{
+						"option": "Loud",
+						"response": "You cause a scene. Guards try to take you down but they are no match for you. Before reinforcement comes, you quickly take the loots and escape the storage.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks '''Outcome 3''' in #[Black Market#Change the subject.]"
+						]
+					},
+					{
+						"option": "Smart",
+						"response": "You throw smoke shells in the storage and casually walk out of the storage with all the loots while the guards are distracted by the dense smoke.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks '''Outcome 3''' in #[Black Market#Change the subject.]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Result Report",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "The snowman gang's executive visits you to hear how did the storage job go.",
+				"options": [
+					{
+						"option": "Make a correct report.",
+						"response": "You make a correct report on the sale money of the artifacts and hand over all the profits. The executive says you will shortly receive rewards from the gang.",
+						"results": [
+							"Lose silver coins",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"{{Icon/Currency|SilverCoin}} Silver coins -100",
+							"Skips to #[Calculation]",
+							"Unlocks '''Outcome 3''' in #[Calculation#Kiss the boss's hand.]"
+						]
+					},
+					{
+						"option": "Make a false report.",
+						"response": "You deserve the part of the money as the charge for your service. You lie about the sale money of the artifacts and hand over part of the profits. The stupid executive doesn't even notice!",
+						"results": [
+							"Lose silver coins",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Crossroad]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Crossroad",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "One of the snowman gang members makes secret contact with you. He reveals that he's on the police's side and suggests you do the right thing.",
+				"options": [
+					{
+						"option": "Accept.",
+						"response": "This all has been part of your plan to infiltrate into the gang. It was your plan to gain the trust of the gang and take the chance to make a roundup. Refuse any logical refutation against it.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Calculation]",
+							"Unlocks '''Outcome 2''' in #[Calculation#Kiss the boss's hand.]",
+							"The player betrays the Route and switches to '''Road of the Protector'''."
+						]
+					},
+					{
+						"option": "Decline.",
+						"response": "No dumb-dumb can survive in the gang. You take down the spy. This is your chance to prove your loyalty to the gang!",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Calculation]",
+							"Unlocks '''Outcome 3''' in #[Calculation#Kiss the boss's hand.]",
+							"The player remains faithful to Route '''Road of Shadows'''."
+						]
+					}
+				]
+			},
+			{
+				"title": "Criminal World's Bigshot",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "Just as the boss promised, the shops within the area are all under your control. The shopkeepers will be grateful for your protection and pay protection fees.",
+				"options": [
+					{
+						"option": "Collect Fees.",
+						"response": "The shopkeepers all rush to pay protection fees to you. Seeing their happy faces makes you feel more satisfied with your job. You'll have to work harder for them.",
+						"results": [
+							"Acquire silver coins",
+							"Benefit unlocked.",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +500",
+							"{{Icon/Currency|SilverCoin}} Silver coins +100",
+							"Unlocks Benefit [[Noir Season#Benefits|Road of Shadows]]",
+							"Unlocks #[Becoming Part of the Family]",
+							"Unlocks #[The Judgement]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Becoming Part of the Family",
+				"type": [
+					"Special",
+					"Chain"
+				],
+				"description": "You meet with the lieutenant to borrow the gang's power. But, the lieutenant claims you're not truly a part of the family in a sarcastic manner.",
+				"options": [
+					{
+						"option": "Call the lieutenant uncle.",
+						"response": "The lieutenant sighs deeply at your naive words and actions. Soon, he shouts asking if you didn't understand what he meant. But you have nothing more to say. It seems the lieutenant had something else he wanted.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Become a part of the family.",
+						"response": "When you hand over a large bag of silver coins, the lieutenant's face lights up. The lieutenant grasps your hands tightly and tells you to don't hesitate in calling the family if trouble arrives.",
+						"results": [
+							"Lose silver coins",
+							"Acquire {{Color|special|Partnership}}",
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -400"
+						],
+						"required": "More than 400 silver coins"
+					}
+				]
+			},
+			{
+				"title": "The Judgement",
+				"type": [
+					"Chain"
+				],
+				"description": "The siren goes off and you are suddenly surrounded by the police. The police demand you to surrender immediately. They must know about the things you've done for the snowman gang.",
+				"options": [
+					{
+						"option": "Resist.",
+						"response": "You're not the type to kneel here. You resist violently and try to teach them who you are.",
+						"results": [
+							"Start battle"
+						],
+						"notes": [
+							"Starts Elite Battle '''(Police Trooper)'''"
+						]
+					},
+					{
+						"option": "Flee.",
+						"response": "You attempt to flee, but it's no use. You're disarmed and judged by the law.",
+						"results": [
+							"Lose silver coins",
+							"Lose random artifact{{cite|are these two results upside-down?}}"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -200"
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Black Market",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You enter a covert black market. A merchant is waving at you under the dark shade.",
+				"options": [
+					{
+						"option": "Buy something.",
+						"response": "It doesn't matter where this item came from. The important thing is that this amazing artifact is now yours.",
+						"results": [
+							"Lose silver coins",
+							"Acquire 1 random {{Color|high|Omnipotent Container}}, {{Color|high|Reactive Armor Mk. I}}, {{Color|high|Reactive Armor Mk. II}}, {{Color|high|Mask of Courage}}"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -100"
+						],
+						"required": "More than 100 silver coins"
+					},
+					{
+						"option": "Try to negotiate.",
+						"response": [
+							"The merchant starts flicking the abacus beads then shakes your hand. We have a deal!",
+							"The merchant waves dismissively and decline your offer. You leave the market as if you are being kicked out.",
+							"After a long haggling, the merchant accepts your final offer and takes small amounts of silver coins. But the police show up to bust the black market, and the merchant flees before you can take the artifact. You must have taken your time too much."
+						],
+						"results": [
+							"Lose silver coins, Acquire 1 random {{Color|high|Omnipotent Container}}, {{Color|high|Reactive Armor Mk. I}}, {{Color|high|Reactive Armor Mk. II}}, {{Color|high|Mask of Courage}}",
+							"Nothing happened.",
+							"Lose silver coins"
+						],
+						"notes": [
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins -60"
+							],
+							[],
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins -60"
+							]
+						],
+						"required": "More than 60 silver coins"
+					},
+					{
+						"option": "Leave.",
+						"response": "You should not get involved in such shady stuff. You slowly leave the market.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Change the subject.",
+						"response": [
+							"You share a nice conversation with the merchant. The merchant thanks you for the pleasant talk and gives you some food.",
+							"Swordfish. You tell the secret code and the merchant hands you a small note. The note has the destination for the next deal.",
+							"You sell the smuggled item to the merchant. This money will be a good use for the gang.",
+							"{{cite}}"
+						],
+						"results": [
+							"Nothing happened.",
+							"Chain event unlocked.",
+							"Acquire silver coins, Chain event unlocked.",
+							"Recover 1 random Hero's HP"
+						],
+						"notes": [
+							[],
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+								"Unlocked from #[Espionage#Tip the waiter.]",
+								"Unlocks #[War on Crime]"
+							],
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+								"{{Icon/Currency|SilverCoin}} Silver coins +100",
+								"Unlocked from #[Storage Job]",
+								"Unlocks #[Results Report]"
+							],
+							[
+								"1 random Hero recovers 20% of their own max HP."
+							]
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Calculation",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You finally meet with the boss after the gang calls you. When you kneel near his feet, he puts out his hand solemnly.",
+				"options": [
+					{
+						"option": "Kiss the boss's hand.",
+						"response": [
+							"The moment you stand close to the boss, you pull out the weapon you've prepared and take down the boss! All the rest of the members panic and you successfully arrest all the key members of the snowman gang.",
+							"{{cite}}",
+							"You're accepted as a true gang member. The boss praises your precise work and loyalty highly and gives you a great reward. On top of that you're promised a high rank in the gang and profits!",
+							"The information you gave has been judged to be very valuable so the boss gives you a large reward. You're also promised a high rank in the gang and profits!"
+						],
+						"results": [
+							"Chain event unlocked.",
+							"Chain event unlocked.",
+							"Acquire {{Color|high|Hope}}, Chain event unlocked.",
+							"Acquire {{Color|high|Hope}}, Chain event unlocked."
+						],
+						"notes": [
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+								"Unlocked from #[Conciliation#Pretend to hand over the information.]",
+								"Unlocks #[Perfect Operation!]",
+								"Unlocks '''Outcome 1''' in #[Perfect Operation!#Accept the reward.]",
+								"The player remained faithful to Route '''Road of the Protector'''."
+							],
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +20{{cite|is the amount same after betrayal?}}",
+								"Unlocked from #[Crossroad#Accept.]",
+								"Unlocks #[Perfect Operation!]",
+								"Unlocks '''Outcome 2''' in #[Perfect Operation!#Accept the reward.]",
+								"The player betrayed Route '''Road of Shadows'''."
+							],
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +100",
+								"Unlocked from #[Crossroad#Decline.]",
+								"Unlocks #[Criminal World's Bigshot]",
+								"The player remained faithful to Route '''Road of Shadows'''."
+							],
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +100{{cite|is the amount same after betrayal?}}",
+								"Unlocked from #[Conciliation#Hand the information over.]",
+								"Unlocks #[Criminal World's Bigshot]",
+								"The player betrayed Route '''Road of the Protector'''."
+							]
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Lucrative Intel",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "Suspicious looking men in robes approach you. They whisper an offer to give lucrative intel if you pay a fee.",
+				"options": [
+					{
+						"option": "Pay for the intel.",
+						"response": "You buy the intel off the men and give them the benefit of the doubt. Apparently, a priceless item in the criminal world came into the luxury goods store. Stealing this will give you a decent profit. The item is shaped like a square with a few round decorations.",
+						"results": [
+							"Lose silver coins",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"{{Icon/Currency|SilverCoin}} Silver coins -50",
+							"Unlocks #[Secretly Confusingly]"
+						],
+						"required": "More than 50 silver coins"
+					},
+					{
+						"option": "Ignore them.",
+						"response": "You've met types like them countless times. Men who claim their information can multiply money. It's false hope. You walk away and don't look back.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Secretly Confusingly",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You avoid the uptight employee's gaze and succeed in approaching the display case. But you're too nervous and forget which item you were supposed to steal!",
+				"options": [
+					{
+						"option": "A round item with many round decorations",
+						"response": "You search your memories and manage to remember the item's shape. It's uncertain why this item is in a luxury goods shop, but you take the item and leave carefully.",
+						"results": [
+							"Acquire {{Color|high|Deep Void Shield}}",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Fence]"
+						]
+					},
+					{
+						"option": "A square item with a few round decorations",
+						"response": [
+							"You search your memories and manage to remember the item's shape. Seeing the item's fantastic outline, you're certain it's the item you searched for. You take the item and leave carefully.",
+							"You search your memories and manage to remember the item's shape. But you can't find an item like that anywhere. Your frantic searching gets you caught by the employee and into trouble.",
+							"You search your memories and realize you had the item all along. You leave the luxury goods shop carefully."
+						],
+						"results": [
+							"Acquire {{Color|high|Hope}}, Chain event unlocked.",
+							"Chain event complete.",
+							"Chain event unlocked."
+						],
+						"notes": [
+							[
+								"Unlocks #[Fence]",
+								"Triggered on the first attempt only.{{cite|or does it keep triggering until #[Fence] is completed?}}"
+							],
+							[
+								"Triggered on all attempts after the first one."
+							],
+							[
+								"Unlocks #[Fence]",
+								"Triggered if the player already has a {{Color|high|Hope}}.",
+								"If the condition is met, this rules out all other outcomes.{{cite|or will completing #[Fence] always result in '''Outcome 2''' regardless? (\"Chain event unlocked.\" wouldn't make sense otherwise)}}"
+							]
+						]
+					},
+					{
+						"option": "A square item with many round decorations",
+						"response": "You search your memories and manage to remember the item's shape. It's uncertain why this item is in a luxury goods shop, but you take the item and leave carefully.",
+						"results": [
+							"Acquire {{Color|high|Orichalcum Spike}}",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Fence]"
+						]
+					},
+					{
+						"option": "Give up.",
+						"response": "You realize your actions are wrong. When you're about to give up, you lock eyes with the shop's employee. You end up getting caught by the employee and spend an eternity being interrogated.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Fence",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You arrive at the fence at the black market. This one should give you a fair price for the item. You show the stolen item from the shop to the fence.",
+				"options": [
+					{
+						"option": "A round item with many round decorations",
+						"response": "The fence inspects the item, and your expectations start to soar. However, the fence claims this item is worthless and sends you back. It seems you stole the wrong item.",
+						"results": [
+							"Nothing happened.{{cite|\"Chain event complete.\" too?}}"
+						],
+						"notes": [],
+						"required": "{{Color|high|Deep Void Shield}}"
+					},
+					{
+						"option": "A square item with a few round decorations",
+						"response": "The fence inspects the item and disappears into the shop. Suddenly, the police start running out from the shop! You've been caught by a sting operation. You're hit by the strange bullets shot by the police and fall. Electric shocks run through your body. This is gonna hurt for a while.",
+						"results": [
+							"All Heroes take damage",
+							"Benefit unlocked.",
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +100",
+							"Unlocks Benefit [[Noir Season#Benefits|Electric Shock]]"
+						],
+						"required": "{{Color|high|Hope}}"
+					},
+					{
+						"option": "A square item with many round decorations",
+						"response": "The fence inspects the item, and your expectations start to soar. However, the fence claims this item is worthless and sends you back. It seems you stole the wrong item.",
+						"results": [
+							"Nothing happened.{{cite|\"Chain event complete.\" too?}}"
+						],
+						"notes": [],
+						"required": "{{Color|high|Orichalcum Spike}}"
+					},
+					{
+						"option": "Head back.",
+						"response": "After some thinking, this item fits your tastes quite well. You don't sell the item and decide to keep it.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Accidental Discovery",
+				"type": [
+					"Chain"
+				],
+				"description": "You stumble upon a mess of brutal fights and a shady-looking box on the side. It seems there was a battle to win this box.",
+				"options": [
+					{
+						"option": "Take the box.",
+						"response": "This box must have some high value. You look around and scuttle away with the box.",
+						"results": [
+							"Acquire {{Color|low|Pandora's Box}}",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Metamorphosis]{{cite|Can \"Metamorphosis\" be encountered before this event? If NO, these two tables can be combined.}}"
+						]
+					},
+					{
+						"option": "Leave the box.",
+						"response": "No psychopathic killer would follow you day and night just because you took the box. This is not a movie. But it doesn't feel right anyway, so you decide to leave the box and go on your way.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Metamorphosis",
+				"type": [],
+				"description": "The archeologist approaches you full of excitement. He tells you that some artifacts from the ancient scroll have been found in Kama-ZONE lately. He offers you to awaken its true and hidden potential if you have any.",
+				"options": [
+					{
+						"option": "Wake the true potential of the artifact.",
+						"response": [
+							"A new artifact breaks out of the shell! You are slowly filled with rage at the sight of it.",
+							"A new artifact breaks out of the shell! You are mesmerized by the beauty of it."
+						],
+						"results": [
+							"Lose {{Color|low|Pandora's Box}}, Acquire {{Color|mid|Despair and Anger}}, Chain event complete.",
+							"Lose {{Color|low|Pandora's Box}}, Acquire {{Color|high|Hope}}, Chain event complete."
+						],
+						"notes": [],
+						"required": "{{Color|low|Pandora's Box}}"
+					},
+					{
+						"option": "Ignore him.",
+						"response": "It's never fun to get mess around with excited scholars' stuff. You go on your way.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Promise of Faith",
+				"type": [],
+				"description": "The blacksmith calls you to stop. She says she has a way to enhance your artifact and insists that you let her do so.",
+				"options": [
+					{
+						"option": "Accept.",
+						"response": "The blacksmith strikes the hammer and there goes a huge explosion. Wait, don't lose your hope just yet. It wasn't an artifact that's been broken! Don't mind that blacksmith that looks somehow disappointed.",
+						"results": [
+							"Remove {{Color|curse|1 random}} curses"
+						],
+						"notes": [],
+						"required": "More than 1 artifacts"
+					},
+					{
+						"option": "Decline.",
+						"response": "You know you'll end up thinking the original is the best. You don't see any point in upgrading your artifact and go on your way.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Coin Toss",
+				"type": [
+					"Chain"
+				],
+				"description": "A man with an impressive hairstyle approaches you. He tosses a coin and forces you to call which side he has.",
+				"options": [
+					{
+						"option": "Head.",
+						"response": [
+							"He has the head. The man gives you the coin and tells you to keep it well since that's now your lucky coin.",
+							"He has the tail. The man pulls the trigger before you can do anything."
+						],
+						"results": [
+							"Acquire silver coins, Chain event complete.",
+							"1 random Hero take damage{{cite}}"
+						],
+						"notes": [
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins +10"
+							],
+							[
+								"1 random Hero faints."
+							]
+						]
+					},
+					{
+						"option": "Tail.",
+						"response": [
+							"He has the tail. The man gives you the coin and tells you to keep it well since that's now your lucky coin.",
+							"He has the head. The man pulls the trigger before you can do anything."
+						],
+						"results": [
+							"Acquire silver coins, Chain event complete.",
+							"1 random Hero take damage{{cite}}"
+						],
+						"notes": [
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins +10"
+							],
+							[
+								"1 random Hero faints."
+							]
+						]
+					},
+					{
+						"option": "Refuse.",
+						"response": "The man flinches and pulls the trigger on you. Before you can do anything, you collapse.",
+						"results": [
+							"1 random Hero take damage{{cite}}"
+						],
+						"notes": [
+							"1 random Hero faints."
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Dangerous Temptation",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "A suspicious-looking man suggests you try some of the curses. He claims curses can be beneficial if used properly and shows his best collection for you to pick.",
+				"options": [
+					{
+						"option": "Something that gives electrifying sensations.",
+						"response": "You accept the curse and you feel the shooting pain.",
+						"results": [
+							"Acquire {{Color|curse|Toe Grinder}} curse"
+						],
+						"notes": []
+					},
+					{
+						"option": "Something that opens up your eyes.",
+						"response": "You accept the curse and you feel the kick as if you're struck by a hammer in the head.",
+						"results": [
+							"Acquire {{Color|curse|Scorched Stigma}} curse"
+						],
+						"notes": []
+					},
+					{
+						"option": "Something that can take your breath away.",
+						"response": [
+							"You accept the curse and it's getting hard to breathe as if you are restrained by a torture rack.",
+							"Tinia the white rose that slashes evil appears out of nowhere and shoots an arrow to destroy the curse. Look how proud she looks. She must have really hated that curse."
+						],
+						"results": [
+							"Acquire {{Color|curse|Sinner's Torture Rack}} curse",
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Anything that can blow your mind.",
+						"response": "The man smirks and gives you all the curses. You can know for sure that they're the best collection since you're losing consciousness.",
+						"results": [
+							"Acquire {{Color|curse|3 random}} curse(s)",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Qualifications for a Business Partner]"
+						]
+					},
+					{
+						"option": "Decline.",
+						"response": "There are things you should never try. You walk the other way.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Qualifications for a Business Partner",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You're reunited with the suspicious man offering you curses. He seems impressed you're still walking around. He speaks about the perfect job offer, and says he'll recommend you if you want it.",
+				"options": [
+					{
+						"option": "Ask him to recommend you.",
+						"response": "The man says he'll deliver the recommendation, and tells you to go to the spot marked on this map. He also says this job's only for those who can move the product and wishes you luck.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Qualification Check]"
+						]
+					},
+					{
+						"option": "Tell him you don't need it.",
+						"response": "The last job was only to sate your curiosity. You have strong willpower and firmly express your refusal. The man laments your refusal and sends you off.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Ask for more curses instead.",
+						"response": "The man looks surprised, then laughs heartily. Then says it'd be better if you stay as a client instead after taking out his product. Except, he asked for a fair price and you pay it with no hesitation after seeing the product.",
+						"results": [
+							"Lose silver coins",
+							"Acquire {{Color|curse|1 random}} curse(s)"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -50"
+						],
+						"required": "More than 50 silver coins"
+					}
+				]
+			},
+			{
+				"title": "Qualification Check",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You visit the workshop the suspicious man told you about. The manager of the workshop heard your footsteps and carefully walk towards you.",
+				"options": [
+					{
+						"option": "Ask for a job.",
+						"response": [
+							"The manager gives you the product and map for the delivery spot with a hesitant look on his face. I guess he hasn't heard about \"Kanterbury's Silver Flash\"… but he'll know soon enough.",
+							"The manager recognised \"Kanterbury's Silver Flash\" and hands you the product and map with a bright smile. He says come whenever you need a job. Now, it's time to deliver happiness again!"
+						],
+						"results": [
+							"Acquire {{Color|curse|Ugly Boots}} curse, Chain event unlocked.",
+							"Acquire {{Color|curse|Ugly Boots}} curse, Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Delivering Happiness]",
+							[
+								"Triggered if the job has yet to be completed."
+							],
+							[
+								"Triggered if the job has already been completed once."
+							]
+						]
+					},
+					{
+						"option": "Purchase a bunch of curses.",
+						"response": [
+							"The manager shouts at you after hearing your request. And says the courier shouldn't\n\t\tcovet the product. Ashamed, you quietly leave the workshop.",
+							"The manager says he'll make an exception for you, and sells the product at a good price. You already feel your consciousness swimming from it. High quality products are high quality for a reason."
+						],
+						"results": [
+							"Nothing happened.",
+							"Lose silver coins, Acquire {{Color|curse|5 random}} curse(s), Chain event complete."
+						],
+						"notes": [
+							[
+								"Triggered if the job has yet to be completed."
+							],
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins -300",
+								"Triggered if the job has already been completed once."
+							]
+						],
+						"required": "More than 300 silver coins"
+					},
+					{
+						"option": "Leave.",
+						"response": "The damp smell of the workshop makes your head spin. You leave to get some fresh air.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Delivering Happiness",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You arrive at the place marked on the map, and find a person who looks like a customer. The customer is eagerly waiting for the product and biting her nails.",
+				"options": [
+					{
+						"option": "Deliver the product.",
+						"response": "When you send the signal, the customer runs over happily. The customer hugs, touches, smells and tastes the product you delivered. Is it that good? Anyways, \"Kanterbury's Silver Flash\" has brilliantly completed the mission again today.",
+						"results": [
+							"Remove {{Color|curse|Ugly Boots}} curses",
+							"Acquire silver coins",
+							"Chain event complete.",
+							"Benefit unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins +200",
+							"Unlocks Benefit [[Noir Season#Benefits|Bad Habit]]"
+						],
+						"required": "Curse {{Color|curse|Ugly Boots}}"
+					},
+					{
+						"option": "Intercept the product.",
+						"response": "You already know how attached you became to this product on your journey. It's not professional, but you decide to stay true to your desires today.",
+						"results": [
+							"Chain event complete.{{cite}}"
+						],
+						"notes": []
+					},
+					{
+						"option": "Say you don't have the product honestly.",
+						"response": "Intentional or not, you don't have the product in hand. When you tell the truth, the customer starts to cry and laugh like a deranged person. Soon the customer starts shouting words of hate and lunges towards you!",
+						"results": [
+							"Start battle{{cite}}",
+							"Chain event complete.{{cite}}"
+						],
+						"notes": [
+							"Starts Elite Battle '''(Furious Customer)'''"
+						]
+					}
+				]
+			}
+		]
+	]
+}
