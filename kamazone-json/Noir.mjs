@@ -40,13 +40,15 @@ Option (
 	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
+		`Unlocked from #[The Cop and The Thief#Tell the cop.]`,
 		`Unlocks #[Espionage]`
 	]
 )
 Option (
 	`Decline.`,
 	`You are way too occupied with other important matters to help the investigation. Such as cleaning your fingernails or toenails.`,
-	`Nothing happened.`
+	`Nothing happened.`,
+	`Unlocked from #[The Cop and The Thief#Tell the cop.]`
 )
 Event (
 	`Espionage`,
@@ -267,6 +269,7 @@ Option (
 	`Chain event unlocked.`,
 	[
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
+		`Unlocked from #[The Cop and The Thief#Provide cover.]`,
 		`Unlocks #[Storage Job]`
 	]
 )
@@ -274,6 +277,7 @@ Option (
 	`Decline.`,
 	`You firmly deny the man's offer. He leaves with an unsatisfied look.`,
 	`Nothing happened.`,
+	`Unlocked from #[The Cop and The Thief#Provide cover.]`
 )
 Event (
 	`Storage Job`,

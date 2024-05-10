@@ -56,6 +56,7 @@
 						],
 						"notes": [
 							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocked from #[The Cop and The Thief#Tell the cop.]",
 							"Unlocks #[Espionage]"
 						]
 					},
@@ -65,7 +66,9 @@
 						"results": [
 							"Nothing happened."
 						],
-						"notes": []
+						"notes": [
+							"Unlocked from #[The Cop and The Thief#Tell the cop.]"
+						]
 					}
 				]
 			},
@@ -358,6 +361,7 @@
 						],
 						"notes": [
 							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocked from #[The Cop and The Thief#Provide cover.]",
 							"Unlocks #[Storage Job]"
 						]
 					},
@@ -367,7 +371,9 @@
 						"results": [
 							"Nothing happened."
 						],
-						"notes": []
+						"notes": [
+							"Unlocked from #[The Cop and The Thief#Provide cover.]"
+						]
 					}
 				]
 			},
