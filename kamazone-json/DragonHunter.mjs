@@ -20,7 +20,7 @@ Option (
     [
         [],
         [
-            `Triggered if the player already has {{Color|high|Hunter of Hunter Amulets}}.`
+            `Triggered if the player already has a {{Color|high|Hunter of Hunter Amulets}}.`
         ]
     ]
 )
