@@ -14,13 +14,13 @@ Option (
         `It's your lucky day! You take the artifact without hesitation.`
     ],
     [
-        `Acquire {{Color|high|Hunter of Hunter Amulets}}, Chain event complete.`,
-        `Acquire {{Color|low|Hunter Amulet}}, Chain event complete.`
+        `Acquire A[High|Hunter of Hunter Amulets], Chain event complete.`,
+        `Acquire A[Low|Hunter Amulet], Chain event complete.`
     ],
     [
         [],
         [
-            `Triggered if the player already has a {{Color|high|Hunter of Hunter Amulets}}.`
+            `Triggered if the player already has a A[High|Hunter of Hunter Amulets].`
         ]
     ]
 )
@@ -65,8 +65,9 @@ Option (
         `{{Icon/Currency|SilverCoin}} Silver coins +100`,
         `Unlocks #[Hatchling vs. Dragon Hunter]`
     ],
-	`{{Color|low|Dragon Language Translator}}`
+	`A[Low|Dragon Language Translator]`
 )
+
 Event (
     `Hatchling vs. Dragon Hunter`,
     `The hatchling horde strikes again and surrounds you. In the most perilous moment, a dragon hunter intervenes!`
@@ -75,7 +76,7 @@ Option (
     `Fight Together Back to Back`,
     `You and the dragon hunter successfully fend off the hatchlings. However, the dragon hunter gets gravely injured in the process. As the dragon hunter breathes his final breath, he gives his equipment to you.`,
     [
-        `Acquire all {{Color|high|Rapture Breaker}}, {{Color|high|Deep Void Shield}} artifacts`,
+        `Acquire all A[High|Rapture Breaker], A[High|Deep Void Shield] artifacts`,
         `Chain event complete.`
     ]
 )
@@ -140,6 +141,7 @@ Option (
 		]
 	]
 )
+
 Event (
 	`Banished Blacksmith`,
 	`You reunite with the blacksmith from the dragon hunter tribe. He claims an assailant wreaked havoc while he was fixing his weapons. So he escaped frantically.`
@@ -158,6 +160,7 @@ Option (
 	`It's best to call the police when dealing with an unknown assailant. If you fight, it could lead to being charged with assault for both parties. It would be best to avoid that. You decide not to intervene any further.`,
 	`Nothing happened.`
 )
+
 Event (
 	`The Already Banished Blacksmith`,
 	`You meet a familiar other blacksmith from the dragon hunter's forge. The blacksmith is excitedly banging on the equipment while saying there's many new never seen before equipment.`
@@ -180,6 +183,7 @@ Option (
 	`When you see the blacksmith being so happy, it's hard to kick him out. Maybe it's fine to let him be for a while. Of course, if it were your items, then you wouldn't just watch and let this happen.`,
 	`Nothing happened.`
 )
+
 Event (
 	`Gods' Forge`,
 	`You visit the dragon hunter's forge. The blacksmith completed fixing the equipment, and offers to make one for you as a reward for helping out. But, the blacksmith asks for some good firewood to fire up the forge.`
@@ -188,34 +192,34 @@ Option (
 	`Ask for a new belt.`,
 	`A new artifact is born from the flames kindled by your artifact. As you wear the belt you feel yourself getting stronger. Now it feels as if you can deliver justice to evil spirits.`,
 	[
-		`Lose {{Color|low|Heresy Grinder}}`,
-		`Acquire {{Color|special|Thunder God's Lightning Hammer}}`,
+		`Lose A[Low|Heresy Grinder]`,
+		`Acquire A[Special|Thunder God's Lightning Hammer]`,
 		`Chain event complete.`
 	],
 	[],
-	`{{Color|low|Heresy Grinder}}`
+	`A[Low|Heresy Grinder]`
 )
 Option (
 	`Ask for a new hammer.`,
 	`A new artifact is born from the flames kindled by your artifact. This hammer makes light! and you feel MIGHTY!`,
 	[
-		`Lose {{Color|low|Heresy Grinder}}`,
-		`Acquire {{Color|special|Thunder God's Lightning Hammer}}`,
+		`Lose A[Low|Heresy Grinder]`,
+		`Acquire A[Special|Thunder God's Lightning Hammer]`,
 		`Chain event complete.`
 	],
 	[],
-	`{{Color|low|Heresy Grinder}}`
+	`A[Low|Heresy Grinder]`
 )
 Option (
 	`Ask for a new gauntlet.`,
 	`A new artifact is born from the flames kindled by your artifact. There are only four places to put your fingers, but somehow it fits in your hand.`,
 	[
-		`Lose {{Color|low|Heresy Grinder}}`,
-		`Acquire {{Color|special|Thunder God's Lightning Hammer}}`,
+		`Lose A[Low|Heresy Grinder]`,
+		`Acquire A[Special|Thunder God's Lightning Hammer]`,
 		`Chain event complete.`
 	],
 	[],
-	`{{Color|low|Heresy Grinder}}`
+	`A[Low|Heresy Grinder]`
 )
 Option (
 	`Leave.`,
@@ -234,7 +238,7 @@ Option (
 	`A hot iron brands your body. You endure the scorching pain. Now you are accepted as a warrior.`,
 	[
 		`1 random Hero take damage`,
-		`Acquire {{Color|curse|Scorched Stigma}} curse`
+		`Acquire A[Curse|Scorched Stigma] curse`
 	],
 	`Unlocks '''Outcome 2''' in #[You shall not pass.#Show the mark of a warrior.]`
 )
@@ -257,7 +261,7 @@ Option (
 		`You are defeated by the warrior's attack. If it wasn't for your wound on your knees, it would have been your victory.`
 	],
 	[
-		`Acquire 1 random {{Color|low|Hunter Amulet}}, {{Color|high|Life Spring Helmet}}`,
+		`Acquire 1 random A[Low|Hunter Amulet], A[High|Life Spring Helmet]`,
 		`All Heroes take damage`
 	],
 	[
@@ -275,7 +279,7 @@ Option (
 	],
 	[
 		`All Heroes take damage`,
-		`Acquire {{Color|high|Berserker Mask}}, Chain event unlocked.`
+		`Acquire A[High|Berserker Mask], Chain event unlocked.`
 	],
 	[
 		[
@@ -287,6 +291,7 @@ Option (
 		]
 	]
 )
+
 Event (
 	`The Strongest Warrior`,
 	`You reunite with the warrior who blocked your path from before. The warrior recognizes you and requests for a duel for the title of strongest warrior in the tribe.`
@@ -308,6 +313,7 @@ Option (
 	`Everyone has the title of tribe's strongest warrior these days. Adding another line to your resume with something like that won't help your career. You leave in search of activities that will be more helpful in the future.`,
 	`Nothing happened.`
 )
+
 Event (
 	`Dragon Hunter's Heat Therapy`,
 	`You meet with the tribe's warrior again. Now that you've clashed swords and shed blood together, you two are practically siblings. The warrior offers doing the tribe's traditional therapy excellent for recovering from exhaustion after battle.`,
@@ -325,7 +331,7 @@ Option (
 		`All Heroes recover 30% of their own max HP.`,
 		`Unlocks Benefit [[Dragon Hunter Season#Benefits|Rejuvenation]]`
 	],
-	`{{Color|high|Regeneration Mask}}`
+	`A[High|Regeneration Mask]`
 )
 Option (
 	`Refuse.`,
@@ -347,7 +353,7 @@ Option (
 		`{{Icon/Currency|BottleCap}} Bottle Caps +30`,
 		`Unlocks #[Graduating Kama-ZONE]`
 	],
-	`One or more artifacts from {{Color|mid|Blue's Helmet}}, {{Color|mid|Red's Helmet}}, {{Color|mid|Green's Helmet}}`
+	`One or more artifacts from A[Mid|Blue's Helmet], A[Mid|Red's Helmet], A[Mid|Green's Helmet]`
 )
 Option (
 	`Suggest visiting Agatha's Shop.`,
@@ -357,13 +363,14 @@ Option (
 		`{{Icon/Currency|BottleCap}} Bottle Caps +30`,
 		`Unlocks #[Graduating Kama-ZONE]`
 	],
-	`{{Color|mid|VIP Membership Card}}`
+	`A[Mid|VIP Membership Card]`
 )
 Option (
 	`Ignore the hunter.`,
 	`If there's one lesson to learn from school, it's not to befriend people wearing strange outfits. You carefully leave to avoid being mistaken as the dragon hunter's comrade.`,
 	`Nothing happened.`
 )
+
 Event (
 	`Graduating Kama-ZONE`,
 	`You meet with the complaining dragon hunter again. It seems the hunter acquired more things at Kama-ZONE, but the hunter still seems unsatisfied.`
@@ -392,6 +399,7 @@ Option (
 		`Unlocks #[Mindset of a Master]`
 	]
 )
+
 Event (
 	`Mindset of a Master`,
 	`A rich goblin is shouting in the middle of a hallway. The goblin shouts how business of selling trashy low-grade artifacts can be done in Kama-ZONE, and causing a scene to the androids.`,
@@ -436,6 +444,7 @@ Option (
 		`Unlocks #[It's a Dragon!]`
 	]
 )
+
 Event (
 	`It's a Dragon!`,
 	`You visit the source of the rumor and listen to a boy's account. He is claimed to be the first witness of the dragon.`
@@ -454,6 +463,7 @@ Option (
 	`You're not sure if you can trust the boy's goofy demeanor. You walk the other way around.`,
 	`Nothing happened.`
 )
+
 Event (
 	`Compete or Cooperate`,
 	`As you travel to the place where the dragon is last seen, you encounter a Dragon Hunter crowd seeking the dragon as well.`
@@ -476,6 +486,7 @@ Option (
 		`Unlocks #[Close Encounters of the Dragon]`
 	]
 )
+
 Event (
 	`Close Encounters of the Dragon`,
 	`After a long search, you finally discover an organism that seems to be a dragon.`
@@ -489,6 +500,7 @@ Option (
 		`Unlocks #[It's a REAL Dragon!]`
 	]
 )
+
 Event (
 	`It's a REAL Dragon!`,
 	`The boy, who claimed to be the first witness of a dragon, stops you. The boy asks for help claiming that this time there really is a dragon out there.`
@@ -511,6 +523,7 @@ Option (
 		`Unlocks #[Positive Prospect]`
 	]
 )
+
 Event (
 	`Positive Prospect`,
 	`You find Neva sniffing the ground with a huge footprint.`

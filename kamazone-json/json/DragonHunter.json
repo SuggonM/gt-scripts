@@ -14,13 +14,13 @@
 							"It's your lucky day! You take the artifact without hesitation."
 						],
 						"results": [
-							"Acquire {{Color|high|Hunter of Hunter Amulets}}, Chain event complete.",
-							"Acquire {{Color|low|Hunter Amulet}}, Chain event complete."
+							"Acquire A[High|Hunter of Hunter Amulets], Chain event complete.",
+							"Acquire A[Low|Hunter Amulet], Chain event complete."
 						],
 						"notes": [
 							[],
 							[
-								"Triggered if the player already has a {{Color|high|Hunter of Hunter Amulets}}."
+								"Triggered if the player already has a A[High|Hunter of Hunter Amulets]."
 							]
 						]
 					},
@@ -76,7 +76,7 @@
 							"{{Icon/Currency|SilverCoin}} Silver coins +100",
 							"Unlocks #[Hatchling vs. Dragon Hunter]"
 						],
-						"required": "{{Color|low|Dragon Language Translator}}"
+						"required": "A[Low|Dragon Language Translator]"
 					}
 				]
 			},
@@ -91,7 +91,7 @@
 						"option": "Fight Together Back to Back",
 						"response": "You and the dragon hunter successfully fend off the hatchlings. However, the dragon hunter gets gravely injured in the process. As the dragon hunter breathes his final breath, he gives his equipment to you.",
 						"results": [
-							"Acquire all {{Color|high|Rapture Breaker}}, {{Color|high|Deep Void Shield}} artifacts",
+							"Acquire all A[High|Rapture Breaker], A[High|Deep Void Shield] artifacts",
 							"Chain event complete."
 						],
 						"notes": []
@@ -256,34 +256,34 @@
 						"option": "Ask for a new belt.",
 						"response": "A new artifact is born from the flames kindled by your artifact. As you wear the belt you feel yourself getting stronger. Now it feels as if you can deliver justice to evil spirits.",
 						"results": [
-							"Lose {{Color|low|Heresy Grinder}}",
-							"Acquire {{Color|special|Thunder God's Lightning Hammer}}",
+							"Lose A[Low|Heresy Grinder]",
+							"Acquire A[Special|Thunder God's Lightning Hammer]",
 							"Chain event complete."
 						],
 						"notes": [],
-						"required": "{{Color|low|Heresy Grinder}}"
+						"required": "A[Low|Heresy Grinder]"
 					},
 					{
 						"option": "Ask for a new hammer.",
 						"response": "A new artifact is born from the flames kindled by your artifact. This hammer makes light! and you feel MIGHTY!",
 						"results": [
-							"Lose {{Color|low|Heresy Grinder}}",
-							"Acquire {{Color|special|Thunder God's Lightning Hammer}}",
+							"Lose A[Low|Heresy Grinder]",
+							"Acquire A[Special|Thunder God's Lightning Hammer]",
 							"Chain event complete."
 						],
 						"notes": [],
-						"required": "{{Color|low|Heresy Grinder}}"
+						"required": "A[Low|Heresy Grinder]"
 					},
 					{
 						"option": "Ask for a new gauntlet.",
 						"response": "A new artifact is born from the flames kindled by your artifact. There are only four places to put your fingers, but somehow it fits in your hand.",
 						"results": [
-							"Lose {{Color|low|Heresy Grinder}}",
-							"Acquire {{Color|special|Thunder God's Lightning Hammer}}",
+							"Lose A[Low|Heresy Grinder]",
+							"Acquire A[Special|Thunder God's Lightning Hammer]",
 							"Chain event complete."
 						],
 						"notes": [],
-						"required": "{{Color|low|Heresy Grinder}}"
+						"required": "A[Low|Heresy Grinder]"
 					},
 					{
 						"option": "Leave.",
@@ -307,7 +307,7 @@
 						"response": "A hot iron brands your body. You endure the scorching pain. Now you are accepted as a warrior.",
 						"results": [
 							"1 random Hero take damage",
-							"Acquire {{Color|curse|Scorched Stigma}} curse"
+							"Acquire A[Curse|Scorched Stigma] curse"
 						],
 						"notes": [
 							"Unlocks '''Outcome 2''' in #[You shall not pass.#Show the mark of a warrior.]"
@@ -340,7 +340,7 @@
 							"You are defeated by the warrior's attack. If it wasn't for your wound on your knees, it would have been your victory."
 						],
 						"results": [
-							"Acquire 1 random {{Color|low|Hunter Amulet}}, {{Color|high|Life Spring Helmet}}",
+							"Acquire 1 random A[Low|Hunter Amulet], A[High|Life Spring Helmet]",
 							"All Heroes take damage"
 						],
 						"notes": [
@@ -358,7 +358,7 @@
 						],
 						"results": [
 							"All Heroes take damage",
-							"Acquire {{Color|high|Berserker Mask}}, Chain event unlocked."
+							"Acquire A[High|Berserker Mask], Chain event unlocked."
 						],
 						"notes": [
 							[
@@ -423,7 +423,7 @@
 							"All Heroes recover 30% of their own max HP.",
 							"Unlocks Benefit [[Dragon Hunter Season#Benefits|Rejuvenation]]"
 						],
-						"required": "{{Color|high|Regeneration Mask}}"
+						"required": "A[High|Regeneration Mask]"
 					},
 					{
 						"option": "Refuse.",
@@ -455,7 +455,7 @@
 							"{{Icon/Currency|BottleCap}} Bottle Caps +30",
 							"Unlocks #[Graduating Kama-ZONE]"
 						],
-						"required": "One or more artifacts from {{Color|mid|Blue's Helmet}}, {{Color|mid|Red's Helmet}}, {{Color|mid|Green's Helmet}}"
+						"required": "One or more artifacts from A[Mid|Blue's Helmet], A[Mid|Red's Helmet], A[Mid|Green's Helmet]"
 					},
 					{
 						"option": "Suggest visiting Agatha's Shop.",
@@ -467,7 +467,7 @@
 							"{{Icon/Currency|BottleCap}} Bottle Caps +30",
 							"Unlocks #[Graduating Kama-ZONE]"
 						],
-						"required": "{{Color|mid|VIP Membership Card}}"
+						"required": "A[Mid|VIP Membership Card]"
 					},
 					{
 						"option": "Ignore the hunter.",

@@ -50,6 +50,7 @@ Option (
 	`Nothing happened.`,
 	`Unlocked from #[The Cop and The Thief#Tell the cop.]`
 )
+
 Event (
 	`Espionage`,
 	`Tea shops have always been the perfect place to collect information. You visit a sparkling barley tea shop to gain some intel about the gang you are told about.`
@@ -86,6 +87,7 @@ Option (
 	],
 	`More than 20 silver coins`
 )
+
 Event (
 	`War on Crime`,
 	`With the help of the information you gained from the black market you finally confront the axis of evil.`
@@ -114,7 +116,7 @@ Option (
 	`There are too many enemies to face on your own. You swiftly ask for police backup, but there's no answer. The frequency must not be right. You helplessly watch the gang members make the deal and return.`,
 	`Nothing happened.`,
 	[],
-	`{{Color|low|Walkie-talkie Set}}`
+	`A[Low|Walkie-talkie Set]`
 )
 Option (
 	`Infiltrate.`,
@@ -124,14 +126,14 @@ Option (
 		`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 		`Unlocks #[Conciliation]`
 	],
-	`{{Color|low|Stealth Suit MG-2}}`
+	`A[Low|Stealth Suit MG-2]`
 )
 Option (
 	`Make a deal.`,
 	`You pose as a merchant and purchase a rare artifact. The criminals have fallen for your disguise and tell you not to forget the business meeting in the black market. Something smells fishy.`,
 	[
 		`Lose silver coins`,
-		`Acquire {{Color|high|Hope}}`,
+		`Acquire A[High|Hope]`,
 		`Chain event unlocked.`
 	],
 	[
@@ -140,6 +142,7 @@ Option (
 	],
 	`More than 200 silver coins`
 )
+
 Event (
 	`Conciliation`,
 	`The gang sent a negotiator to you. The negotiator says they'll reward you handsomely if you hand over intel about the police and join the gang.`
@@ -168,6 +171,7 @@ Option (
 		`The player remains faithful to Route '''Road of the Protector'''.`
 	]
 )
+
 Event (
 	`Tiger's Den`,
 	`You join the business meeting in the black market. The great boss of the gang reveals himself. You didn't expect this to happen. No, you actually did expect this!`
@@ -182,6 +186,7 @@ Option (
 		`Unlocks #[Perfect Operation!]`
 	]
 )
+
 Event (
 	`Perfect Operation!`,
 	`There is a ceremony to praise your effort for playing a crucial role in arresting the gang members.`
@@ -212,6 +217,7 @@ Option (
 		]
 	]
 )
+
 Event (
 	`Scratch My Back and I'll Scratch Yours`,
 	`You visit the quartermaster to obtain equipment for your investigation. But, the quartermaster says all equipment is fully booked, and it will be difficult to hand out equipment. As you're turning around, the quartermaster offers to use his strengths.`,
@@ -227,7 +233,7 @@ Option (
 	`You put on a warm face, and place a bag of silver coins into the quartermaster's pockets. The quartermaster tells you to stop, but doesn't actually try. A moment later, the quartermaster brings the equipment you need!`,
 	[
 		`Lose silver coins`,
-		`Acquire {{Color|special|Totem of Reinforcements}}`,
+		`Acquire A[Special|Totem of Reinforcements]`,
 		`Chain event complete.`
 	],
 	[
@@ -235,6 +241,7 @@ Option (
 	],
 	`More than 400 silver coins`
 )
+
 Event (
 	`In the Name of the Gang`,
 	`A mob comes out of the blue and surrounds you in a blink of time. The mob claims they are here to avenge in the name Of their gang.`,
@@ -279,6 +286,7 @@ Option (
 	`Nothing happened.`,
 	`Unlocked from #[The Cop and The Thief#Provide cover.]`
 )
+
 Event (
 	`Storage Job`,
 	`You follow the instruction from the snowman criminal gang and sneak into the Kama-ZONE's artifact storage. Now you have to decide in what way you will steal the artifact.`
@@ -301,6 +309,7 @@ Option (
 		`Unlocks '''Outcome 3''' in #[Black Market#Change the subject.]`
 	]
 )
+
 Event (
 	`Result Report`,
 	`The snowman gang's executive visits you to hear how did the storage job go.`
@@ -331,6 +340,7 @@ Option (
 		`Unlocks #[Crossroad]`
 	]
 )
+
 Event (
 	`Crossroad`,
 	`One of the snowman gang members makes secret contact with you. He reveals that he's on the police's side and suggests you do the right thing.`
@@ -355,6 +365,7 @@ Option (
 		`The player remains faithful to Route '''Road of Shadows'''.`
 	]
 )
+
 Event (
 	`Criminal World's Bigshot`,
 	`Just as the boss promised, the shops within the area are all under your control. The shopkeepers will be grateful for your protection and pay protection fees.`
@@ -375,6 +386,7 @@ Option (
 		`Unlocks #[The Judgement]`
 	]
 )
+
 Event (
 	`Becoming Part of the Family`,
 	`You meet with the lieutenant to borrow the gang's power. But, the lieutenant claims you're not truly a part of the family in a sarcastic manner.`,
@@ -390,7 +402,7 @@ Option (
 	`When you hand over a large bag of silver coins, the lieutenant's face lights up. The lieutenant grasps your hands tightly and tells you to don't hesitate in calling the family if trouble arrives.`,
 	[
 		`Lose silver coins`,
-		`Acquire {{Color|special|Partnership}}`,
+		`Acquire A[Special|Partnership]`,
 		`Chain event complete.`
 	],
 	[
@@ -398,6 +410,7 @@ Option (
 	],
 	`More than 400 silver coins`
 )
+
 Event (
 	`The Judgement`,
 	`The siren goes off and you are suddenly surrounded by the police. The police demand you to surrender immediately. They must know about the things you've done for the snowman gang.`,
@@ -430,7 +443,7 @@ Option (
 	`It doesn't matter where this item came from. The important thing is that this amazing artifact is now yours.`,
 	[
 		`Lose silver coins`,
-		`Acquire 1 random {{Color|high|Omnipotent Container}}, {{Color|high|Reactive Armor Mk. I}}, {{Color|high|Reactive Armor Mk. II}}, {{Color|high|Mask of Courage}}`
+		`Acquire 1 random A[High|Omnipotent Container], A[High|Reactive Armor Mk. I], A[High|Reactive Armor Mk. II], A[High|Mask of Courage]`
 	],
 	[
 		`{{Icon/Currency|SilverCoin}} Silver coins -100`
@@ -445,7 +458,7 @@ Option (
 		`After a long haggling, the merchant accepts your final offer and takes small amounts of silver coins. But the police show up to bust the black market, and the merchant flees before you can take the artifact. You must have taken your time too much.`
 	],
 	[
-		`Lose silver coins, Acquire 1 random {{Color|high|Omnipotent Container}}, {{Color|high|Reactive Armor Mk. I}}, {{Color|high|Reactive Armor Mk. II}}, {{Color|high|Mask of Courage}}`,
+		`Lose silver coins, Acquire 1 random A[High|Omnipotent Container], A[High|Reactive Armor Mk. I], A[High|Reactive Armor Mk. II], A[High|Mask of Courage]`,
 		`Nothing happened.`,
 		`Lose silver coins`
 	],
@@ -490,7 +503,7 @@ Option (
 			`{{Icon/Currency|BottleCap}} Bottle Caps +20`,
 			`{{Icon/Currency|SilverCoin}} Silver coins +100`,
 			`Unlocked from #[Storage Job]`,
-			`Unlocks #[Results Report]`
+			`Unlocks #[Result Report]`
 		],
 		[
 			`1 random Hero recovers 20% of their own max HP.`
@@ -515,8 +528,8 @@ Option (
 	[
 		`Chain event unlocked.`,
 		`Chain event unlocked.`,
-		`Acquire {{Color|high|Hope}}, Chain event unlocked.`,
-		`Acquire {{Color|high|Hope}}, Chain event unlocked.`
+		`Acquire A[High|Hope], Chain event unlocked.`,
+		`Acquire A[High|Hope], Chain event unlocked.`
 	],
 	[
 		[
@@ -573,6 +586,7 @@ Option (
 	`You've met types like them countless times. Men who claim their information can multiply money. It's false hope. You walk away and don't look back.`,
 	`Nothing happened.`
 )
+
 Event (
 	`Secretly Confusingly`,
 	`You avoid the uptight employee's gaze and succeed in approaching the display case. But you're too nervous and forget which item you were supposed to steal!`
@@ -581,7 +595,7 @@ Option (
 	`A round item with many round decorations`,
 	`You search your memories and manage to remember the item's shape. It's uncertain why this item is in a luxury goods shop, but you take the item and leave carefully.`,
 	[
-		`Acquire {{Color|high|Deep Void Shield}}`,
+		`Acquire A[High|Deep Void Shield]`,
 		`Chain event unlocked.`
 	],
 	`Unlocks #[Fence]`
@@ -594,7 +608,7 @@ Option (
 		`You search your memories and realize you had the item all along. You leave the luxury goods shop carefully.`
 	],
 	[
-		`Acquire {{Color|high|Hope}}, Chain event unlocked.`,
+		`Acquire A[High|Hope], Chain event unlocked.`,
 		`Chain event complete.`,
 		`Chain event unlocked.`
 	],
@@ -608,7 +622,7 @@ Option (
 		],
 		[
 			`Unlocks #[Fence]`,
-			`Triggered if the player already has a {{Color|high|Hope}}.`,
+			`Triggered if the player already has a A[High|Hope].`,
 			`If the condition is met, this rules out all other outcomes.{{cite|or will completing #[Fence] always result in '''Outcome 2''' regardless? ("Chain event unlocked." wouldn't make sense otherwise)}}`
 		]
 	]
@@ -617,7 +631,7 @@ Option (
 	`A square item with many round decorations`,
 	`You search your memories and manage to remember the item's shape. It's uncertain why this item is in a luxury goods shop, but you take the item and leave carefully.`,
 	[
-		`Acquire {{Color|high|Orichalcum Spike}}`,
+		`Acquire A[High|Orichalcum Spike]`,
 		`Chain event unlocked.`
 	],
 	`Unlocks #[Fence]`
@@ -627,6 +641,7 @@ Option (
 	`You realize your actions are wrong. When you're about to give up, you lock eyes with the shop's employee. You end up getting caught by the employee and spend an eternity being interrogated.`,
 	`Nothing happened.`
 )
+
 Event (
 	`Fence`,
 	`You arrive at the fence at the black market. This one should give you a fair price for the item. You show the stolen item from the shop to the fence.`
@@ -636,7 +651,7 @@ Option (
 	`The fence inspects the item, and your expectations start to soar. However, the fence claims this item is worthless and sends you back. It seems you stole the wrong item.`,
 	`Nothing happened.{{cite|"Chain event complete." too?}}`,
 	[],
-	`{{Color|high|Deep Void Shield}}`
+	`A[High|Deep Void Shield]`
 )
 Option (
 	`A square item with a few round decorations`,
@@ -650,14 +665,14 @@ Option (
 		`{{Icon/Currency|BottleCap}} Bottle Caps +100`,
 		`Unlocks Benefit [[Noir Season#Benefits|Electric Shock]]`
 	],
-	`{{Color|high|Hope}}`
+	`A[High|Hope]`
 )
 Option (
 	`A square item with many round decorations`,
 	`The fence inspects the item, and your expectations start to soar. However, the fence claims this item is worthless and sends you back. It seems you stole the wrong item.`,
 	`Nothing happened.{{cite|"Chain event complete." too?}}`,
 	[],
-	`{{Color|high|Orichalcum Spike}}`
+	`A[High|Orichalcum Spike]`
 )
 Option (
 	`Head back.`,
@@ -675,10 +690,10 @@ Option (
 	`Take the box.`,
 	`This box must have some high value. You look around and scuttle away with the box.`,
 	[
-		`Acquire {{Color|low|Pandora's Box}}`,
+		`Acquire A[Low|Pandora's Box]`,
 		`Chain event unlocked.`
 	],
-	`Unlocks #[Metamorphosis]{{cite|Can "Metamorphosis" be encountered before this event? If NO, these two tables can be combined.}}`
+	`Unlocks #[Metamorphosis]`
 )
 Option (
 	`Leave the box.`,
@@ -699,11 +714,11 @@ Option (
 		`A new artifact breaks out of the shell! You are mesmerized by the beauty of it.`
 	],
 	[
-		`Lose {{Color|low|Pandora's Box}}, Acquire {{Color|mid|Despair and Anger}}, Chain event complete.`,
-		`Lose {{Color|low|Pandora's Box}}, Acquire {{Color|high|Hope}}, Chain event complete.`
+		`Lose A[Low|Pandora's Box], Acquire A[Mid|Despair and Anger], Chain event complete.`,
+		`Lose A[Low|Pandora's Box], Acquire A[High|Hope], Chain event complete.`
 	],
 	[],
-	`{{Color|low|Pandora's Box}}`
+	`A[Low|Pandora's Box]`
 )
 Option (
 	`Ignore him.`,
@@ -744,7 +759,7 @@ Option (
 	],
 	[
 		`Acquire silver coins, Chain event complete.`,
-		`1 random Hero take damage{{cite}}`
+		`1 random Hero take damage, Chain event complete.`
 	],
 	[
 		[
@@ -763,7 +778,7 @@ Option (
 	],
 	[
 		`Acquire silver coins, Chain event complete.`,
-		`1 random Hero take damage{{cite}}`
+		`1 random Hero take damage, Chain event complete.`
 	],
 	[
 		[
@@ -790,12 +805,12 @@ Event (
 Option (
 	`Something that gives electrifying sensations.`,
 	`You accept the curse and you feel the shooting pain.`,
-	`Acquire {{Color|curse|Toe Grinder}} curse`
+	`Acquire A[Curse|Toe Grinder] curse`
 )
 Option (
 	`Something that opens up your eyes.`,
 	`You accept the curse and you feel the kick as if you're struck by a hammer in the head.`,
-	`Acquire {{Color|curse|Scorched Stigma}} curse`
+	`Acquire A[Curse|Scorched Stigma] curse`
 )
 Option (
 	`Something that can take your breath away.`,
@@ -804,7 +819,7 @@ Option (
 		`Tinia the white rose that slashes evil appears out of nowhere and shoots an arrow to destroy the curse. Look how proud she looks. She must have really hated that curse.`
 	],
 	[
-		`Acquire {{Color|curse|Sinner's Torture Rack}} curse`,
+		`Acquire A[Curse|Sinner's Torture Rack] curse`,
 		`Nothing happened.`
 	]
 )
@@ -822,6 +837,7 @@ Option (
 	`There are things you should never try. You walk the other way.`,
 	`Nothing happened.`
 )
+
 Event (
 	`Qualifications for a Business Partner`,
 	`You're reunited with the suspicious man offering you curses. He seems impressed you're still walking around. He speaks about the perfect job offer, and says he'll recommend you if you want it.`
@@ -850,6 +866,7 @@ Option (
 	`{{Icon/Currency|SilverCoin}} Silver coins -50`,
 	`More than 50 silver coins`
 )
+
 Event (
 	`Qualification Check`,
 	`You visit the workshop the suspicious man told you about. The manager of the workshop heard your footsteps and carefully walk towards you.`
@@ -861,8 +878,8 @@ Option (
 		`The manager recognised "Kanterbury's Silver Flash" and hands you the product and map with a bright smile. He says come whenever you need a job. Now, it's time to deliver happiness again!`
 	],
 	[
-		`Acquire {{Color|curse|Ugly Boots}} curse, Chain event unlocked.`,
-		`Acquire {{Color|curse|Ugly Boots}} curse, Chain event unlocked.`,
+		`Acquire A[Curse|Ugly Boots] curse, Chain event unlocked.`,
+		`Acquire A[Curse|Ugly Boots] curse, Chain event unlocked.`,
 	],
 	[
 		`Unlocks #[Delivering Happiness]`,
@@ -877,8 +894,7 @@ Option (
 Option (
 	`Purchase a bunch of curses.`,
 	[
-		`The manager shouts at you after hearing your request. And says the courier shouldn't
-		covet the product. Ashamed, you quietly leave the workshop.`,
+		`The manager shouts at you after hearing your request. And says the courier shouldn't covet the product. Ashamed, you quietly leave the workshop.`,
 		`The manager says he'll make an exception for you, and sells the product at a good price. You already feel your consciousness swimming from it. High quality products are high quality for a reason.`
 	],
 	[
@@ -901,6 +917,7 @@ Option (
 	`The damp smell of the workshop makes your head spin. You leave to get some fresh air.`,
 	`Chain event complete.`
 )
+
 Event (
 	`Delivering Happiness`,
 	`You arrive at the place marked on the map, and find a person who looks like a customer. The customer is eagerly waiting for the product and biting her nails.`
@@ -909,7 +926,7 @@ Option (
 	`Deliver the product.`,
 	`When you send the signal, the customer runs over happily. The customer hugs, touches, smells and tastes the product you delivered. Is it that good? Anyways, "Kanterbury's Silver Flash" has brilliantly completed the mission again today.`,
 	[
-		`Remove {{Color|curse|Ugly Boots}} curses`,
+		`Remove A[Curse|Ugly Boots] curses`,
 		`Acquire silver coins`,
 		`Chain event complete.`,
 		`Benefit unlocked.`
@@ -918,7 +935,7 @@ Option (
 		`{{Icon/Currency|SilverCoin}} Silver coins +200`,
 		`Unlocks Benefit [[Noir Season#Benefits|Bad Habit]]`
 	],
-	`Curse {{Color|curse|Ugly Boots}}`
+	`Curse A[Curse|Ugly Boots]`
 )
 Option (
 	`Intercept the product.`,

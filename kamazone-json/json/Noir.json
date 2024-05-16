@@ -153,7 +153,7 @@
 							"Nothing happened."
 						],
 						"notes": [],
-						"required": "{{Color|low|Walkie-talkie Set}}"
+						"required": "A[Low|Walkie-talkie Set]"
 					},
 					{
 						"option": "Infiltrate.",
@@ -165,14 +165,14 @@
 							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
 							"Unlocks #[Conciliation]"
 						],
-						"required": "{{Color|low|Stealth Suit MG-2}}"
+						"required": "A[Low|Stealth Suit MG-2]"
 					},
 					{
 						"option": "Make a deal.",
 						"response": "You pose as a merchant and purchase a rare artifact. The criminals have fallen for your disguise and tell you not to forget the business meeting in the black market. Something smells fishy.",
 						"results": [
 							"Lose silver coins",
-							"Acquire {{Color|high|Hope}}",
+							"Acquire A[High|Hope]",
 							"Chain event unlocked."
 						],
 						"notes": [
@@ -301,7 +301,7 @@
 						"response": "You put on a warm face, and place a bag of silver coins into the quartermaster's pockets. The quartermaster tells you to stop, but doesn't actually try. A moment later, the quartermaster brings the equipment you need!",
 						"results": [
 							"Lose silver coins",
-							"Acquire {{Color|special|Totem of Reinforcements}}",
+							"Acquire A[Special|Totem of Reinforcements]",
 							"Chain event complete."
 						],
 						"notes": [
@@ -530,7 +530,7 @@
 						"response": "When you hand over a large bag of silver coins, the lieutenant's face lights up. The lieutenant grasps your hands tightly and tells you to don't hesitate in calling the family if trouble arrives.",
 						"results": [
 							"Lose silver coins",
-							"Acquire {{Color|special|Partnership}}",
+							"Acquire A[Special|Partnership]",
 							"Chain event complete."
 						],
 						"notes": [
@@ -586,7 +586,7 @@
 						"response": "It doesn't matter where this item came from. The important thing is that this amazing artifact is now yours.",
 						"results": [
 							"Lose silver coins",
-							"Acquire 1 random {{Color|high|Omnipotent Container}}, {{Color|high|Reactive Armor Mk. I}}, {{Color|high|Reactive Armor Mk. II}}, {{Color|high|Mask of Courage}}"
+							"Acquire 1 random A[High|Omnipotent Container], A[High|Reactive Armor Mk. I], A[High|Reactive Armor Mk. II], A[High|Mask of Courage]"
 						],
 						"notes": [
 							"{{Icon/Currency|SilverCoin}} Silver coins -100"
@@ -601,7 +601,7 @@
 							"After a long haggling, the merchant accepts your final offer and takes small amounts of silver coins. But the police show up to bust the black market, and the merchant flees before you can take the artifact. You must have taken your time too much."
 						],
 						"results": [
-							"Lose silver coins, Acquire 1 random {{Color|high|Omnipotent Container}}, {{Color|high|Reactive Armor Mk. I}}, {{Color|high|Reactive Armor Mk. II}}, {{Color|high|Mask of Courage}}",
+							"Lose silver coins, Acquire 1 random A[High|Omnipotent Container], A[High|Reactive Armor Mk. I], A[High|Reactive Armor Mk. II], A[High|Mask of Courage]",
 							"Nothing happened.",
 							"Lose silver coins"
 						],
@@ -649,7 +649,7 @@
 								"{{Icon/Currency|BottleCap}} Bottle Caps +20",
 								"{{Icon/Currency|SilverCoin}} Silver coins +100",
 								"Unlocked from #[Storage Job]",
-								"Unlocks #[Results Report]"
+								"Unlocks #[Result Report]"
 							],
 							[
 								"1 random Hero recovers 20% of their own max HP."
@@ -680,8 +680,8 @@
 						"results": [
 							"Chain event unlocked.",
 							"Chain event unlocked.",
-							"Acquire {{Color|high|Hope}}, Chain event unlocked.",
-							"Acquire {{Color|high|Hope}}, Chain event unlocked."
+							"Acquire A[High|Hope], Chain event unlocked.",
+							"Acquire A[High|Hope], Chain event unlocked."
 						],
 						"notes": [
 							[
@@ -760,7 +760,7 @@
 						"option": "A round item with many round decorations",
 						"response": "You search your memories and manage to remember the item's shape. It's uncertain why this item is in a luxury goods shop, but you take the item and leave carefully.",
 						"results": [
-							"Acquire {{Color|high|Deep Void Shield}}",
+							"Acquire A[High|Deep Void Shield]",
 							"Chain event unlocked."
 						],
 						"notes": [
@@ -775,7 +775,7 @@
 							"You search your memories and realize you had the item all along. You leave the luxury goods shop carefully."
 						],
 						"results": [
-							"Acquire {{Color|high|Hope}}, Chain event unlocked.",
+							"Acquire A[High|Hope], Chain event unlocked.",
 							"Chain event complete.",
 							"Chain event unlocked."
 						],
@@ -789,7 +789,7 @@
 							],
 							[
 								"Unlocks #[Fence]",
-								"Triggered if the player already has a {{Color|high|Hope}}.",
+								"Triggered if the player already has a A[High|Hope].",
 								"If the condition is met, this rules out all other outcomes.{{cite|or will completing #[Fence] always result in '''Outcome 2''' regardless? (\"Chain event unlocked.\" wouldn't make sense otherwise)}}"
 							]
 						]
@@ -798,7 +798,7 @@
 						"option": "A square item with many round decorations",
 						"response": "You search your memories and manage to remember the item's shape. It's uncertain why this item is in a luxury goods shop, but you take the item and leave carefully.",
 						"results": [
-							"Acquire {{Color|high|Orichalcum Spike}}",
+							"Acquire A[High|Orichalcum Spike]",
 							"Chain event unlocked."
 						],
 						"notes": [
@@ -830,7 +830,7 @@
 							"Nothing happened.{{cite|\"Chain event complete.\" too?}}"
 						],
 						"notes": [],
-						"required": "{{Color|high|Deep Void Shield}}"
+						"required": "A[High|Deep Void Shield]"
 					},
 					{
 						"option": "A square item with a few round decorations",
@@ -844,7 +844,7 @@
 							"{{Icon/Currency|BottleCap}} Bottle Caps +100",
 							"Unlocks Benefit [[Noir Season#Benefits|Electric Shock]]"
 						],
-						"required": "{{Color|high|Hope}}"
+						"required": "A[High|Hope]"
 					},
 					{
 						"option": "A square item with many round decorations",
@@ -853,7 +853,7 @@
 							"Nothing happened.{{cite|\"Chain event complete.\" too?}}"
 						],
 						"notes": [],
-						"required": "{{Color|high|Orichalcum Spike}}"
+						"required": "A[High|Orichalcum Spike]"
 					},
 					{
 						"option": "Head back.",
@@ -878,11 +878,11 @@
 						"option": "Take the box.",
 						"response": "This box must have some high value. You look around and scuttle away with the box.",
 						"results": [
-							"Acquire {{Color|low|Pandora's Box}}",
+							"Acquire A[Low|Pandora's Box]",
 							"Chain event unlocked."
 						],
 						"notes": [
-							"Unlocks #[Metamorphosis]{{cite|Can \"Metamorphosis\" be encountered before this event? If NO, these two tables can be combined.}}"
+							"Unlocks #[Metamorphosis]"
 						]
 					},
 					{
@@ -909,11 +909,11 @@
 							"A new artifact breaks out of the shell! You are mesmerized by the beauty of it."
 						],
 						"results": [
-							"Lose {{Color|low|Pandora's Box}}, Acquire {{Color|mid|Despair and Anger}}, Chain event complete.",
-							"Lose {{Color|low|Pandora's Box}}, Acquire {{Color|high|Hope}}, Chain event complete."
+							"Lose A[Low|Pandora's Box], Acquire A[Mid|Despair and Anger], Chain event complete.",
+							"Lose A[Low|Pandora's Box], Acquire A[High|Hope], Chain event complete."
 						],
 						"notes": [],
-						"required": "{{Color|low|Pandora's Box}}"
+						"required": "A[Low|Pandora's Box]"
 					},
 					{
 						"option": "Ignore him.",
@@ -968,7 +968,7 @@
 						],
 						"results": [
 							"Acquire silver coins, Chain event complete.",
-							"1 random Hero take damage{{cite}}"
+							"1 random Hero take damage, Chain event complete."
 						],
 						"notes": [
 							[
@@ -987,7 +987,7 @@
 						],
 						"results": [
 							"Acquire silver coins, Chain event complete.",
-							"1 random Hero take damage{{cite}}"
+							"1 random Hero take damage, Chain event complete."
 						],
 						"notes": [
 							[
@@ -1024,7 +1024,7 @@
 						"option": "Something that gives electrifying sensations.",
 						"response": "You accept the curse and you feel the shooting pain.",
 						"results": [
-							"Acquire {{Color|curse|Toe Grinder}} curse"
+							"Acquire A[Curse|Toe Grinder] curse"
 						],
 						"notes": []
 					},
@@ -1032,7 +1032,7 @@
 						"option": "Something that opens up your eyes.",
 						"response": "You accept the curse and you feel the kick as if you're struck by a hammer in the head.",
 						"results": [
-							"Acquire {{Color|curse|Scorched Stigma}} curse"
+							"Acquire A[Curse|Scorched Stigma] curse"
 						],
 						"notes": []
 					},
@@ -1043,7 +1043,7 @@
 							"Tinia the white rose that slashes evil appears out of nowhere and shoots an arrow to destroy the curse. Look how proud she looks. She must have really hated that curse."
 						],
 						"results": [
-							"Acquire {{Color|curse|Sinner's Torture Rack}} curse",
+							"Acquire A[Curse|Sinner's Torture Rack] curse",
 							"Nothing happened."
 						],
 						"notes": []
@@ -1125,8 +1125,8 @@
 							"The manager recognised \"Kanterbury's Silver Flash\" and hands you the product and map with a bright smile. He says come whenever you need a job. Now, it's time to deliver happiness again!"
 						],
 						"results": [
-							"Acquire {{Color|curse|Ugly Boots}} curse, Chain event unlocked.",
-							"Acquire {{Color|curse|Ugly Boots}} curse, Chain event unlocked."
+							"Acquire A[Curse|Ugly Boots] curse, Chain event unlocked.",
+							"Acquire A[Curse|Ugly Boots] curse, Chain event unlocked."
 						],
 						"notes": [
 							"Unlocks #[Delivering Happiness]",
@@ -1141,7 +1141,7 @@
 					{
 						"option": "Purchase a bunch of curses.",
 						"response": [
-							"The manager shouts at you after hearing your request. And says the courier shouldn't\n\t\tcovet the product. Ashamed, you quietly leave the workshop.",
+							"The manager shouts at you after hearing your request. And says the courier shouldn't covet the product. Ashamed, you quietly leave the workshop.",
 							"The manager says he'll make an exception for you, and sells the product at a good price. You already feel your consciousness swimming from it. High quality products are high quality for a reason."
 						],
 						"results": [
@@ -1181,7 +1181,7 @@
 						"option": "Deliver the product.",
 						"response": "When you send the signal, the customer runs over happily. The customer hugs, touches, smells and tastes the product you delivered. Is it that good? Anyways, \"Kanterbury's Silver Flash\" has brilliantly completed the mission again today.",
 						"results": [
-							"Remove {{Color|curse|Ugly Boots}} curses",
+							"Remove A[Curse|Ugly Boots] curses",
 							"Acquire silver coins",
 							"Chain event complete.",
 							"Benefit unlocked."
@@ -1190,7 +1190,7 @@
 							"{{Icon/Currency|SilverCoin}} Silver coins +200",
 							"Unlocks Benefit [[Noir Season#Benefits|Bad Habit]]"
 						],
-						"required": "Curse {{Color|curse|Ugly Boots}}"
+						"required": "Curse A[Curse|Ugly Boots]"
 					},
 					{
 						"option": "Intercept the product.",
