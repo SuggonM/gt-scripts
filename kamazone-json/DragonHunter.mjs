@@ -193,7 +193,7 @@ Option (
 	`A new artifact is born from the flames kindled by your artifact. As you wear the belt you feel yourself getting stronger. Now it feels as if you can deliver justice to evil spirits.`,
 	[
 		`Lose A[Low|Heresy Grinder]`,
-		`Acquire A[Special|Thunder God's Lightning Hammer]`,
+		`Acquire A[Special|Giant Belt]`,
 		`Chain event complete.`
 	],
 	[],
@@ -215,7 +215,7 @@ Option (
 	`A new artifact is born from the flames kindled by your artifact. There are only four places to put your fingers, but somehow it fits in your hand.`,
 	[
 		`Lose A[Low|Heresy Grinder]`,
-		`Acquire A[Special|Thunder God's Lightning Hammer]`,
+		`Acquire A[Special|Giant Glove]`,
 		`Chain event complete.`
 	],
 	[],
