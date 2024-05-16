@@ -1,0 +1,650 @@
+{
+	"season": "Gourmet",
+	"events": [
+		[
+			{
+				"title": "Man on the Ground",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You find a man on the ground. As you get closer, you can hear a giant rumbling sound from his stomach.",
+				"options": [
+					{
+						"option": "Share some food.",
+						"response": "The man takes the food you spared and gets back on his feet. He introduces himself as a gourmet who's visiting Kama-ZONE for a gourmet meal. Then he just wanders off somewhere.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Wandering Gourmet]"
+						],
+						"required": "One or more artifacts from A[High|Waybread], A[High|Flesh Piece], A[Low|Blessing of Cooking God], A[Low|Dragon's Blood]"
+					},
+					{
+						"option": "Leave him be.",
+						"response": "You might be the next one to be on the ground if you waste your precious provisions. You go on your way, no matter how much it breaks your heart to do so.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Wandering Gourmet",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You meet the goblin gourmet once again. He's devastated that he couldn't find any decent food in Kama-ZONE and is willing to pay a good price if you find him some.",
+				"options": [
+					{
+						"option": "Accept.",
+						"response": "You willingly accept his request. Some of your members who can help come to your mind.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Difficult Gourmet]",
+							"Unlocks #[Loraine's Joy of Cooking]",
+							"Unlocks #[Lynn's Bento Shop in Kama-ZONE.]",
+							"Unlocks #[Advanced Meal]"
+						]
+					},
+					{
+						"option": "Decline.",
+						"response": "One has to go through a painful path of endurance until finally finding and tasting the ultimate cuisine. How he is looking for an easy way on such a journey. He's not qualified to call himself a gourmet.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Difficult Gourmet",
+				"type": [
+					"Chain"
+				],
+				"description": "You meet the goblin gourmet. He eagerly asks if you have anything for him to taste.",
+				"options": [
+					{
+						"option": "Give him the dish.",
+						"response": [
+							"He takes a bite of the salad and gives a favorable comment that it has a very balanced and stable flavor. Yet he's not entirely satisfied, saying he feels something's missing.",
+							"He takes a bite of the salad and gives a favorable comment that it has a very balanced and stable flavor. Yet he's not entirely satisfied, saying he feels something's missing."
+						],
+						"results": [
+							"Lose A[High|Predetor Salad], Acquire silver coins",
+							"Lose A[High|Predetor Salad], Acquire silver coins, Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins +200",
+							[],
+							[
+								"Unlocks #[Heartbroken Gourmet]"
+							]
+						],
+						"required": "A[High|Predetor Salad]"
+					},
+					{
+						"option": "Give him the dish.",
+						"response": [
+							"He slowly feels the taste of the soup and gives a comment that it's a bit spicy but not half bad. But he once again asks for a better dish.",
+							"He slowly feels the taste of the soup and gives a comment that it's a bit spicy but not half bad. But he once again asks for a better dish."
+						],
+						"results": [
+							"Lose A[High|Soup from Another Demension], Acquire silver coins",
+							"Lose A[High|Soup from Another Demension], Acquire silver coins, Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins +300",
+							[],
+							[
+								"Unlocks #[Heartbroken Gourmet]"
+							]
+						],
+						"required": "A[High|Soup from Another Demension]"
+					},
+					{
+						"option": "Give him the dish.",
+						"response": [
+							"He takes a tablet and rolls it around in his mouth. He then spits it out to give harsh comments that there's no flavor, texture, smell and that it's not food at all in any aspect.",
+							"He takes a tablet and rolls it around in his mouth. He then spits it out to give harsh comments that there's no flavor, texture, smell and that it's not food at all in any aspect."
+						],
+						"results": [
+							"Lose A[High|Magiton Supplement], Acquire silver coins",
+							"Lose A[High|Magiton Supplement], Acquire silver coins, Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins +100",
+							[],
+							[
+								"Unlocks #[Heartbroken Gourmet]"
+							]
+						],
+						"required": "A[High|Magiton Supplement]"
+					},
+					{
+						"option": "Leave.",
+						"response": "You tell him the food's not quite ready and you need more time.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Heartbroken Gourmet",
+				"type": [
+					"Chain"
+				],
+				"description": "You meet the goblin gourmet once again. He seems deeply heartbroken to not have any fine dish to please him.",
+				"options": [
+					{
+						"option": "Cheer him up.",
+						"response": "You cheer him up, but he says he would even sell his soul to the devil for a fine dish.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Dark Cooking]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Dark Cooking",
+				"type": [
+					"Chain"
+				],
+				"description": "A mysterious cook blocks your way. The cook offers you the best dish that you can't find anywhere else in the world. If you bring the ingredients, of course.",
+				"options": [
+					{
+						"option": "Give the ingredients.",
+						"response": "The cook finishes the cooking. It looks familiar enough but with an extra stench. With fear, you take this horrific combination into your hands.",
+						"results": [
+							"Lose A[Low|Mace of Stench]",
+							"Acquire A[Curse|Pie from the Edge of Hell]",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Cuisine or Bizarre Food]"
+						],
+						"required": "A[Low|Mace of Stench]"
+					},
+					{
+						"option": "Leave.",
+						"response": "That gaudy outfit would make any cook look unworthy of trust. What, trying to get back to the world by cooking or something? You leave the cook and go on your way.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Cuisine or Bizarre Food",
+				"type": [
+					"Chain"
+				],
+				"description": "You meet the goblin gourmet once again. He asks if the dish is ready. His voice is quivering.",
+				"options": [
+					{
+						"option": "Give him the dish.",
+						"response": "The goblin gourmet seems nervous to smell this awful stench, but he bravely takes a bite. And he collapses gloriously.",
+						"results": [
+							"Lose A[Curse|Pie from the Edge of Hell]",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +100",
+							"Unlocks '''Outcome 2''' in #[Chef from Dungeon Kingdom#Ask him to cook.]"
+						]
+					},
+					{
+						"option": "Leave.",
+						"response": "There's no way he'll endure this horrible dish. You make an excuse that the dish isn't quite ready yet.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "The Last Supper",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You meet the goblin gourmet once again. The gourmet declares that he's leaving Kama-ZONE for good after one last supper.",
+				"options": [
+					{
+						"option": "Give him the dish.",
+						"response": "The goblin gourmet tastes your dish and get deeply touched. He says it reminds him of his mama's meal. He practically munches the plate and leaves Kama-ZONE with a light heart.",
+						"results": [
+							"Lose A[Special|Special Meat Pie]",
+							"Benefit unlocked.",
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +500",
+							"Unlocked from #[Hell's Kitchen#Cook.]",
+							"Unlocks Benefit [[Gourmet Season#Benefits|Top Chef]]"
+						]
+					},
+					{
+						"option": "Leave.",
+						"response": "The dish is not ready yet. Maybe you just don't want to share this wonderful dish…?",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Loraine's Joy of Cooking",
+				"type": [
+					"Chain"
+				],
+				"description": "Loraine who feeds the whole Heavenhold must know what to make to satisfy the gourmet. Loraine reluctantly tells you the ingredients needed.",
+				"options": [
+					{
+						"option": "Give the ingredients.",
+						"response": "Loraine, as always, quickly knocks up a dish. It does look healthy, but the little princess wouldn't enjoy it so much.",
+						"results": [
+							"Lose A[Low|Predation Flower]",
+							"Acquire A[High|Predetor Salad]",
+							"Chain event complete."
+						],
+						"notes": [
+							"Unlocked from #[Wandering Gourmet#Accept.]"
+						],
+						"required": "A[Low|Predation Flower]"
+					},
+					{
+						"option": "Leave.",
+						"response": "Loraine snaps at you to get the ingredients already. Time to get back on the journey.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Lynn's Bento Shop in Kama-ZONE.",
+				"type": [
+					"Chain"
+				],
+				"description": "A heavily drunk Swordmaster comes at you out of nowhere and offers you her cooking. She says that she feels like she can do anything right now, and asks you for smoking hot ingredients.",
+				"options": [
+					{
+						"option": "Give the ingredients.",
+						"response": "If there's anyone who can cook with ingredients from another dimension, it'd be her. Staggering and stumbling as she is, she manages to finish her cooking. Here it is, the sensational dish that'll never get off of one's mind.",
+						"results": [
+							"Lose A[Low|Dragon's Blood]",
+							"Acquire A[High|Soup from Another Demension]",
+							"Chain event complete."
+						],
+						"notes": [
+							"Unlocked from #[Wandering Gourmet#Accept.]"
+						],
+						"required": "A[Low|Dragon's Blood]"
+					},
+					{
+						"option": "Leave.",
+						"response": "She doesn't seem to be suitable to do any kind of cooking. You politely decline her offer and leave.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Advanced Meal",
+				"type": [
+					"Chain"
+				],
+				"description": "Sohee must be smart enough to know about the fine food for the gourmet. Sohee is pleased with the happy coincidence that she's been doing regarding research. She asks you to get some ingredients.",
+				"options": [
+					{
+						"option": "Give the ingredients.",
+						"response": "Sohee's machine makes a rowdy noise and the food pops out. You are deeply doubtful about its ingredients but Sohee asserts that it's the best food since it contains all the vital nutrients.",
+						"results": [
+							"Lose A[Low|Genius Wig]",
+							"Acquire A[High|Magiton Supplement]",
+							"Chain event complete."
+						],
+						"notes": [
+							"Unlocked from #[Wandering Gourmet#Accept.]"
+						],
+						"required": "A[Low|Genius Wig]"
+					},
+					{
+						"option": "Leave.",
+						"response": "You quickly leave to find the ingredients before Sohee changes her mind to help.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Mouthwatering News",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "People are gathered around a poster, talking about something.",
+				"options": [
+					{
+						"option": "Ask what's going on.",
+						"response": "She gives you the news that a renowned chef in Dungeon Kingdom has arrived in Kama-ZONE for his pop-up restaurant. Seeing everyone's so excited, you realize you won't get a taste of his dish unless you make a quick reservation.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Chef from Dungeon Kingdom]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Chef from Dungeon Kingdom",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You visit the pop-up restaurant run by the chef from Dungeon Kingdom. There's already a long queue of people waiting to get a table.",
+				"options": [
+					{
+						"option": "Ask him to cook.",
+						"response": [
+							"You wait for a long, long time to get into the restaurant. But the chef declines to give service, saying he has run out of ingredients.",
+							"You tell him the story of the goblin gourmet. He suggests that he'll teach you how to cook, and you cook for the gourmet yourself."
+						],
+						"results": [
+							"Nothing happened.",
+							"Chain event unlocked."
+						],
+						"notes": [
+							[],
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+								"Unlocked from #[Cuisine or Bizarre Food#Give him the dish.]",
+								"Unlocks #[Hell's Kitchen]"
+							]
+						]
+					},
+					{
+						"option": "Leave.",
+						"response": "All those high-rated restaurants that are hot on Facebreak were overrated. This must be one of them. You walk the other way.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Hell's Kitchen",
+				"type": [
+					"Benefit",
+					"Artifact",
+					"Chain"
+				],
+				"description": "You start cooking under the chef's watch!",
+				"options": [
+					{
+						"option": "Cook.",
+						"response": "You put the condiment you brought behind the chef's back into the dish. And the verdict is… a huge success!",
+						"results": [
+							"Lose A[High|Flesh Piece]",
+							"Acquire A[Special|Special Meat Pie]",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[The Last Supper]"
+						],
+						"required": "A[High|Flesh Piece]"
+					},
+					{
+						"option": "Leave.",
+						"response": "The missing ingredients just pop into your mind. You quickly run out of the kitchen while the chef is yelling at your back.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Amy's Cake Company",
+				"type": [],
+				"description": "You visit the cake shop Amy and Dolf opened in Kama-ZONE that you heard about.",
+				"options": [
+					{
+						"option": "Order a cake.",
+						"response": "It tastes horrible. You try to talk about the quality of the cake, but Amy's going crazy saying you're the problem, not her cake.",
+						"results": [
+							"Lose silver coins",
+							"Acquire A[Curse|Rainbow Cake] curse"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -50"
+						],
+						"required": "More than 50 silver coins"
+					},
+					{
+						"option": "Leave.",
+						"response": "There's nothing you'd like to buy and you try to leave the shop. But then, Dolf grabs you and says you didn't get any cake, but you still have to pay. It's nonsensical, but you fall for his fluent tongue and pay him the price.",
+						"results": [
+							"Lose silver coins"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -50"
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Eating Contest",
+				"type": [],
+				"description": "There are various eating contests going on, with Ruri broadcasting them live. You stop at the enticing smell of foods and the fever of the event.",
+				"options": [
+					{
+						"option": "Take part in an eating contest.",
+						"response": "Someone else finishes 80 dishes and be a winner while you struggle with your pile of food. You're just happy you became full enough.",
+						"results": [
+							"Recover all Heroes' HP"
+						],
+						"notes": [
+							"All Heroes recover 20% of their own max HP."
+						]
+					},
+					{
+						"option": "Take part in a drinking contest.",
+						"response": "You can drink all the sparkling barley tea in the world. You indulge glass after glass of sparkling barley tea and easily win the contest.",
+						"results": [
+							"Acquire silver coins"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins +50"
+						]
+					},
+					{
+						"option": "Let Girgas to take part in a contest.",
+						"response": "You couldn't bear Girgas's pestering and let him take part in the contest, but he goes out there and gobbles up other contestants' food as well. See how angry contestants are coming at you!",
+						"results": [
+							"Start battle"
+						],
+						"notes": [
+							"Starts Elite Battle"
+						],
+						"required": "Hero Fire Dragon Girgas"
+					},
+					{
+						"option": "Stay and just watch.",
+						"response": "You have your own rule to slowly savor the food. You choose not to take part in the contest.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Grocery Selling",
+				"type": [],
+				"description": "A merchant from Shen city is selling fresh groceries.",
+				"options": [
+					{
+						"option": "Buy a pound ot meat.",
+						"response": "You buy a pound of lovely marbled meat. Meat is definitely murder. Delicious, tasty murder.",
+						"results": [
+							"Lose silver coins",
+							"Acquire A[High|Flesh Piece]"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -100"
+						],
+						"required": "More than 100 silver coins"
+					},
+					{
+						"option": "Buy vegetables.",
+						"response": "You buy a bunch of fresh vegetables. You feel healthy already.",
+						"results": [
+							"Lose silver coins",
+							"Acquire A[Low|Predation Flower]"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -40"
+						],
+						"required": "More than 40 silver coins"
+					},
+					{
+						"option": "Buy condiments.",
+						"response": "You buy condiments. The merchant is pleased to see you making the right choice, saying you do know your way with taste.",
+						"results": [
+							"Lose silver coins",
+							"Acquire A[Low|Blessing of Cooking God]"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -40"
+						],
+						"required": "More than 40 silver coins"
+					},
+					{
+						"option": "Leave.",
+						"response": "However excellent the ingredients are, they'll all end up be a burden to your journey unless you have a way to cook them. You walk the other way around.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Today's Fortune",
+				"type": [
+					"Chain"
+				],
+				"description": "Oh, it's that beautiful, mysterious thief…? No, it's a normal fortune teller. She offers you she'd tell your future.",
+				"options": [
+					{
+						"option": "Let her tell your future.",
+						"response": "The fortune teller takes the fee and gives you the psychic reading. She reads that you'll be granted a great fortune in a near future, but you should not get overly greedy. She warns you to mind over your head.",
+						"results": [
+							"Lose silver coins",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -50",
+							"Unlocks #[Cloudy with a Chance of Food]"
+						],
+						"required": "More than 50 silver coins"
+					},
+					{
+						"option": "Go on your way.",
+						"response": "You are a sensible, decisive person with a crystal-clear mind. You don't need anything like fortune telling. Your choice for today's lunch menu was excellent as well, right?",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Cloudy with a Chance of Food",
+				"type": [
+					"Chain"
+				],
+				"description": "With a giant roaring sound, the ceiling cracks open. Food begins raining through the crack!",
+				"options": [
+					{
+						"option": "Open your mouth.",
+						"response": "You open up your mouth hoping you could catch some in it, but things just won't go as you imagined. You flounder in the rain of food then fall down.",
+						"results": [
+							"All Heroes take damage"
+						],
+						"notes": [
+							"All Heroes take damage by 30% of their own max HP."
+						]
+					},
+					{
+						"option": "Pick up the food.",
+						"response": "You patiently wait until the rain of food dies down then pick up one least bruised food.",
+						"results": [
+							"Acquire A[High|Waybread]"
+						],
+						"notes": []
+					},
+					{
+						"option": "Spread open a cloak.",
+						"response": [
+							"You take off your cloak and spread it open to catch the food. Your cloak provides cushion and you manage to pick up some of the food that's not too damaged.",
+							"{{cite}}"
+						],
+						"results": [
+							"Acquire A[High|Waybread], Acquire 1 random A[High|Flesh Piece], A[Low|Blessing of Cooking God], A[Low|Dragon's Blood], Chain event complete.",
+							"{{cite|The trigger for this outcome has never been discovered. However, [https://docs.google.com/spreadsheets/d/1oKYVRJB9nOsHJBRyyZVABsteSPVCLm4f1wzH_Sdv8nE/edit#gid{{=}}0&range{{=}}C297:C299 an uncited source] claims this outcome to grant one of the three {{Color|high|High-grade}} dishes.}}"
+						],
+						"notes": [],
+						"required": "A[High|Elegant Cloak]"
+					}
+				]
+			}
+		]
+	]
+}
