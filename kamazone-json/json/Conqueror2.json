@@ -1,0 +1,352 @@
+{
+	"season": "Conqueror 2",
+	"events": [
+		[
+			{
+				"title": "Take care of Grandpa for me.",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "Mayreel has come to see you. She flies into a rage on the spot and tells you to do something about Kamael. She says he's a complete pain in the neck. What may be the matter?",
+				"options": [
+					{
+						"option": "Tell her that you'll go see him.",
+						"response": "You don't know what's going on but decide to go check it out. You head towards Kamael's office.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Foul-mouthed Kid]"
+						]
+					},
+					{
+						"option": "Tell her to do it herself.",
+						"response": "Nothing good comes from getting involved with someone else's family issues. You go your own way ignoring Mayreel's clamor.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Foul-mouthed Kid",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You entered Kamael's office. But there's only a kid and Kamael's nowhere to be seen. And the kid is blabbering things like Lousy? Are you annoyed? You don't know what he's talking about.",
+				"options": [
+					{
+						"option": "Give the kid a scolding.",
+						"response": "You start to get annoyed by the kid's foul language. Bad mannered children must be scolded. You give the kid's butt a good spanking.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Pat the kid's head.",
+						"response": "The kid pushes you away. The kid looks at you with spite. You suddenly feel like dying.",
+						"results": [
+							"All Heroes take damage"
+						],
+						"notes": [
+							"All Heroes take damage by 20% of their own max HP."
+						]
+					},
+					{
+						"option": "Examine the kid.",
+						"response": "You realize the kid is Kamael. You presume something must have happened but it doesn't seem like you'll get an answer from the kid. You leave to go search for a way to bring Kamael back to normal.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Bari's Memory]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Bari's Memory",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You've met Bari. As a servant of Kamael, perhaps she'll know something.",
+				"options": [
+					{
+						"option": "Ask about Kamael's recent whereabouts.",
+						"response": "For some reason Bari says she cant remember recent events. Instead she hands you Kamael's schedule thinking it may be of help.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Tracking whereabouts.]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Tracking whereabouts.",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You check Kamael's schedule. The places Kamael recently visited are written in the schedule.",
+				"options": [
+					{
+						"option": "Investigate the clothing shop",
+						"response": "You head for the clothing shop.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Investigate the clothing shop]"
+						]
+					},
+					{
+						"option": "Investigate the herb shop",
+						"response": "You head for the herb shop.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Investigate the herb shop]"
+						]
+					},
+					{
+						"option": "Check the back page.",
+						"response": [
+							"Come to think of it, checking carefully from the first page seems like a good idea. You decide to rethink what you have to do.",
+							"There's something about a witch that grants wishes written on the back page. Something smells fishy. You decide to go search for the witch."
+						],
+						"results": [
+							"Nothing happened.",
+							"Chain event unlocked."
+						],
+						"notes": [
+							[],
+							[
+								"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+								"Triggered after completing #[Investigate the clothing shop] and #[Investigate the herb shop]",
+								"Unlocks #[A wish granting witch]"
+							]
+						]
+					}
+				]
+			},
+			{
+				"title": "Investigate the clothing shop",
+				"type": [
+					"Chain"
+				],
+				"description": "You've arrived at the clothing shop. The shopkeeper greets you with a bright smile.",
+				"options": [
+					{
+						"option": "Ask about Kamael's recent whereabouts.",
+						"response": "The shopkeeper tells you Kamael recently bought several sets of women's apparel. Nothing seems particularly worth your attention. You leave the clothing shop.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": [
+							"Unlocked from #[Tracking whereabouts.#Investigate the clothing shop]",
+							"Returns back to #[Tracking whereabouts.]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Investigate the herb shop",
+				"type": [
+					"Chain"
+				],
+				"description": "You meet the apothecary. The apothecary gestures you to come in.",
+				"options": [
+					{
+						"option": "Ask about Kamael's recent whereabouts.",
+						"response": "The apothecary tells you Kamael recently bought a bunch of memory-improving medicine. There's nothing special other than that. You leave the herb shop.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": [
+							"Unlocked from #[Tracking whereabouts.#Investigate the herb shop]",
+							"Returns back to #[Tracking whereabouts.]"
+						]
+					}
+				]
+			},
+			{
+				"title": "A wish granting witch",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You followed the schedule to search after the witch. She claims she'll grant you any wish if you give her the proper offering.",
+				"options": [
+					{
+						"option": "Ask to return Kamael back to his regular state.",
+						"response": "The witch laughs and says your wish was granted. Some of your comrades seem to be missing, but it's probably just your imagination.",
+						"results": [
+							"1 random Hero take damage",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"1 random Hero faints.",
+							"Unlocks #[Returned Kamael]"
+						]
+					},
+					{
+						"option": "Ask to be rich.",
+						"response": "The witch laughs and says your wish was granted. Some of your comrades seem to be missing, but it's probably just your imagination.",
+						"results": [
+							"Acquire silver coins",
+							"1 random Hero take damage"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins +100",
+							"1 random Hero faints."
+						]
+					},
+					{
+						"option": "Ask for a good Artifact.",
+						"response": "The witch laughs and says your wish was granted. Some of your comrades seem to be missing, but it's probably just your imagination.",
+						"results": [
+							"Acquire 1 random {{Color|high|High-grade}} Artifact",
+							"1 random Hero take damage"
+						],
+						"notes": [
+							"1 random Hero faints."
+						]
+					}
+				]
+			},
+			{
+				"title": "Returned Kamael",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You returned to Kamael's office. The Harvest God family are all together. It seems Kamael returned to his normal state as well.",
+				"options": [
+					{
+						"option": "Accept their expression of gratitude.",
+						"response": "Bari, Mayreel and Kamael all thank you. Receiving expressions of gratitude from gods isn't so bad.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +1000",
+							"Unlocks #[At the office] and #[What's your wish.]"
+						]
+					}
+				]
+			},
+			{
+				"title": "At the office",
+				"type": [
+					"Chain"
+				],
+				"description": "You remembered how you didn't return the schedule. So you visited Kamael's office. But it seems no one is here right now.",
+				"options": [
+					{
+						"option": "Wait.",
+						"response": "You waited all day long, but nobody came. You reluctantly head back.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Search the drawers.",
+						"response": "You're not supposed to, but that's why it's more fun. You find a Hard Cover Diary in the drawers.",
+						"results": [
+							"Acquire A[Low|Hard Cover Diary]",
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Come back later.",
+						"response": "You can't sit and wait all day long for someone who won't show. You decide to return on a later date.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "What's your wish.",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You're reunited with the witch. She asks what your wish is. She claims she can give you great power if you desire.",
+				"options": [
+					{
+						"option": "Enhance the God of Harvest's power.",
+						"response": "The witch accepts the offering, and hands you an Artifact that enhances the God of Harvest's power.",
+						"results": [
+							"Acquire A[Exclusive|Divine Branch]",
+							"1 random Hero take damage",
+							"Chain event complete."
+						],
+						"notes": [
+							"1 random Hero faints."
+						]
+					},
+					{
+						"option": "Enhance the Flower Girl's power.",
+						"response": "The witch accepts the offering, and hands you an Artifact that enhances the Flower Girl's power.",
+						"results": [
+							"Acquire A[Exclusive|Flower of Precious Memory]",
+							"1 random Hero take damage",
+							"Chain event complete."
+						],
+						"notes": [
+							"1 random Hero faints."
+						]
+					},
+					{
+						"option": "Enhance the Divine Beast's power.",
+						"response": "The witch accepts the offering, and hands you an Artifact that enhances the Divine Beast's power.",
+						"results": [
+							"Acquire A[Exclusive|Talisman of Energy]",
+							"1 random Hero take damage",
+							"Chain event complete."
+						],
+						"notes": [
+							"1 random Hero faints."
+						]
+					},
+					{
+						"option": "Ask for great power.",
+						"response": "You pay the offering to the witch, and obtain a powerful Artifact.",
+						"results": [
+							"Acquire A[Special|Warrior's Mushroom]",
+							"1 random Hero take damage",
+							"Chain event complete."
+						],
+						"notes": [
+							"1 random Hero faints."
+						]
+					},
+					{
+						"option": "Leave.",
+						"response": "You're well aware of the kind of doom making a deal with the witch will bring. You start walking away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		]
+	]
+}
