@@ -1,0 +1,988 @@
+{
+	"season": "Western",
+	"events": [
+		[
+			{
+				"title": "Suffering People",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "The staff of Kama-ZONE are in a group and conversing with a serious look on their faces. This is an unprecedented event.",
+				"options": [
+					{
+						"option": "Ask what's going one",
+						"response": "The staff starts talking about the suffering they got from the recently emerged outlaws' bullying. It's time for the Guardian to take action.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Outlaws]"
+						]
+					},
+					{
+						"option": "Go back.",
+						"response": "The conversation is painfully obvious. It's probably just some trivial gossip. There's no need to waste your time.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Outlaws",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "A rough-looking crowd comes over looking for trouble. They seem to be the ones who bullied the staff.",
+				"options": [
+					{
+						"option": "Teach them a lesson.",
+						"response": "These types are like weeds and won't die down after one or two tramplings, but you do what should be done.",
+						"results": [
+							"Start battle"
+						],
+						"notes": [
+							"Starts Normal Battle '''(Outlaw Desert Elf)'''"
+						]
+					},
+					{
+						"option": "Lower their resolve to fight.",
+						"response": "You lower the outlaws' resolve to fight with your god-like shooting skills. What are the security androids of Kama-ZONE been doing while they run wild?",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Systems Down]"
+						],
+						"required": "A[High|Peacemaker]"
+					}
+				]
+			},
+			{
+				"title": "Systems Down",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You find the shut down security androids of Kama-ZONE.",
+				"options": [
+					{
+						"option": "Investigate.",
+						"response": "You find out the security android's have all been turned off. There's no sign of physical damage, so they must have lost their functionalities for other reasons. You head to the security center to find clues.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Dereliction of Duty]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Dereliction of Duty",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You head to Kama-ZONE's security center and meet with the chief of security.",
+				"options": [
+					{
+						"option": "Ask for an explanation.",
+						"response": "The security chief only gives different excuses. There's a bounty on the outlaws, and the chief suggests inquiring about them at the bounty office and dealing with the outlaws yourself.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Dead or Alive 1]"
+						]
+					}
+				]
+			},
+			{
+				"title": "Dead or Alive 1",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You arrive at the bounty office. You can inquire about bounty hunting as the security chief said.",
+				"options": [
+					{
+						"option": "Check bounties.",
+						"response": "You accept a wanted poster from the android. The person on it seems to be a weak target.",
+						"results": [
+							"Special Boss",
+							"Chain event complete."
+						],
+						"notes": [
+							"A powerful boss awaits you at the end of this challenge."
+						]
+					},
+					{
+						"option": "Receive bounties.",
+						"response": "You receive your bounty for bringing justice. It's not a hefty sum, but it's proof of your efforts towards rectifying justice.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +100",
+							"Unlocks #[Dead or Alive 2]"
+						],
+						"required": "[Defeat Atrociously Evil Goblin Chief]"
+					},
+					{
+						"option": "Leave.",
+						"response": "Taking down outlaws is important too, but there are other pressing matters. You walk away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Dead or Alive 2",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You arrive at the bounty office. There are 3 outlaws left.",
+				"options": [
+					{
+						"option": "Check bounties.",
+						"response": "You receive the wanted poster from the android. For some reason, the person on it seems extremely angry.",
+						"results": [
+							"Special Boss",
+							"Chain event complete."
+						],
+						"notes": [
+							"A powerful boss awaits you at the end of this challenge."
+						]
+					},
+					{
+						"option": "Receive bounties.",
+						"response": "You receive your bounty for bringing justice. The shining bottle caps praise your hard work.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +150",
+							"Unlocks #[Commission Collection]"
+						],
+						"required": "[Defeat Train Robber Minotaur]"
+					},
+					{
+						"option": "Leave.",
+						"response": "Taking down outlaws is important too, but there are other pressing matters. You walk away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Commission Collection",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You meet with the security chief who had been waiting for you and the bounty office. The security chief demands a commission from the bounties you received.",
+				"options": [
+					{
+						"option": "Refuse.",
+						"response": "You swiftly refuse the greedy security chief's request. The security chief threatens you with cutting off further bounty inquiries if you don't pay up.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Pay the commission.",
+						"response": "You're mad but pay the commission. The sight of the security chief smiling as he receives the sack of silver coins makes you angry, but you hold back for Kama-ZONE's peace.",
+						"results": [
+							"Lose silver coins",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -300",
+							"Unlocks #[Dead or Alive 3]"
+						],
+						"required": "More than 100 silver coins"
+					}
+				]
+			},
+			{
+				"title": "Dead or Alive 3",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You arrive at the bounty office. There are 2 outlaws left.",
+				"options": [
+					{
+						"option": "Check bounties.",
+						"response": "You receive the wanted poster from the android. The person on it seems willing to do anything for money.",
+						"results": [
+							"Special Boss",
+							"Chain event complete."
+						],
+						"notes": [
+							"A powerful boss awaits you at the end of this challenge."
+						]
+					},
+					{
+						"option": "Receive bounties.",
+						"response": "You receive your bounty for bringing justice. However, your righteousness itself is more valuable than this bounty.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +200",
+							"Unlocks #[Dead or Alive 4]"
+						],
+						"required": "[Defeat Mad Panda Bandits]"
+					},
+					{
+						"option": "Leave.",
+						"response": "Taking down outlaws is important too, but there are other pressing matters. You walk away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Dead or Alive 4",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "You visit the bounty office for the final bounty.",
+				"options": [
+					{
+						"option": "Check bounties.",
+						"response": "You receive the wanted poster from the android. Oh dear, this one is awfully ugly.",
+						"results": [
+							"Special Boss",
+							"Chain event complete."
+						],
+						"notes": [
+							"A powerful boss awaits you at the end of this challenge."
+						]
+					},
+					{
+						"option": "Receive bounties.",
+						"response": "You receive the bounty for bringing justice. All outlaws causing trouble in Kama-ZONE have been arrested. Everyone will express their gratitude!",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +250",
+							"Unlocks #[Sheriff of Kama-ZONE]"
+						],
+						"required": "[Defeat Butcher Viper Clan Leader]"
+					},
+					{
+						"option": "Leave.",
+						"response": "Taking down outlaws is important too, but there are other pressing matters. You walk away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Sheriff of Kama-ZONE",
+				"type": [
+					"Benefit",
+					"Chain"
+				],
+				"description": "For your services of driving out the outlaws from Kama-ZONE, the staff nominates you as the sheriff of Kama-ZONE!",
+				"options": [
+					{
+						"option": "Give a speech.",
+						"response": "You give a speech about doing what needed to be done. You put on your badge while being applauded by the people.",
+						"results": [
+							"Acquire A[High|Sheriff's Badge]",
+							"Benefit unlocked.",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +100",
+							"Unlocks Benefit [[Western Season#Benefits|Sheriff]]",
+							"Unlocks #[Gesture of Reconciliation], #[The Security Chief's Office], #[Dead or Alive: Survivor] and #[High Noon]{{cite|not exactly sure which event this one is unlocked from. Though the High Noon description ''does'' mention \"avenging their boss\"}}"
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Gesture of Reconciliation",
+				"type": [
+					"Chain"
+				],
+				"description": "The security chief invites you over. He wants to apologize for all the mean things he's done and offers a toast of reconciliation.",
+				"options": [
+					{
+						"option": "Accept the apology.",
+						"response": "It's a trap! While you're drunk on sparkling barley tea, the security chief attacks you. You're caught off guard and don't even get a chance to retaliate.",
+						"results": [
+							"1 random Hero take damage",
+							"1 random Hero take damage",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocked from #[Sheriff of Kama-ZONE#Give a speech.]",
+							"2 random Heroes faint.",
+							"Unlocks #[The Revenant]"
+						]
+					},
+					{
+						"option": "Refuse.",
+						"response": "Reconciliation is not possible at this point. You ignore the underhanded coward and leave.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "The Revenant",
+				"type": [
+					"Chain"
+				],
+				"description": "You wake up at a strange place. Your entire body aches from wounds during the ambush.",
+				"options": [
+					{
+						"option": "Stand up.",
+						"response": "You pull your weary body up and take a slow, deep breath. A cold fury fills your heart. It's time for revenge.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[The Unforgivable]"
+						]
+					}
+				]
+			},
+			{
+				"title": "The Unforgivable",
+				"type": [
+					"Chain"
+				],
+				"description": "You go after the security chief for revenge. His face turns pale out of fear after seeing you return from the dead.",
+				"options": [
+					{
+						"option": "Attack.",
+						"response": "You and the security chief start a fierce gunfight with a table between each other. Soon, the security chief judges he's at a disadvantage and flees. You must chase after him!",
+						"results": [
+							"All Heroes take damage",
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"All Heroes take damage by 20% of their own max HP.",
+							"Unlocks #[The Searcher]"
+						]
+					}
+				]
+			},
+			{
+				"title": "The Searcher",
+				"type": [
+					"Chain"
+				],
+				"description": "You chase after the security chief! You're almost out of breath, but can't let him go like this.",
+				"options": [
+					{
+						"option": "Chase after him.",
+						"response": "You chase after the security chief, but end up losing him. Unlike his appearance, he's quite agile.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Aim for the legs.",
+						"response": "The bullet hits him square in the leg. He won't make it very far from being shot!",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[Last Stop]"
+						],
+						"required": "A[High|Peacemaker]"
+					}
+				]
+			},
+			{
+				"title": "Last Stop",
+				"type": [
+					"Chain"
+				],
+				"description": "You finally succeed in driving the security chief into a corner. He claims he only did as he was told and begs for his life while giving incomprehensible excuses.",
+				"options": [
+					{
+						"option": "There's no mercy.",
+						"response": "You don't have the slightest thought of forgiving him. The security chief looks like he instinctively felt his fate and attempts a final struggle. It's time to give him his eternal rest!",
+						"results": [
+							"Start battle",
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +500",
+							"Starts Elite Battle '''(Security Chief)'''",
+							"Unlocks '''Outcome 2''' in #[The Security Chief's Office]"
+						]
+					},
+					{
+						"option": "Let him go.",
+						"response": "Vengeance only leads to more vengeance. You decide to cut the cycle of hate and let the security chief go. He bows repeatedly to express his gratitude and leaves into the sunset after giving you a key to his safe.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +500",
+							"Unlocks '''Outcome 2''' in #[The Security Chief's Office]"
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "The Security Chief's Office",
+				"type": [
+					"Chain"
+				],
+				"description": "As Kama-ZONE's sheriff, you visit your office. This was originally used by the security chief.",
+				"options": [
+					{
+						"option": "Take the badge.",
+						"response": "You take the marvelous sheriff's badge. Everyone will recognize you from far away unless they're blind.",
+						"results": [
+							"Acquire A[High|Sheriff's Badge]",
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Take the gun.",
+						"response": "You fashionably place the dual pistols on your hip. Double the guns, double the bullets, and double the bounty!",
+						"results": [
+							"Acquire A[High|Peacemaker]",
+							"Acquire A[High|Peacemaker]",
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Take the clothes.",
+						"response": "Formality is important. You take some clothing that will help maintain your class as a sheriff.",
+						"results": [
+							"Acquire A[High|Pursuiter's Glasses]",
+							"Acquire A[High|Outlaw's Facemask]",
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Open the safe.",
+						"response": [
+							"There's an obviously heavy and strong-looking lock on the safe. Without its key, it will be impossible to open the safe.",
+							"After you open the safe with the key from the security chief, there's a bag of silver coins and a suspicious note with a message. \"How did you like my gift? Shut down the security androids when I give the signal.\""
+						],
+						"results": [
+							"Nothing happened.",
+							"Acquire silver coins, Chain event complete."
+						],
+						"notes": [
+							[],
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins +300",
+								"Unlocked from #[Last Stop]"
+							]
+						]
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Dead or Alive: Survivor",
+				"type": [
+					"Chain"
+				],
+				"description": "It's news about fresh outlaws appearing in Kama-ZONE. It's time for the sheriff of Kama-ZONE to take action.",
+				"options": [
+					{
+						"option": "Check bounties.",
+						"response": "You receive the wanted poster from the android. You get a feeling the person on it is a master of schemes from his sharp mustache.",
+						"results": [
+							"Special Boss",
+							"Chain event complete."
+						],
+						"notes": [
+							"A powerful boss awaits you at the end of this challenge."
+						]
+					},
+					{
+						"option": "Receive bounties.",
+						"response": "You receive your bounty for bringing justice.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +300",
+							"Unlocks #[Dead or Alive: Conqueror]"
+						],
+						"required": "[Defeat Sheriff Hunter Gast]"
+					},
+					{
+						"option": "Leave.",
+						"response": "Taking down outlaws is important too, but there are other pressing matters. You walk away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Dead or Alive: Conqueror",
+				"type": [
+					"Chain"
+				],
+				"description": "It's news about fresh outlaws appearing in Kama-ZONE. It's time for the sheriff of Kama-ZONE to take action.",
+				"options": [
+					{
+						"option": "Check bounties.",
+						"response": "You receive the wanted poster from the android. Sorry to say, but this one seems to be on fire.",
+						"results": [
+							"Special Boss",
+							"Chain event complete."
+						],
+						"notes": [
+							"A powerful boss awaits you at the end of this challenge."
+						]
+					},
+					{
+						"option": "Receive bounties.",
+						"response": "You receive the bounty for bringing justice. Thanks to your efforts, things will be quiet within Kama-ZONE for a while.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +1000"
+						],
+						"required": "[Defeat Wild Ancient Demon]"
+					},
+					{
+						"option": "Leave.",
+						"response": "Taking down outlaws is important too, but there are other pressing matters. You walk away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "High Noon",
+				"type": [
+					"Chain"
+				],
+				"description": "The henchmen of the villain you took down, came to avenge their boss.",
+				"options": [
+					{
+						"option": "Fight back.",
+						"response": "You decide to give them a one-way train ticket. The destination is, of course, the underworld.",
+						"results": [
+							"Start battle"
+						],
+						"notes": [
+							"Starts Elite Battle '''(Outlaw Desert Elf)'''"
+						]
+					},
+					{
+						"option": "Negotiate.",
+						"response": "You attempt to have a calm conversation, but that won't work for some people. You're too soft and end up paying the price.",
+						"results": [
+							"Lose silver coins",
+							"All Heroes take damage"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -50",
+							"All Heroes take damage by 20% of their own max HP."
+						]
+					},
+					{
+						"option": "Negotiate.",
+						"response": "Any intelligent being can have a conversation. Your cool friend did the talking for you, though. But you got an unexpected gift!",
+						"results": [
+							"Acquire 1 random {{Color|high|High-grade}} Artifact"
+						],
+						"notes": [
+							""
+						],
+						"required": "A[Special|Raining Justice]"
+					},
+					{
+						"option": "Play music.",
+						"response": "As you start to perform the finale fitting for the villains' final moments, they all pee themselves and flee. You loot the things they left behind.",
+						"results": [
+							"Acquire 1 random {{Color|high|High-grade}} Artifact"
+						],
+						"notes": [
+							""
+						],
+						"required": "A[Special|Executioner's Noise Mouthpiece]"
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "The Good, The Bad, and The Dumb",
+				"type": [
+					"Chain"
+				],
+				"description": "You witness a gruesome scene of violence towards the weak.",
+				"options": [
+					{
+						"option": "Intervene.",
+						"response": "The gunslinger praises your bravery for firmly stopping him, and requests a duel. You accept with a nod. It will be held at Kama-ZONE's lobby at high-noon.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[Gunfight at Kama-ZONE]"
+						]
+					},
+					{
+						"option": "Ignore.",
+						"response": "The weak are destined to be trampled by the strong. It may be different elsewhere, but that's how it is in this place. You continue on your way.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "Gunfight at Kama-ZONE",
+				"type": [
+					"Chain"
+				],
+				"description": "Time to duel. Once the bell tolls for noon, you and the gunslinger will draw guns at each other. What's your plan for victory?",
+				"options": [
+					{
+						"option": "Aim for the head.",
+						"response": [
+							"The bullet you aimed for the head missed, but ricochets off the wall and hits the gunslinger's heart. You expected this to happen, of course.",
+							"Your bullet misses, but unfortunately your opponent doesn't and hits you. You go limp and fall down."
+						],
+						"results": [
+							"Acquire silver coins, Chain event complete.",
+							"1 random Hero take damage, Chain event complete."
+						],
+						"notes": [
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins +100"
+							],
+							[
+								"1 random Hero faints."
+							]
+						]
+					},
+					{
+						"option": "Aim for the heart.",
+						"response": [
+							"The bullet misses your opponent's heart but ricochets off the wall and lands on the gunslinger's head. The bullet didn't miss, it just took a long way around.",
+							"Your bullet misses, but unfortunately your opponent doesn't and hits you. You go limp and fall down."
+						],
+						"results": [
+							"Acquire silver coins, Chain event complete.",
+							"1 random Hero take damage, Chain event complete."
+						],
+						"notes": [
+							[
+								"{{Icon/Currency|SilverCoin}} Silver coins +100"
+							],
+							[
+								"1 random Hero faints."
+							]
+						]
+					},
+					{
+						"option": "Roll the tumbleweed first.",
+						"response": "Even a slime knows to roll a tumbleweed before a duel. The gunslinger's own ignorance took this one down.",
+						"results": [
+							"Acquire silver coins",
+							"Chain event complete."
+						],
+						"notes": [
+							"Acquire silver coins",
+							"{{Icon/Currency|SilverCoin}} Silver coins +200"
+						],
+						"required": "A[Low|Tumbleweed]"
+					},
+					{
+						"option": "Give the signal.",
+						"response": "Hekate sees your signal and snipes the gunslinger. If you consider something petty as fairness, then you won't last long in this field. You split the reward with Hekate and celebrate your victory.",
+						"results": [
+							"Acquire silver coins"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins +50"
+						],
+						"required": "Hero Sniper Hekate"
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "They call me…",
+				"type": [],
+				"description": "You visit a rundown saloon. You can see all the eyes of outlaws fall on you as the doors open. They shout and ask who you are.",
+				"options": [
+					{
+						"option": "Kanterbury Guardian!",
+						"response": "You proudly identified yourself, but all you got in return were taunts calling you a knight from a fallen kingdom. You leave the saloon feeling down.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					},
+					{
+						"option": "Filthy Dan",
+						"response": "Everyone holding a grudge swarm towards you before you can finish speaking. You're overwhelmed and sustain a large injury.",
+						"results": [
+							"All Heroes take damage"
+						],
+						"notes": [
+							"All Heroes take damage by 30% of their own max HP."
+						]
+					},
+					{
+						"option": "Bonehead Larry",
+						"response": "The outlaws have heard of your notoriety and offer a toast. You come back to your senses after drinking with them cheerfully, but it was too late when you realized your belongings were gone.",
+						"results": [
+							"Lose random artifact"
+						],
+						"notes": []
+					},
+					{
+						"option": "Show them your badge.",
+						"response": "You use your jurisdiction as a sheriff to arrest the outlaws and confiscate their equipment.",
+						"results": [
+							"Acquire 1 random A[High|Pursuiter's Glasses], A[High|Outlaw's Facemask], A[High|Heavy Firearms Case], A[High|Combat Pants of Pride], A[High|Peacemaker]",
+							"Acquire 1 random {{Color|low|Low-grade}} Artifact, {{Color|mid|Mid-grade}} Artifact, {{Color|high|High-grade}} Artifact",
+							"Chain event complete."
+						],
+						"notes": [
+							""
+						],
+						"required": "A[High|Sheriff's Badge]"
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Dirge",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You hear a bizarre sound coming from somewhere. It's hard to tell whether it's music or just some random noise.",
+				"options": [
+					{
+						"option": "Follow the noise.",
+						"response": "You get curious and follow the bizarre noise.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"Unlocks #[The Warmth of the Dead]"
+						]
+					},
+					{
+						"option": "Ignore it.",
+						"response": "It's probably the sound of a bull worm with a full stomach farting. You decide not to worry about it.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			},
+			{
+				"title": "The Warmth of the Dead",
+				"type": [
+					"Artifact",
+					"Chain"
+				],
+				"description": "You find a man who's not moving a bit. Perhaps there was a snake in his boot? There's a shiny object inside his mouth.",
+				"options": [
+					{
+						"option": "Take the object.",
+						"response": "You take the somewhat cool object from his mouth, but you feel a bit uneasy about it.",
+						"results": [
+							"Acquire A[Special|Executioner's Noise Mouthpiece]",
+							"Acquire {{Color|curse|3 random}} curse(s)",
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Leave it be.",
+						"response": "Judging by his horrific appearance, there must be a story behind him. It's no good getting involved, so you move on.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Special Offer",
+				"type": [],
+				"description": "You hear a whistle and see a merchant waving at you when you turn around. The merchant boasts and claims there's a lot of high-quality items for sale.",
+				"options": [
+					{
+						"option": "Heavy Firearms Case",
+						"response": "You purchase the heavy firearms case. With this, you think you can take down all the rabble in a single strike.",
+						"results": [
+							"Lose silver coins",
+							"Acquire A[High|Heavy Firearms Case]"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -300"
+						],
+						"required": "More than 300 silver coins"
+					},
+					{
+						"option": "Combat Pants of Pride",
+						"response": "You purchase the combat pants of pride. Wearing it gives you a confidence boost.",
+						"results": [
+							"Lose silver coins",
+							"Acquire A[High|Combat Pants of Pride]"
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -300"
+						],
+						"required": "More than 300 silver coins"
+					},
+					{
+						"option": "Say you don't need anything.",
+						"response": "You firmly tell the merchant you're not buying anything. You won't see the merchant around for a while.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": []
+					},
+					{
+						"option": "Leave.",
+						"response": "You don't feel the need to purchase any items and walk away.",
+						"results": [
+							"Nothing happened."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Super Discount",
+				"type": [
+					"Artifact"
+				],
+				"description": "You hear a whistle and see a merchant waving at you when you turn around. The merchant claims to have obtained truly rare items and smiles triumphantly.",
+				"options": [
+					{
+						"option": "Raining Justice",
+						"response": "This artifact is Very, VERY LARGE! Now you are finally ready to make straight-up conversations with the outlaws.",
+						"results": [
+							"Lose silver coins",
+							"Acquire A[Special|Raining Justice]",
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|SilverCoin}} Silver coins -1000"
+						],
+						"required": "More than 1000 silver coins"
+					},
+					{
+						"option": "Leave.",
+						"response": "You don't feel the need to buy the items and walk away. The merchant yells at you saying how there won't be another chance as you turn around.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": []
+					}
+				]
+			}
+		],
+		[
+			{
+				"title": "Once Upon a Time in Kama-ZONE",
+				"type": [
+					"Chain"
+				],
+				"description": "An archaeologist stops you offering to tell an interesting tale.",
+				"options": [
+					{
+						"option": "Listen to the tale.",
+						"response": "You excitedly listen to the story about a faction of elves that used to live in this place but were chased off once Kama-ZONE started development. It's a shame there aren't any cookies and milk right now.",
+						"results": [
+							"Chain event unlocked."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +20",
+							"Unlocks #[The Elf and the Vending Machine]"
+						]
+					}
+				]
+			},
+			{
+				"title": "The Elf and the Vending Machine",
+				"type": [
+					"Chain"
+				],
+				"description": "An elf you've never seen before is snooping around the vending machine. Does she need help?",
+				"options": [
+					{
+						"option": "Get closer.",
+						"response": "When you get closer, the elf hastily runs off. Looking at the vending machine, the drinks are still inside, but there's a trace of someone attempting to cut the wires. It seems you've found the culprit breaking the vending machines.",
+						"results": [
+							"Chain event complete."
+						],
+						"notes": [
+							"{{Icon/Currency|BottleCap}} Bottle Caps +30"
+						]
+					}
+				]
+			}
+		]
+	]
+}
