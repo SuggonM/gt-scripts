@@ -473,12 +473,17 @@ Option (
 	`Spread open a cloak.`,
 	[
 		`You take off your cloak and spread it open to catch the food. Your cloak provides cushion and you manage to pick up some of the food that's not too damaged.`,
-		`{{cite}}`
+		`You take off your cloak and spread it open to catch the food. Your cloak provides cushion and you manage to pick up some of the food that's not too damaged.`
 	],
 	[
 		`Acquire A[High|Waybread], Acquire 1 random A[High|Flesh Piece], A[Low|Blessing of Cooking God], A[Low|Dragon's Blood], Chain event complete.`,
-		`{{cite|The trigger for this outcome has never been discovered. However, [https://docs.google.com/spreadsheets/d/1oKYVRJB9nOsHJBRyyZVABsteSPVCLm4f1wzH_Sdv8nE/edit#gid{{=}}0&range{{=}}C297:C299 an uncited source] claims this outcome to grant one of the three {{Color|high|High-grade}} dishes.}}`
+		`Acquire 1 random A[High|Predetor Salad], A[High|Soup from Another Demension], A[High|Magiton Supplement], Chain event complete.{{cite}}`
 	],
-	[],
+	[
+		[],
+		[
+			`{{cite|The trigger for this outcome has never been discovered. However, the outcome itself was discovered in a [https://discord.com/channels/752241386082009189/773314529027293204/898385975737196574 discord message]. Although [https://docs.google.com/spreadsheets/d/1oKYVRJB9nOsHJBRyyZVABsteSPVCLm4f1wzH_Sdv8nE/edit#gid{{=}}0&range{{=}}C297:C299 an uncited source] claims this outcome to be triggered upon having obtained '''all possible artifacts''' ''once'' from '''Outcome 1''', the claim is contradicted by the the fact that the screenshot in the said message had never picked this option before.}}`
+		]
+	],
 	`A[High|Elegant Cloak]`
 )

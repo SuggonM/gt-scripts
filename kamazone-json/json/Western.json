@@ -637,9 +637,7 @@
 						"results": [
 							"Acquire 1 random {{Color|high|High-grade}} Artifact"
 						],
-						"notes": [
-							""
-						],
+						"notes": [],
 						"required": "A[Special|Raining Justice]"
 					},
 					{
@@ -648,9 +646,7 @@
 						"results": [
 							"Acquire 1 random {{Color|high|High-grade}} Artifact"
 						],
-						"notes": [
-							""
-						],
+						"notes": [],
 						"required": "A[Special|Executioner's Noise Mouthpiece]"
 					}
 				]
@@ -796,9 +792,7 @@
 							"Acquire 1 random {{Color|low|Low-grade}} Artifact, {{Color|mid|Mid-grade}} Artifact, {{Color|high|High-grade}} Artifact",
 							"Chain event complete."
 						],
-						"notes": [
-							""
-						],
+						"notes": [],
 						"required": "A[High|Sheriff's Badge]"
 					}
 				]

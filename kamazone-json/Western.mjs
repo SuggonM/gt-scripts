@@ -3,7 +3,6 @@ import { Season, Chain, Event, Option } from './season-prototype.mjs';
 Season (`Western`)
 
 Chain (`Benefit`, `Chain`)
-
 Event (
 	`Suffering People`,
 	`The staff of Kama-ZONE are in a group and conversing with a serious look on their faces. This is an unprecedented event.`
@@ -471,14 +470,14 @@ Option (
 	`Negotiate.`,
 	`Any intelligent being can have a conversation. Your cool friend did the talking for you, though. But you got an unexpected gift!`,
 	`Acquire 1 random {{Color|high|High-grade}} Artifact`,
-	``,
+	[],
 	`A[Special|Raining Justice]`
 )
 Option (
 	`Play music.`,
 	`As you start to perform the finale fitting for the villains' final moments, they all pee themselves and flee. You loot the things they left behind.`,
 	`Acquire 1 random {{Color|high|High-grade}} Artifact`,
-	``,
+	[],
 	`A[Special|Executioner's Noise Mouthpiece]`
 )
 
@@ -593,7 +592,7 @@ Option (
 		`Acquire 1 random {{Color|low|Low-grade}} Artifact, {{Color|mid|Mid-grade}} Artifact, {{Color|high|High-grade}} Artifact`,
 		`Chain event complete.`
 	],
-	``,
+	[],
 	`A[High|Sheriff's Badge]`
 )
 
